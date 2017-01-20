@@ -1,10 +1,11 @@
 version   = '1.0'
-rootDir   = '/home/pernot/Bureau/Titan-APSIS/ChemDB/'
+rootDir   = '/home/pernot/Bureau/Titan-APSIS/MC-ChemDB/'
 subDB     = 'Photo/'
 sourceDir = paste0(rootDir,subDB,'Source/v_',version,'/')
 targetDir = paste0(rootDir,subDB,'Tmp/v_',version,'/')
 publicDir = paste0(rootDir,subDB,'Public/v_',version,'/')
 docDir    = paste0(sourceDir,'Doc/')
+webDir    = paste0(publicDir,'WWW/')
 
 # Load libraries #####
 library(stringr)
@@ -694,10 +695,13 @@ for (reac in listReacs) {
   trBlue=col2tr('blue')
   np = min(sampleSize,100) # nb of plotted samples
   
+  plotDir=paste0(webDir,reac)
+  if(!file.exists(plotDir)) dir.create(plotDir)
+  
   # Branching ratios
   nt=length(tags)
   if (nt >=2) {
-    png(file=paste0(reac,'/figTreeBR.png'),
+    png(file=paste0(plotDir,'/figTreeBR.png'),
         width=max(800,nt*30),height=max(300,nt*30))
     tagStat=tags
     for (ip in 1:nt) {
@@ -719,7 +723,7 @@ for (reac in listReacs) {
     myedgelabels(edgeTags)
     dev.off()
 
-    png(file=paste0(reac,'/figBR.png'),width=600,height=400)
+    png(file=paste0(plotDir,'/figBR.png'),width=600,height=400)
     par(mar=c(3,3,1.6,.2),mgp=c(2,.75,0),tcl=-0.5)
     matplot(wl,br,type='n',ylim=c(0,1),
             xlab='Wavelength / nm',
@@ -733,7 +737,7 @@ for (reac in listReacs) {
 
   }
   
-  png(file=paste0(reac,'/figXS.png'),width=600,height=400)
+  png(file=paste0(plotDir,'/figXS.png'),width=600,height=400)
   par(mar=c(3,3,1.6,.2),mgp=c(2,.75,0),tcl=-0.5)
   matplot(wl,xs,type='n', log='y',
           xlab='Wavelength / nm',
@@ -759,7 +763,7 @@ for (reac in listReacs) {
     if(sum(!is.na(refs))!=0) bibKeys[1:length(refs),kwd]=refs
   }
   
-  sink(file=paste0(reac,'/summary.html'),append=FALSE)
+  sink(file=paste0(plotDir,'/summary.html'),append=FALSE)
   cat(paste0('<H1>',reacName,'</H1>\n'))
   
   printRQ(comments)

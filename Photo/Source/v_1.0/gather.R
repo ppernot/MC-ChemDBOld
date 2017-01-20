@@ -3,12 +3,13 @@
 # 3/ Generate PDF doc of database
 
 version   = '1.0'
-rootDir   = '/home/pernot/Bureau/Titan-APSIS/ChemDB/'
+rootDir   = '/home/pernot/Bureau/Titan-APSIS/MC-ChemDB/'
 subDB     = 'Photo/'
 sourceDir = paste0(rootDir,subDB,'Source/v_',version,'/')
 tmpDir    = paste0(rootDir,subDB,'Tmp/v_',version,'/')
 publicDir = paste0(rootDir,subDB,'Public/v_',version,'/')
 docDir    = paste0(sourceDir,'Doc/')
+webDir    = paste0(publicDir,'WWW/')
 
 # Load libraries #####
 library(stringr)
@@ -65,10 +66,10 @@ listReacs = apply(tabSpecies,1,function(x) paste0(x,collapse=' + '))
 # listReacs=c('N2 + HV','H2 + HV')
 
 # Clean target files to be appended to
-indexFile=paste0(sourceDir,'index.html')
+indexFile=paste0(webDir,'index.html')
 file.remove(indexFile)
 
-spIndexFile=paste0(sourceDir,'spIndex.html')
+spIndexFile=paste0(webDir,'spIndex.html')
 file.remove(spIndexFile)
 
 fileList=list.files(path=paste0(publicDir,'Databases'),full.name=TRUE)
@@ -93,7 +94,7 @@ for (reac in listReacs) {
   # Generate Html index to summary files
   cat(paste0(reac,'\n'))
   sink(file=indexFile,append=TRUE)
-  cat(paste0('<BR><A HREF="./Data/',reac,'/summary.html">',reac,'</A>\n')) 
+  cat(paste0('<BR><A HREF="',webDir,reac,'/summary.html">',reac,'</A>\n')) 
   sink(file=NULL)
    
   # Generate collated Monte Carlo samples
@@ -212,7 +213,7 @@ cat(paste0(listSp,collapse='<BR>'))
 sink(file = NULL)
 
 setwd(sourceDir)
-listHtml=paste0('"Data/',listReacs,'/summary.html"')
+listHtml=paste0('"',webDir,listReacs,'/summary.html"')
 listHtml=paste(listHtml,collapse=' ')
 listHtml=paste0('Doc/ReleaseNotes.html ','speciesList.html ',listHtml)
 command=paste0('htmldoc --book --toclevels 1 --size A4 ',
