@@ -1,0 +1,15 @@
+MC-ChemDB.Rproj
+.Rproj.user
+.Rhistory
+.RData
+
+*.[oax]
+*~
+**/*.png
+
+*/Tmp/
+*/Public/
+*/Old/
+*/PDFs/
+
+ChemDB_allreacs.pdf
