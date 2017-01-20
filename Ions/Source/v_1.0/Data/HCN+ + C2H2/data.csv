@@ -1,0 +1,12 @@
+HCN+ + C2H2									
+
+CHECKED	PP
+REF_ALPHA	McEwan2007							
+REF_BR	McEwan2007
+									
+ALPHA	Logn	0.1350E-08	1.4500E+00						
+														
+BR	Dior	Diut								
+C2H2+ + HCN		0.85/1.00								
+C2H3+ + CN	1	0.00/0.15								
+HC3NH+ + H	2								

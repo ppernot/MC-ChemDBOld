@@ -1,0 +1,14 @@
+C+ + C3H8			
+
+CHECKED	PP
+		
+ALPHA	Logn	0.180E-08	1.3000E+00
+REF_ALPHA	Anicich1997		
+			
+REF_BR	Anicich1997	KIDA	
+BR	Dirg		
+C2H3+ + C2H5	0.35/0.10		
+cC3H3+ + H + CH4	0.20/0.06		
+C3H7+ + CH	0.30/0.10		
+C3H8+ + C	0.10/0.10		
+C4H5+ + H2 + H	0.05/0.05		

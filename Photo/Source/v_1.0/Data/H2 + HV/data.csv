@@ -1,0 +1,11 @@
+H2 + HV
+
+ALPHA	Logn	1	1.2
+REF_ALPHA	Hebrard2006
+
+REF_BR	Peng2014
+BR	Dirg	Dirg	Dirg
+H + H		0.5/0.1	0.5/0.01
+H + H2S		0.5/0.1
+H2+ + E	0.5/0.1		0.5/0.01
+H+ + H + E	0.5/0.1		

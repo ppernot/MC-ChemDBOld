@@ -1,0 +1,13 @@
+C4H4+ + NH3									
+
+RQ	Treatment as independent partial rates (see Operti2004)
+
+CHECKED	PP
+REF_ALPHA	Vuitton2007	Operti2004
+REF_BR	Vuitton2007	Operti2004
+									
+ALPHA	Delta	3.64e-10						
+						
+BR	Mlgn									
+NH4+ + C4H3	0.88/1.2						
+CH2NH2+ + C3H3	0.12/1.2

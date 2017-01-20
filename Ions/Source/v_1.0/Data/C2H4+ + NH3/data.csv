@@ -1,0 +1,11 @@
+C2H4+ + NH3									
+
+CHECKED	PP
+REF_ALPHA	Anicich2003							
+REF_BR	Anicich2003	
+									
+ALPHA	Logn	0.2060E-08	1.1000E+00						
+									
+BR	Dirg								
+NH3+ + C2H4	0.06/0.06								
+NH4+ + C2H3	0.94/0.10								

@@ -1,0 +1,13 @@
+C2H3+ + N4S									
+
+CHECKED	PP
+REF_ALPHA	McEwan2007							
+REF_BR	McEwan2007
+								
+ALPHA	Logn	2.2e-11	1.4						
+
+RQ	 Check product CHCNH+ ???
+									
+BR	Diut									
+CHCN+ + H2	0.9/1.0
+CHCNH+ + H	0.0/0.1									

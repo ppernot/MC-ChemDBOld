@@ -1,0 +1,14 @@
+ 
+ HCN        HV         HCN+                            E           02
+
+ C2H2       HV         C2H2+                           E           01
+ C2H2       HV         C2H+       H                    E           02
+
+ C2H4       HV         C2H4+                           E           01
+ C2H4       HV         C2H2+      H2                   E           02
+ C2H4       HV         C2H3+      H                    E           03
+
+ C2H6       HV         C2H6+                           E           04
+
+ H2         HV         H2+                             E           03
+ H2         HV         H+         H                    E           04

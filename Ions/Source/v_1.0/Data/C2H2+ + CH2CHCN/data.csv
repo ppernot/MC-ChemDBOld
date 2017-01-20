@@ -1,0 +1,13 @@
+C2H2+ + CH2CHCN								
+
+CHECKED	PP
+REF_ALPHA	Anicich2003							
+REF_BR	Anicich2003
+									
+ALPHA	Logn	4.3e-9	1.3						
+									
+BR	Dirg								
+cC3H3+ + CH2CN	0.15/0.05								
+CH2CHCN+ + C2H2	0.55/0.06								
+CH2CHCNH+ + C2H	0.15/0.05				
+C5H5N+ + HV	0.15/0.05

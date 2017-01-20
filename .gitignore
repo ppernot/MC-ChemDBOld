@@ -5,7 +5,9 @@ MC-ChemDB.Rproj
 
 *.[oax]
 *~
+*.bak
 **/*.png
+**/*.html
 
 */Tmp/
 */Public/

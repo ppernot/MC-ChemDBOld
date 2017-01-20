@@ -1,0 +1,15 @@
+CH2+ + E			
+	
+CHECKED	PP
+		
+ALPHA	Logu	2.5e-7	8.7e-7
+REF_ALPHA	Sheehan2004	Larson1998
+
+BETA	Unif	0.5	0.6
+REF_BETA	Sheehan2004	Larson1998
+	
+REF_BR		Larson1998		
+BR	Dirg		
+CH + H	0.25/0.04		
+C + H2	0.12/0.02		
+C + H + H	0.63/0.06		

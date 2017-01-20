@@ -1,0 +1,15 @@
+C3H2+ + NH3			
+			
+CHECKED	PP		
+REF_ALPHA	Anicich2003		
+REF_BR	Anicich2003		
+			
+ALPHA	Logn	0.2300E-08	1.2
+			
+BR	Diri	Diri	Dirg
+NH4+ + cC3H	1/1		0.20/0.07
+NH4+ + lC3H	1		
+CH2NH+ + C2H2		1/1	0.10/0.10
+C2H5+ + CN		1	
+CH2CHCNH+ + H			0.60/0.20
+C2H5CN+ + HV			0.10/0.10

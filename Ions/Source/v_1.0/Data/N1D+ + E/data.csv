@@ -1,0 +1,12 @@
+N1D+ + E			
+	
+RQ	To be checked
+													
+ALPHA	Logn	4e-12	1.5
+REF_ALPHA	Woodall2007	Nahar1997
+			
+BETA	Nort	0.58	0.29	0.5	1.5
+REF_BETA	Woodall2007	Nahar1997
+								
+BR			
+N4S + HV			

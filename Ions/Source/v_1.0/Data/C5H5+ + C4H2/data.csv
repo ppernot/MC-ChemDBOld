@@ -1,0 +1,13 @@
+C5H5+ + C4H2									
+
+CHECKED	PP
+
+REF_ALPHA	McEwan2007							
+REF_BR	McEwan2007
+									
+ALPHA	Logn	0.22E-9	1.4						
+						
+BR	Diri								
+C7H5+ + C2H2	1/1								
+C7H7+ + 1C2	1								
+C9H7+ + HV	1								

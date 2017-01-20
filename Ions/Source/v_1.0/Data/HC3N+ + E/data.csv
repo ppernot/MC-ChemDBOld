@@ -1,0 +1,24 @@
+HC3N+ + E					
+					
+CHECKED	PP				
+					
+ALPHA	Logn	1.5e-6	1.2		
+REF_ALPHA	Geppert2004d				
+					
+BETA	Norm	0.6	0.02		
+REF_BETA	Geppert2004d				
+					
+REF_BR	Geppert2004d	Plessis2010			
+					
+BR	Diri	Diri	Diri	Diri	Dirg
+C3N + H					0.44/0.04
+C2H + CN		1/1			0.479/0.05
+1C2 + H + CN		1			
+HCN + 1C2	1/1	1			
+HNC + 1C2	1				
+C2N + C + H					0.04/0.02
+C2N + CH				1/1	0.02/0.01
+N4S + cC3H			1/1	1	
+N4S + lC3H			1		
+CHCN + C					0.02/0.01
+NH + C3					0.001/0.01

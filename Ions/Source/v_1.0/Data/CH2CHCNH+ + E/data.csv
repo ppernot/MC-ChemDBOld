@@ -1,0 +1,41 @@
+CH2CHCNH+ + E											
+											
+CHECKED	PP										
+											
+ALPHA	Logn	1.78e-6	1.2								
+REF_ALPHA	Vigren2009										
+											
+BETA	Norm	0.80	0.02								
+REF_BETA	Vigren2009										
+											
+REF_BR	Vigren2009	Plessis2010	Vigren2010b								
+											
+BR	Dior	Dior	Diri	Diri	Diri	Diri	Diri	Diri	Diri	Diri	Dirg
+CH2CHCN + H			1/1								0.50/0.04
+HC3NH + H2	2		1								
+HC3NH + H + H	1										
+HC3N + H + H2			1								
+C3N + H2 + H2		2	1								
+C3N + H + H + H2		1									
+CH2NH + C2H							1/1				0.49/0.04
+H2CN + C2H2							1				
+HCN + C2H3				1/1			1				
+HNC + C2H3				1							
+HCN + C2H2 + H					1/1		1				
+HNC + C2H2 + H					1						
+HCN + C2H + H2						1/1	1				
+HNC + C2H + H2						1					
+CN + C2H4							1				
+CN + C2H2 + H2							1				
+CH3CN + CH										1/1	0.01/0.01
+CH2CN + 1CH2								1/1		1	
+CH2CN + 3CH2								1			
+CHCN + CH3										1	
+C2N + CH4										1	
+C2N + CH3 + H										1	
+NH3 + cC3H									1/1	1	
+NH3 + lC3H									1	 	
+NH2 + cC3H2										1	
+NH + C3H3										1	
+N4S + CH3C2H										1	
+N4S + CH2CCH2										1	

@@ -1,0 +1,16 @@
+N2+ + CH2CHCN									
+
+RQ	Rate estimated
+
+CHECKED	PP
+REF_ALPHA	Anicich2003							
+REF_BR	Anicich2003	
+									
+ALPHA	Logn	1e-9	2						
+									
+BR	Dirg								
+C2H3+ + N2 + CN	0.10/0.10				
+C2H2+ + N2 + HCN	0.30/0.10				
+HC3NH+ + N2 + H	0.35/0.12			
+HC3N+ + N2 + H2	0.05/0.05			
+N2H+ + HC3NH	0.20/0.07									

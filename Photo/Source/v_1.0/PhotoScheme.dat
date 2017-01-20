@@ -1,0 +1,55 @@
+
+ HCN        HV         CN         H                                01
+
+ C2H2       HV         C2         H2                               03
+ C2H2       HV         C2H        H                                04
+ C2H4       HV         C2H2       H          H                     04
+ C2H4       HV         C2H2       H2                               05
+ C2H6       HV         CH3        CH3                              01
+ C2H6       HV         C2H5       H                                02
+ C2H6       HV         1CH2       CH4                              03
+ C2H6       HV         C2H4       H2                               05
+ H2         HV         H          H                                01
+ H2         HV         H          H                                02
+ CH3        HV         1CH2       H                                00
+ C2H3       HV         C2H2       H                                00
+ C3H3       HV         C3H2       H                                01
+ C3H3       HV         C3H        H2                               02
+ CH3C2H     HV         C3H3       H                                01
+ CH3C2H     HV         C3H2       H2                               02
+ CH2CCH2    HV         C3H3       H                                01
+ CH2CCH2    HV         C3H2       H2                               02
+ C3H8       HV         C3H6       H2                               01
+ C3H8       HV         C2H6       1CH2                             02
+ C3H8       HV         C2H5       CH3                              03
+ C3H8       HV         C2H4       CH4                              04
+ C4H2       HV         C4H        H                                01
+ C4H2       HV         C2H2       C2                               02
+ C4H2       HV         C2H        C2H                              03
+ C4H2       HV         C4H2X                                       04
+ C4H4       HV         C4H2       H2                               01
+ C4H4       HV         C2H2       C2H2                             02
+ C6H2       HV         C6H        H                                01
+ C6H2       HV         C4H        C2H                              02
+ C8H2       HV         C4H        C4H                              01
+ C8H2       HV         C6H        C2H                              02
+ C3H6       HV         C3H5       H                                01
+ C3H6       HV         CH3C2H     H2                               02
+ C3H6       HV         CH2CCH2    H2                               03
+ C3H6       HV         C2H4       1CH2                             04
+ C3H6       HV         C2H3       CH3                              05
+ C3H6       HV         C2H2       CH4                              06
+ C4H6       HV         C4H4       H2                               01
+ C4H6       HV         C2H3       C2H3                             02
+ C4H6       HV         C2H4       C2H2                             03
+ C4H6       HV         C3H3       CH3                              04
+ C4H6       HV         C4H5       H                                05
+ C6H6       HV         C6H5       H                                01
+ C6H6       HV         C6H4       H2                               02
+ C6H6       HV         C5H3       CH3                              03
+ NH3        HV         NH2        H                                00
+ HC3N       HV         C3N        H                                01
+ HC3N       HV         CN         C2H                              02
+ CH3CN      HV         CN         CH3                              00
+ C2N2       HV         CN         CN                               00
+ C4N2       HV         C3N        CN                               00

@@ -1,0 +1,11 @@
+CCN+ + C2H2									
+
+CHECKED	PP
+REF_ALPHA	McEwan2007							
+REF_BR	McEwan2007
+									
+ALPHA	Logn	0.1600E-08	1.4						
+									
+BR	Dirg								
+C3H+ + HCN	0.92/0.09								
+HCNH+ + C3	0.08/0.08								

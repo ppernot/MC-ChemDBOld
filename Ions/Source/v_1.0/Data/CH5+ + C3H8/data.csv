@@ -1,0 +1,13 @@
+CH5+ + C3H8									
+
+RQ	Combined MS fragments with IonTrap rates						
+
+CHECKED	PP
+REF_ALPHA	Anicich2003							
+REF_BR	Anicich2003
+									
+ALPHA	Logn	1.5e-9	1.2
+
+BR	Diri								
+C3H7+ + H2 + CH4	1/1							
+C2H5+ + CH4 + CH4	1								

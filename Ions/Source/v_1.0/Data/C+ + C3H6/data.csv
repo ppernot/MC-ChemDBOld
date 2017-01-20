@@ -1,0 +1,17 @@
+C+ + C3H6
+
+RQ	data for CH3CHCH2							
+
+CHECKED	PP									
+										
+ALPHA	Logn	2.0e-9	1.25						
+REF_ALPHA	Anicich2003							
+
+REF_BR	Anicich2003							
+BR	Dirg								
+C2H3+ + C2H3	0.30/0.10			
+C3H5+ + CH	0.20/0.07
+cC3H3+ + CH3	0.15/0.05
+C2H2+ + C2H4	0.15/0.05
+C3H6+ + C	0.10/0.10
+C4H3+ + H2 + H	0.10/0.10

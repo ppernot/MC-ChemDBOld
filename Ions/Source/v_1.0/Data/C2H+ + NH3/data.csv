@@ -1,0 +1,16 @@
+C2H+ + NH3									
+
+TYPE	ionpol1
+
+CHECKED	PP
+
+REF_ALPHA	KIDA										
+ALPHA	Logn	1.06e-9	2						
+									
+REF_BETA	KIDA										
+BETA	Delta	3.65						
+
+REF_BR	KIDA										
+BR	Diri								
+NH4+ + 1C2	1/1								
+CH2CN+ + H2	1								

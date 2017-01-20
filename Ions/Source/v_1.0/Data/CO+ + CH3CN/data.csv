@@ -1,0 +1,13 @@
+CO+ + CH3CN			
+
+CHECKED	PP
+REF_ALPHA	McEwan2007							
+REF_BR	McEwan2007								
+									
+ALPHA	Logn	3e-9	1.3						
+
+RQ	Check products CHCNH+ ???
+									
+BR	Dirg									
+CH3CN+ + CO	0.75/0.08		
+CHCNH+ + HCO	0.25/0.08									

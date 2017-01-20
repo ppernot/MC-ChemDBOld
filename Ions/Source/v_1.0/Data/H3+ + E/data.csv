@@ -1,0 +1,15 @@
+H3+ + E		
+
+CHECHED	PP	
+			
+ALPHA	Logn	7.2e-8	1.15
+REF_ALPHA	Larsson2008a	Kokoouline2003	Kokoouline2003a
+
+BETA	Unif	0.48	1.0
+REF_BETA	Florescu2006	McCall2004	Leu1973	Glosik2005
+
+REF_BR		Florescu2006	McCall2004			
+BR	Diut		
+H3	0.0/0.09		
+H2 + H	0.25/0.4		
+H + H + H	0.51/0.75		

@@ -1,0 +1,23 @@
+cC3H3+ + E								
+								
+CHECKED	PP							
+								
+ALPHA	Logn	8.4e-7	1.3					
+REF_ALPHA	Fournier2013							
+								
+BETA	Nort	1.4	0.7	0.5	1.5			
+REF_BETA	Fournier2013							
+								
+REF_BR	Plessis2010	Florescu2006	Angelova2004	Mitchell2005				
+BR	Dior	Dior	Diri	Diri	Diri	Diri	Diri	Dirg
+cC3H2 + H						1/1		0.907/0.011
+cC3H + H + H	1		1/1			1 		
+cC3H + H2	2	 	 					
+lC3H + H + H	 	1	1					
+lC3H + H2		2						
+C3 + H2 + H						1 		
+C2H2 + CH				1/1			1/1	0.093/0.005
+C2H2 + C + H				1				
+C2H + 1CH2					1/1		1	
+C2H + 3CH2					1			
+1C2 + CH3							1	

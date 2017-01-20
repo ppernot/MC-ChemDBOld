@@ -1,0 +1,15 @@
+N2H+ + E								
+
+CHECKED	PP
+								
+ALPHA	Logn	2e-7	1.5					
+REF_ALPHA 	Florescu2006	Geppert2005	Adams2005	Geppert2004a	Adams1984	Amano1990	Rosati2004	Poterya2005
+								
+BETA	Nort	0.5	0.25	0.5	1.5			
+REF_BETA	Geppert2005	Adams2005	Amano1990	Poterya2005				
+								
+REF_BR	Molek2007	Molek2009	Adams1984					
+								
+BR	Diut							
+N2 + H	0.95/1							
+NH + N4S	0/0.05							

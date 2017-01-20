@@ -1,0 +1,12 @@
+C3H6+ + NH3									
+
+CHECKED	PP
+REF_ALPHA	Vuitton2007
+REF_BR	Vuitton2007	
+									
+ALPHA	Logn	1e-9	2						
+									
+BR	Dirg								
+CH2NH2+ + C2H5	0.57/0.06								
+CH3NH2+ + C2H4	0.13/0.05								
+NH4+ + C3H5	0.30/0.10								

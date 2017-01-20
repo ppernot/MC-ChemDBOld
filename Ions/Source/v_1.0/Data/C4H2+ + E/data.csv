@@ -1,0 +1,21 @@
+C4H2+ + E						
+						
+CHECKED	PP					
+						
+ALPHA	Logu	0.5e-6	3e-6			
+REF_ALPHA	Plessis2010					
+						
+BETA	Unif	0.5	1.5			
+REF_BETA	Plessis2010					
+						
+REF_BR		Florescu2006	Angelova2004	Mitchell2005		
+BR	Diri	Diri	Diri	Diri	Diri	Dirg
+C4H + H			1/1			0.783/0.013
+C4 + H2			1			
+cC3H + CH	1/1			1/1		0.040/0.016
+lC3H + CH	1					
+cC3H2 + C				1		
+C3 + 1CH2		1/1		1		
+C3 + 3CH2		1				
+C2H + C2H					1/1	0.177/0.015
+1C2 + C2H2					1	

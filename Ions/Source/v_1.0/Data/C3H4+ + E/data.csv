@@ -1,0 +1,19 @@
+C3H4+ + E					
+					
+CHECKED	PP				
+					
+ALPHA	Logn	2.95e-6	1.04		
+REF_ALPHA	Geppert2004				
+					
+BETA	Norm	0.67	0.02		
+REF_BETA	Geppert2004				
+					
+REF_BR	Plessis2010	Florescu2006	Angelova2004	Mitchell2005	Geppert2004
+BR	Diri	Dior	Dirg		
+C3H3 + H			0.88/0.04		
+cC3H2 + H2		2	0.04/0.01		
+cC3H2 + H + H		1			
+C2H3 + CH			0.01/0.01		
+C2H2 + 1CH2	1/1		0.06/0.01		
+C2H2 + 3CH2	1				
+C2H + CH3			0.01/0.01		

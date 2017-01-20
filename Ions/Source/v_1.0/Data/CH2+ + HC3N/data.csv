@@ -1,0 +1,10 @@
+CH2+ + HC3N									
+	
+CHECKED	PP
+								
+ALPHA	Logn	0.4100E-08	1.3000E+00						
+REF_ALPHA	McEwan2007							
+
+REF_BR	McEwan2007							
+BR									
+HC3NH+ + CH									

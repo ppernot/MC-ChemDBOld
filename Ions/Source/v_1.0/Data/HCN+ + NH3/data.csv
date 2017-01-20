@@ -1,0 +1,12 @@
+HCN+ + NH3			
+			
+CHECKED	PP		
+REF_ALPHA	Anicich2003		
+REF_BR	Anicich2003		
+			
+ALPHA	Logn	0.2800E-08	1.1
+			
+BR	Dirg	Diut	
+NH3+ + HCN	0.66/0.07	0.95/1.00	
+HCNH+ + NH2	0.34/0.12		
+NH4+ + CN		0.00/0.05	

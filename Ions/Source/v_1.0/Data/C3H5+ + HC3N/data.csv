@@ -1,0 +1,11 @@
+C3H5+ + HC3N									
+
+CHECKED	PP
+REF_ALPHA	McEwan2007							
+REF_BR	McEwan2007
+									
+ALPHA	Logn	3.8e-10	1.3						
+									
+BR	Diri								
+HC3NH+ + CH3C2H	1/1								
+HC3NH+ + CH2CCH2	1								

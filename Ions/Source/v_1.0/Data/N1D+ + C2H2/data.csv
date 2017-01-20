@@ -1,0 +1,14 @@
+N1D+ + C2H2									
+
+CHECKED	PP
+REF_ALPHA	Dutuit2013
+REF_BR	Dutuit2013	Anicich2004
+									
+ALPHA	Logn	1.42e-9	1.2						
+									
+BETA	Delta	0							
+									
+BR	Dirg								
+C2H2+ + N4S	0.90/0.09								
+CNC+ + H2	0.05/0.05								
+CHNC+ + H	0.05/0.05								

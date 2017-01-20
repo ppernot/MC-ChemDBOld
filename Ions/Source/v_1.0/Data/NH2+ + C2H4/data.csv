@@ -1,0 +1,13 @@
+NH2+ + C2H4									
+
+CHECKED	PP
+REF_ALPHA	McEwan2007							
+REF_BR	McEwan2007
+									
+ALPHA	Logn	0.1500E-08	1.2						
+									
+BR	Dirg								
+C2H4+ + NH2	0.30/0.10								
+C2H5+ + NH	0.20/0.07								
+CH2NH2+ + 1CH2	0.30/0.10								
+C2H5N+ + H	0.20/0.07								

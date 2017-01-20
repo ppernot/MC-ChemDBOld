@@ -1,0 +1,19 @@
+C2H3+ + E					
+	
+CHECKED	PP
+				
+ALPHA	Logu	4.5e-7	16e-7
+REF_ALPHA	Florescu2006	physto	Adams2006	Kalhori2002
+		
+BETA	Nort	0.84	0.25	0.5	1.5
+REF_BETA	Florescu2006	physto	Adams2006	Kalhori2002
+	
+REF_BR	Florescu2006	Kalhori2002				
+BR	Diri	Dirg			
+C2H2 + H		0.29/0.04			
+C2H + H + H		0.06/0.03			
+C2H + H2		0.584/0.06			
+1C2 + H2 + H		0.03/0.01			
+CH3 + C		0.006/0.002			
+1CH2 + CH	1/1	0.03/0.01			
+3CH2 + CH	1				

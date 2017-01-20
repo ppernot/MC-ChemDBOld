@@ -1,0 +1,12 @@
+C6H6+ + E				
+
+CHECKED	PP
+				
+ALPHA	Logn	1.0e-6	1.33	
+REF_ALPHA	Abouelaziz1993
+
+BETA	Unif	0.5	1.5													
+REF_BETA	Plessis2010
+				
+BR				
+CxHy				

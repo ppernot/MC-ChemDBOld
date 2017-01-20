@@ -1,0 +1,18 @@
+CH2NH2+ + E			
+	
+CHECKED	PP
+		
+ALPHA	Logu	0.5e-6	3e-6
+REF_ALPHA 	Plessis2010		
+			
+BETA	Unif	0.5 	1.5
+REF_BETA	Plessis2010		
+			
+REF_BR	Plessis2010		
+BR	Diri	Diri	Diri
+CH2NH + H			1/1
+1CH2 + NH2	1/1		1
+3CH2 + NH2	1		
+HCN + H2 + H		1/1	1
+HNC + H2 + H		1	
+CN + H2 + H2			1

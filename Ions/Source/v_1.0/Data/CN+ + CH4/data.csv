@@ -1,0 +1,14 @@
+CN+ + CH4									
+
+CHECKED	PP
+REF_ALPHA	McEwan2007							
+REF_BR	McEwan2007
+									
+ALPHA	Logn	1e-9	1.15
+	 
+BR	Dirg								
+CH3+ + HCN	0.50/0.05								
+CH4+ + CN	0.15/0.05								
+HCN+ + CH3	0.15/0.05								
+HCNH+ + 1CH2	0.10/0.03								
+CH2CN+ + H2	0.10/0.03								

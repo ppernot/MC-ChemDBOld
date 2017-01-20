@@ -1,0 +1,15 @@
+CH3CHO+ + E					
+					
+CHECKED	PP				
+					
+REF_ALPHA	Vigren2010c				
+REF_BETA	Vigren2010c				
+REF_BR	Vigren2010c				
+RQ	Partial data in Vigren2010c, but need to get thermochemistry for products list
+					
+ALPHA	Logn	1.5e-6	1.13		
+					
+BETA	Norm	0.70	0.02
+					
+BR					
+Products	

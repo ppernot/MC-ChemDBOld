@@ -1,0 +1,13 @@
+CCN+ + H2									
+
+CHECKED	PP
+REF_ALPHA	McEwan2007							
+REF_BR	McEwan2007
+									
+ALPHA	Logn	0.9000E-09	1.4
+
+RQ	Check product CHCNH+ ???
+
+BR	Dirg							
+HCNH+ + C	0.90/0.09						
+CHCNH+ + HV	0.10/0.10
