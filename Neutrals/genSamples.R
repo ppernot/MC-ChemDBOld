@@ -5,15 +5,16 @@
 # f=f^a; g=g*a, with a~norm(0,1)
 
 version   = '1.0'
-sourceDir = paste0('/home/pernot/Bureau/ChemDB/Neutrals/Source/v_',version,'/')
-publicDir = paste0('/home/pernot/Bureau/ChemDB/Neutrals/Public/v_',version,'/')
+rootDir   = '/home/pernot/Bureau/Titan-APSIS/MC-ChemDB/'
+sourceDir = paste0(rootDir,'Neutrals/Source/v_',version,'/')
+publicDir = paste0(rootDir,'Neutrals/Public/v_',version,'/')
 samplesDir= paste0(publicDir,'Databases/')
 docDir    = paste0(sourceDir,'Doc/')
 
 # Parameters #####
 maxReacts      = 3    # Max number of reactants slots in generated dBases
 maxProds       = 4    # Max number of product slots in generated dBases
-sampleSize     = 100  # Number of random samples to generate
+sampleSize     = 500  # Number of random samples to generate
 
 # Function to get stoichiometry and mass #####
 library('CHNOSZ')

@@ -1,9 +1,9 @@
 N2 + HV
 
 ALPHA	Logn	1	1.2
-REF_ALPHA	Hebrard2006
+REF_ALPHA	Hebrard2006	Huebner2015
 
-REF_BR	Peng2014
+REF_BR	Peng2014	Huebner2015
 BR	Dirg	Dirg
 N4S + N2D		0.5/0.01
 N4S + N3P+ + E	0.5/0.1	0.5/0.01

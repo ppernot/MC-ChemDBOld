@@ -3,17 +3,18 @@
 # 3/ Generate PDF doc of database
 
 version   = '1.0'
-sourceDir = paste0('/home/pernot/Bureau/ChemDB/Ions/Source/v_',version,'/')
-tmpDir    = paste0('/home/pernot/Bureau/ChemDB/Ions/Tmp/v_',version,'/')
-publicDir = paste0('/home/pernot/Bureau/ChemDB/Ions/Public/v_',version,'/')
+rootDir   = '/home/pernot/Bureau/MC-ChemDB/'	
+sourceDir = paste0(rootDir,'Ions/Source/v_',version,'/')
+tmpDir    = paste0(rootDir,'Ions/Tmp/v_',version,'/')
+publicDir = paste0(rootDir,'Ions/Public/v_',version,'/')
 
 library(stringr)
 library(xtable)
 source('./massCalc.R')
 
 # Parameters
-sampleSize=100 # Number max of random samples to gather
-randomSamples=FALSE # Gather random databases (vs. nominal only)
+sampleSize    = 500 # Number max of random samples to gather
+randomSamples = TRUE # Gather random databases (vs. nominal only)
 
 setwd(paste0(tmpDir,'Reactions/')) # Contains generated samples
 listReacs = list.dirs(full.names=FALSE, recursive=FALSE)

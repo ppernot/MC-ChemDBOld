@@ -1,8 +1,10 @@
 version   = '1.0'
-sourceDir = paste0('/home/pernot/Bureau/ChemDB/Ions/Source/v_',version,'/')
-targetDir = paste0('/home/pernot/Bureau/ChemDB/Ions/Tmp/v_',version,'/')
-publicDir = paste0('/home/pernot/Bureau/ChemDB/Ions/Public/v_',version,'/')
+rootDir   = '/home/pernot/Bureau/MC-ChemDB/'
+sourceDir = paste0(rootDir,'Ions/Source/v_',version,'/')
+tmpDir    = paste0(rootDir,'Ions/Tmp/v_',version,'/')
+publicDir = paste0(rootDir,'Ions/Public/v_',version,'/')
 docDir    = paste0(sourceDir,'Doc/')
+targetDir = tmpDir
 
 # Load libraries #####
 library(stringr)
@@ -389,10 +391,10 @@ if(!file.exists('bib.Rdata')) {
 }
 
 # Parameters #####
-maxReacts      = 3    # Max number of reactants slots in generated dBases
-maxProds       = 4    # Max number of product slots in generated dBases
-sampleSize     = 100  # Number of random samples to generate
-writeSamples   = FALSE # Output samples to disk (slow) or not (nominal sample is written)
+maxReacts      = 3     # Max number of reactants slots in generated dBases
+maxProds       = 4     # Max number of product slots in generated dBases
+sampleSize     = 500   # Number of random samples to generate
+writeSamples   = TRUE  # Output samples to disk (slow) or not (nominal sample is written)
 tagged         = FALSE # Print tagged strings for debug
 checkFragments = FALSE # Partial run of script to check mass of fragments (no sampling)
 
@@ -401,7 +403,7 @@ setwd(dataDir)
 listReacs = list.dirs(full.names=FALSE, recursive=FALSE)
 listReacs = gsub("./","",listReacs); cleanTmp=TRUE
 
-# listReacs=c('CH2OH+ + E'); cleanTmp=FALSE
+# listReacs=c('H+ + E') # ; cleanTmp=FALSE ################################
 
 if (cleanTmp) {
   # Clean Tmp
@@ -427,7 +429,7 @@ for (reac in listReacs) {
                          stringsAsFactors = FALSE,
                          na.strings="")
   )
-  X = str_trim(X) # remove unwanted spaces
+  X = trimws(X) # remove unwanted spaces
   reacName = X[1,1]
   if(reacName != reac) stop(paste0('Pb reac identity:',reacName))
   
