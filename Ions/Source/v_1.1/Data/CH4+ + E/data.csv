@@ -1,0 +1,19 @@
+CH4+ + E			
+	
+CHECKED	PP
+		
+ALPHA	Logn	1.71e-6	1.011
+REF_ALPHA	Thomas2013		
+			
+BETA	Norm	0.66	0.02
+REF_BETA	Thomas2013		
+			
+REF_BR	Thomas2013		
+BR	Diri	Diri	Dirg
+CH3 + H			0.18/0.03
+1CH2 + H2	1/1		0.06/0.01
+3CH2 + H2	1		
+1CH2 + H + H		1/1	0.51/0.03
+3CH2 + H + H		1	
+CH + H2 + H			0.23/0.01
+C + H2 + H2			0.02/0.01

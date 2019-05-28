@@ -1,0 +1,14 @@
+CH3CHOH+ + E			
+
+CHECKED	PP
+
+REF_ALPHA	Hamberg2010			
+ALPHA	Logu	1e-07	1.7e-06
+
+REF_BETA	Hamberg2010			
+BETA	Delta	0.77
+
+REF_BR	Hamberg2010						
+BR	Diri			
+CO + CH4 + H	1/1
+H2CO + CH3	1	

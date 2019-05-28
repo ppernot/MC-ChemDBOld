@@ -1,0 +1,11 @@
+C3H5+ + C2H4									
+
+CHECKED	PP
+REF_ALPHA	Anicich2003							
+REF_BR	Anicich2003
+									
+ALPHA	Logn	1.7e-10	1.15						
+
+BR	Dirg								
+C5H7+ + H2	0.70/0.07								
+C5H9+ + HV	0.30/0.10								

@@ -1,0 +1,15 @@
+HCO+ + HC2O
+
+CHECKED	PP
+
+TYPE 	ionpol1
+
+REF_ALPHA	KIDA							
+ALPHA	Logn	1.3E-9	2						
+
+REF_BETA	KIDA							
+BETA	Delta	2.80						
+
+REF_BR	KIDA
+BR									
+CH2CO+ + CO	

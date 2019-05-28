@@ -1,0 +1,16 @@
+N1D+ + C2H4									
+
+CHECKED	PP
+REF_ALPHA	Dutuit2013
+ALPHA	Logn	1.58e-9	1.2						
+									
+REF_BR	Dutuit2013	Anicich2004
+RQ	Changed CHCN+ to CHNC+ to conform with [Anicich2004]						
+BR	Diri	Dirg								
+C2H2+ + NH2		0.26/0.01								
+C2H3+ + NH		0.22/0.01								
+C2H4+ + N4S		0.46/0.02								
+HCN+ + CH3	1/1	0.06/0.01								
+HCNH+ + 1CH2	1								
+CHNC+ + H2 + H	1								
+CH2CN+ + H2	1								

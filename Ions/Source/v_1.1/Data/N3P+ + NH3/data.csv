@@ -1,0 +1,14 @@
+N3P+ + NH3									
+
+CHECKED	PP
+REF_ALPHA	Anicich2003							
+REF_BR	Anicich2003	
+									
+ALPHA	Logn	0.2350E-08	1.2						
+									
+BETA	Delta	0							
+									
+BR	Dirg								
+NH2+ + NH	0.20/0.07								
+NH3+ + N4S	0.71/0.07								
+N2H+ + H2	0.09/0.09							

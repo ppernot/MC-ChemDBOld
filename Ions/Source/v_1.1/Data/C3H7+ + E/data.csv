@@ -1,0 +1,34 @@
+C3H7+ + E										
+										
+RQ	cf. report.pdf									
+										
+CHECKED	PP									
+										
+ALPHA	Norm	1.9e-6	0.35e-6							
+REF_ALPHA	Lehfaoui1997	Ehlerding2003	Larsson2005							
+										
+BETA	Norm	0.68	0.01							
+REF_BETA	Larsson2005									
+										
+REF_BR		Plessis2010	Ehlerding2003							
+BR	Diri	Diri	Diri	Diri	Dior	Diri	Diri	Diri	Diri	Dirg
+C3H6 + H										0.43/0.10
+C3H5 + H2					2					0.12/0.08
+C3H5 + H + H					1					
+CH3C2H + H2 + H	1/1									0.09/0.05
+CH2CCH2 + H2 + H	1									
+C2H4 + CH3						1/1				0.04/0.02
+C2H4 + 1CH2 + H		1/1				1				
+C2H4 + 3CH2 + H		1								
+C2H3 + CH4							1/1			0.19/0.05
+C2H3 + CH3 + H							1			
+C2H2 + CH4 + H								1/1		0.11/0.02
+C2H2 + CH3 + H2								1		
+C3H3 + H2 + H2									1/1	0.02/0.01
+C2H6 + CH									1	
+C2H5 + 1CH2			1/1						1	
+C2H5 + 3CH2			1							
+C2H4 + CH + H2									1	
+C2H3 + 1CH2 + H2				1/1					1	
+C2H3 + 3CH2 + H2				1						
+C2H + CH4 + H2									1	

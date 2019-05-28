@@ -1,0 +1,17 @@
+CH2CN+ + E			
+
+CHECKED	PP
+			
+ALPHA	Logn	5e-7	3
+REF_ALPHA 	KIDA		
+			
+BETA	Norm	0.5 	0.05
+REF_BETA	KIDA		
+			
+REF_BR	KIDA		
+BR	Diri	Diri	Diri
+CH + HCN		1/1	1/1
+CH + HNC		1	
+CN + 3CH2	1/1		1
+CN + 1CH2	1		
+C2N + H2			1

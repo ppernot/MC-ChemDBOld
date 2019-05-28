@@ -1,0 +1,22 @@
+CH3OH2+ + E					
+					
+CHECKED	PP				
+					
+REF_ALPHA	Geppert2006				
+REF_BETA	Geppert2006				
+REF_BR	Geppert2006				
+					
+ALPHA	Logn	8.9e-7	1.1		
+					
+BETA	Nort	0.59	0.02	0.5	1.5
+					
+BR	Diri	Dirg
+CH3 + H2O		0.09/0.02				
+CH3 + OH + H		0.51/0.04				
+1CH2 + H2O + H	1/1	0.21/0.02				
+3CH2 + H2O + H	1					
+CH + H2O + H2		0.001/0.01				
+CH3OH + H		0.03/0.02				
+CH3O + H2		0.06/0.02				
+CH3O + H + H		0.001/0.01				
+CH2O + H2 + H		0.10/0.01				

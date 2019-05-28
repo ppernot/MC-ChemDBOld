@@ -1,5 +1,5 @@
-#LyX 2.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 508
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -30,6 +30,8 @@ theorems-std
 \font_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -69,6 +71,7 @@ theorems-std
 \suppress_date false
 \justification true
 \use_refstyle 0
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -81,7 +84,10 @@ theorems-std
 \tocdepth 3
 \paragraph_separation skip
 \defskip smallskip
-\quotes_language english
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 2
 \paperpagestyle plain
@@ -457,6 +463,7 @@ Of course, in the proposed scheme, all the overhead is on the server side
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Wakelam2012"
+literal "true"
 
 \end_inset
 
@@ -503,6 +510,7 @@ a representation of the uncertainty band by a specific function, called
 \begin_inset CommandInset citation
 LatexCommand citep
 key "DeMore1994,Sander2006,Hebrard2006a"
+literal "true"
 
 \end_inset
 
@@ -515,6 +523,7 @@ the covariance matrix of the rate-law parameters fitted on the experimental
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Hebrard2009"
+literal "true"
 
 \end_inset
 
@@ -522,6 +531,7 @@ key "Hebrard2009"
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Nagy2011"
+literal "true"
 
 \end_inset
 
@@ -673,6 +683,7 @@ An alternative description of the rate constants uncertainty is based on
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Hebrard2009,Nagy2011"
+literal "true"
 
 \end_inset
 
@@ -790,6 +801,7 @@ Random values of the BRs,
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Plessis2010"
+literal "true"
 
 \end_inset
 
@@ -802,6 +814,7 @@ key "Plessis2010"
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Carrasco2007a,Carrasco2008"
+literal "true"
 
 \end_inset
 
@@ -844,6 +857,7 @@ A special treatment has to be considered for photo-processes which are described
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Gans2013"
+literal "true"
 
 \end_inset
 
@@ -1032,6 +1046,7 @@ There is presently a discrepancy on the uncertainty representations of reaction
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Carrasco2007,Carrasco2007a,Plessis2010"
+literal "true"
 
 \end_inset
 
@@ -1040,6 +1055,7 @@ key "Carrasco2007,Carrasco2007a,Plessis2010"
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Hebrard2006,Hebrard2009"
+literal "true"
 
 \end_inset
 
@@ -1050,6 +1066,7 @@ key "Hebrard2006,Hebrard2009"
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Gans2013"
+literal "true"
 
 \end_inset
 
@@ -3199,6 +3216,7 @@ GoogleDocs
 LatexCommand href
 name "Titan"
 target "https://docs.google.com/spreadsheets/d/1i48b1zjYQX85uhssyWkR1CI-D5OBz6wrEs1YsU8X53U/edit#gid=3"
+literal "false"
 
 \end_inset
 
@@ -3421,6 +3439,7 @@ For most photodissociations, one does not have extensive information about
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Huebner2015"
+literal "true"
 
 \end_inset
 
@@ -3429,6 +3448,7 @@ key "Huebner2015"
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Peng2014"
+literal "true"
 
 \end_inset
 
@@ -4074,7 +4094,7 @@ status open
 \noindent
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="13" columns="3">
+<lyxtabular version="3" rows="14" columns="3">
 <features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="3cm">
 <column alignment="left" valignment="top" width="4cm">
@@ -4171,6 +4191,35 @@ comments
 
 \begin_layout Plain Layout
 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+TYPE
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+reacType
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+kooij (def), ionpol1, ionpol2
 \end_layout
 
 \end_inset

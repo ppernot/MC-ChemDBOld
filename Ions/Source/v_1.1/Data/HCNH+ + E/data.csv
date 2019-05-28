@@ -1,0 +1,16 @@
+HCNH+ + E				
+
+CHECKED	PP
+				
+ALPHA	Logn	3.2e-7	1.25	
+REF_ALPHA 	Florescu2006	McLain2009a	Semaniak2001	McLain2009b
+				
+BETA	Unif	0.65	1.38	
+REF_BETA	McLain2009a	Semaniak2001		
+				
+REF_BR	Semaniak2001	Hickman2005	Ishii2006	
+BR	Diut			
+HCN + H	0.26/0.41			
+HNC + H	0.29/0.39			
+CN + H2	0.00/0.05			
+CN + H + H	0.23/0.43			

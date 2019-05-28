@@ -1,0 +1,11 @@
+C2H2+ + C3H6											
+
+CHECKED	PP
+REF_ALPHA	McEwan2007							
+REF_BR	McEwan2007
+									
+ALPHA	Logn	1.3e-9	1.3						
+									
+BR	Dirg								
+C3H6+ + C2H2									
+

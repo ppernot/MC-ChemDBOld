@@ -1,0 +1,12 @@
+HNC+ + E			
+
+CHECKED	PP
+			
+ALPHA	Logn	1.3e-7	1.7
+REF_ALPHA 	Talbi2000	Sheehan1999
+			
+BETA	Norm	0.98	0.02
+REF_BETA	Talbi2000	Sheehan1999	
+			
+BR			
+CN + H			

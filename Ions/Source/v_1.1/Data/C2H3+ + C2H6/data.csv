@@ -1,0 +1,12 @@
+C2H3+ + C2H6									
+
+CHECKED	PP
+REF_ALPHA	McEwan2007							
+REF_BR	McEwan2007
+									
+ALPHA	Logn	0.6200E-09	1.1000E+00						
+									
+BR	Dirg								
+C2H5+ + C2H4	0.4700E+00/0.1410E+00								
+C3H5+ + CH4	0.4000E+00/0.1200E+00								
+C4H7+ + H2	0.1300E+00/0.3900E-01								

@@ -1,0 +1,12 @@
+CH4+ + CO2									
+	
+CHECKED	PP
+
+REF_ALPHA	Anicich1993								
+ALPHA	Logn	1e-9	1.2						
+	
+REF_BR	Anicich1993								
+BR	Dirg								
+HCO2+ + CH3	0.99/0.05
+CH3CO+ + OH	0.01/0.05							
+

@@ -1,0 +1,10 @@
+OH+ + H2CO								
+
+CHECKED	PP
+REF_ALPHA	Anicich1993							
+ALPHA	Logn	1.86e-9	1.1						
+
+REF_BR	Anicich1993									
+BR	Dirg									
+H2CO+ + OH	0.40/0.05									
+CH2OH+ + O3P	0.60/0.05									

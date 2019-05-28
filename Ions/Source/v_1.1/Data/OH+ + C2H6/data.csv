@@ -1,0 +1,13 @@
+OH+ + C2H6									
+
+CHECKED	PP
+REF_ALPHA	Anicich1993							
+ALPHA	Logn	1.6e-9	1.2						
+
+REF_BR	Anicich1993									
+BR	Dirg									
+H3O+ + C2H4	0.10/0.05									
+C2H4+ + H2O + H	0.65/0.05									
+C2H5+ + H2O	0.20/0.05
+C2H6+ + OH	0.03/0.05
+C2H7+ + O3P	0.02/0.05

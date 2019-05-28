@@ -1,0 +1,12 @@
+CH+ + H2O			
+			
+CHECKED	PP		
+			
+ALPHA	Logn	0.2900E-08	1.2000E+00
+REF_ALPHA	McEwan2007		
+			
+REF_BR	McEwan2007		
+BR	Diri	Diut	
+H3O+ + C		0.5/1.0	
+HCO+ + H2	1/1	0.0/0.5	
+H2CO+ + H	1		

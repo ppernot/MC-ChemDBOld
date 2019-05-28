@@ -1,0 +1,12 @@
+CH3+ + NH3			
+			
+CHECKED	PP		
+REF_ALPHA	Anicich2003		
+REF_BR	Anicich2003		
+			
+ALPHA	Logn	0.1750E-08	1.1
+			
+BR	Diri	Dirg	
+NH4+ + 1CH2	1/1	0.15/0.05	
+NH4+ + 3CH2	1		
+CH2NH2+ + H2		0.85/0.27	

@@ -1,0 +1,16 @@
+O2+ + HCO									
+	
+CHECKED	PP
+
+TYPE	ionpol1
+
+REF_ALPHA	KIDA								
+ALPHA	Logn	9.6e-10	2						
+
+REF_BETA	KIDA								
+BETA	Delta	3.58						
+	
+REF_BR	KIDA								
+BR	Dirg								
+HO2+ + CO	0.50/0.10									
+HCO+ + O2	0.50/0.10

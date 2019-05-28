@@ -1,0 +1,18 @@
+NH4+ + E				
+
+CHECKED	PP
+				
+ALPHA	Logu	9e-7	15.0e-7	
+REF_ALPHA 	Florescu2006	Ojekull2004	Huang1976	DuBois1978
+				
+BETA	Norm	0.75	0.15	
+REF_BETA	Florescu2006	Ojekull2004	DuBois1978	
+				
+REF_BR	Huang1976	DuBois1978	Adams1991	Adams2006
+				
+BR	Dirg			
+NH3 + H	0.839/0.04			
+NH2 + H2	0.02/0.02			
+NH2 + H + H	0.13/0.01			
+NH + H + H2	0.01/0.01			
+N4S + H2 + H2	0.001/0.001			

@@ -1,5 +1,4 @@
 library(CHNOSZ)
-data('thermo')
 
 calcAtoms = function(formula) {
   atoms=i2A(formula)

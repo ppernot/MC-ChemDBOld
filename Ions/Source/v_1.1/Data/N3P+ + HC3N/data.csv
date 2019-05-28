@@ -1,0 +1,13 @@
+N3P+ + HC3N									
+
+CHECKED	PP
+REF_ALPHA	McEwan2007							
+REF_BR	McEwan2007
+									
+ALPHA	Logn	0.42E-8	1.2						
+									
+BETA	Delta	0							
+									
+BR	Dirg								
+C3H+ + N2	0.38/0.13							
+HC3N+ + N4S	0.62/0.07								

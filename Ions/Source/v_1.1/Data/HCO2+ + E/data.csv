@@ -1,0 +1,16 @@
+HCO2+ + E			
+
+CHECKED	PP		
+			
+ALPHA	Logn	8.1e-7	1.25			
+REF_ALPHA	KIDA	
+			
+BETA	Delta	0.64	
+REF_BETA	KIDA		
+			
+REF_BR	KIDA
+BR	Dirg			
+CO + O3P + H	0.68/0.05
+CO + OH	0.27/0.05
+CO2 + H	0.05/0.05
+

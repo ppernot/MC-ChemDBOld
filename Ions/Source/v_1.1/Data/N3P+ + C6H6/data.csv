@@ -1,0 +1,15 @@
+N3P+ + C6H6									
+
+CHECKED	PP
+REF_ALPHA	Arnold1999	Vuitton2007
+REF_BR	Arnold1999	Vuitton2007	
+									
+ALPHA	Logn	2e-9	1.25						
+									
+BR	Dirg								
+C6H6+ + N4S	0.68/0.07					
+C6H5+ + NH	0.07/0.07					
+C6H4+ + NH2	0.01/0.01						
+C5H4+ + HCN + H	0.07/0.07							
+C4H4+ + CH2CN	0.05/0.05					
+cC3H3+ + C2H2 + HCN	0.12/0.04

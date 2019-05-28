@@ -1,0 +1,14 @@
+H2+ + C2H6									
+
+CHECKED	PP
+									
+ALPHA	Logn	0.4900E-08	1.1000E+00						
+REF_ALPHA	Anicich2003								
+									
+REF_BR	Anicich2003								
+BR	Dirg								
+C2H2+ + H2 + H2 + H2	0.4000E-01/0.4000E-01						
+C2H3+ + H2 + H2 + H	0.1400E+00/0.4200E-01						
+C2H4+ + H2 + H2	0.4800E+00/0.1440E+00							
+C2H5+ + H2 + H	0.2800E+00/0.8400E-01							
+C2H6+ + H2	0.6000E-01/0.6000E-01							

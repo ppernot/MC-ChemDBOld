@@ -1,0 +1,11 @@
+C3H5+ + N4S									
+
+CHECKED	PP
+									
+ALPHA	Logn	0.1250E-09	1.2000E+00
+REF_ALPHA	Anicich1997						
+								
+REF_BR		Anicich1997						
+BR	Dirg								
+C2H4+ + HCN	0.88/0.09								
+CH2CHCN+ + H2	0.12/0.04								

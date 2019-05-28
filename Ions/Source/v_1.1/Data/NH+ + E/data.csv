@@ -1,0 +1,11 @@
+NH+ + E			
+
+CHECKED	PP					
+ALPHA	Logn	4.33e-8	2
+REF_ALPHA	Woodall2007	Florescu2006	Plessis2010
+			
+BETA	Unif	0.5	1.5
+REF_BETA	Plessis2010		
+			
+BR			
+N4S + H			

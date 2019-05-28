@@ -1,0 +1,15 @@
+C3+ + E			
+
+CHECKED	PP
+			
+ALPHA	Logu	5e-7	3e-6
+REF_ALPHA	Plessis2010	
+
+BETA	Unif	0.5	1.5
+REF_BETA	Plessis2010
+
+REF_BR		Adams2006	Heber2006	
+BR	Dirg		
+C3	0.001/0.001		
+1C2 + C	1.000/0.002		
+C + C + C	0.001/0.001		

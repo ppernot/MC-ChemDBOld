@@ -1,0 +1,13 @@
+CH2CO+ + E			
+
+CHECKED	PP		
+			
+ALPHA	Logn	2.0e-7	3			
+REF_ALPHA	KIDA	
+			
+BETA	Delta	0.5	
+REF_BETA	KIDA		
+			
+REF_BR	KIDA
+BR
+CO + 1CH2

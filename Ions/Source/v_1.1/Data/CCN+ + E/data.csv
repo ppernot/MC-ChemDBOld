@@ -1,0 +1,14 @@
+CCN+ + E			
+
+CHECKED	PP
+			
+ALPHA	Logn	4e-7	3
+REF_ALPHA 	KIDA		
+			
+BETA	Norm	0.6 	0.05
+REF_BETA	KIDA		
+			
+REF_BR	KIDA		
+BR	Diut		
+CN + C	0.95/1.00		
+1C2 + N4S	0.00/0.05		

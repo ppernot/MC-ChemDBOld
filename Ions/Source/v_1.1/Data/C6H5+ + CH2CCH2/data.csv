@@ -1,0 +1,11 @@
+C6H5+ + CH2CCH2									
+
+CHECKED	PP
+REF_ALPHA	Anicich2003							
+REF_BR	Anicich2003
+									
+ALPHA	Logn	7.2e-10	1.2						
+									
+BR	Dirg								
+C7H7+ + C2H2	0.30/0.10								
+C9H7+ + H2	0.70/0.07									

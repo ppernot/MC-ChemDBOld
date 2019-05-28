@@ -1,0 +1,15 @@
+C2H+ + E					
+	
+CHECKED	PP
+				
+ALPHA	Logn	2.7e-7	1.3	
+REF_ALPHA	Florescu2006	Ehlerding2004
+	
+BETA	Nort	0.76	0.26	0.5	1.5
+REF_BETA	Florescu2006	Ehlerding2004	physto
+					
+REF_BR		Ehlerding2004
+BR	Dirg				
+1C2 + H	0.43/0.03				
+CH + C	0.39/0.04				
+C + C + H	0.18/0.04				

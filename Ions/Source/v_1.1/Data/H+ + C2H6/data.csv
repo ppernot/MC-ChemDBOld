@@ -1,0 +1,13 @@
+H+ + C2H6			
+			
+CHECKED	PP		
+			
+ALPHA	Logn	4.7E-09	1.2
+REF_ALPHA	McEwan2007		
+			
+REF_BR	McEwan2007		
+BR	Diut		
+C2H3+ + H2 + H2	0.55/0.65		
+C2H4+ + H2 + H	0.25/0.35		
+C2H5+ + H2	0/0.05		
+CH3+ + CH4	0/0.05		

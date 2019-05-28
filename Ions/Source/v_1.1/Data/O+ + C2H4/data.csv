@@ -1,0 +1,11 @@
+O+ + C2H4									
+
+CHECKED	PP
+REF_ALPHA	Smith1992							
+ALPHA	Logn	1.4e-9	1.2						
+
+REF_BR	Smith1992									
+BR	Dirg									
+C2H4+ + O3P	0.05/0.03
+C2H3+ + OH	0.15/0.03									
+C2H2+ + H2O	0.80/0.03									

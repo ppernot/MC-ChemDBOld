@@ -1,0 +1,16 @@
+CHCO+ + E			
+
+CHECKED	PP		
+			
+ALPHA	Logn	1.5e-7	2			
+REF_ALPHA	KIDA	
+			
+BETA	Delta	0.5	
+REF_BETA	KIDA		
+			
+REF_BR	KIDA
+BR	Dirg			
+CO + C + H	0.3/0.1
+CO + CH	0.2/0.1
+C2H + O	0.3/0.1
+C2O + H	0.2/0.1						

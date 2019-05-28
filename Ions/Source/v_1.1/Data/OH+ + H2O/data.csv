@@ -1,0 +1,11 @@
+OH+ + H2O							
+
+CHECKED	PP
+
+REF_ALPHA	Anicich1993							
+ALPHA	Logn	2.89e-09	1.1						
+
+REF_BR	Anicich1993
+BR	Dirg								
+H2O+ + OH	0.55/0.05
+H3O+ + O3P	0.45/0.05								

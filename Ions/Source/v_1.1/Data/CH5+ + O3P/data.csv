@@ -1,0 +1,11 @@
+CH5+ + O3P								
+
+CHECKED	PP
+
+REF_ALPHA	Anicich1993							
+ALPHA	Logn	2.4e-10	1.3						
+
+REF_BR	Anicich1993
+BR	Dirg								
+H3O+ + 3CH2	0.98/0.02
+CH2OH+ + H2	0.02/0.02									

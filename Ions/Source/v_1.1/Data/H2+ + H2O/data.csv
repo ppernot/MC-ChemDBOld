@@ -1,0 +1,16 @@
+H2+ + H2O									
+	
+CHECKED	PP
+
+TYPE	ionpol1								
+										
+ALPHA	Logn	2.07e-9	1.5					
+REF_ALPHA	KIDA			
+									
+BETA	Delta	5.51
+REF_BETA	KIDA							
+
+REF_BR	Anicich2003	KIDA							
+BR	Dirg								
+H2O+ + H2	0.53/0.16							
+H3O+ + H	0.47/0.14

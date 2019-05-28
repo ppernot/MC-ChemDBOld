@@ -1,0 +1,17 @@
+NH+ + CH3NH2									
+
+CHECKED	PP
+
+RQ Modified intermadiate BR for sum to 1 (orig. sum=1.2)
+
+REF_ALPHA	Anicich2003							
+REF_BR	Anicich2003	
+									
+ALPHA	Logn	2.1e-9	1.2						
+									
+BR	Dirg								
+HCNH+ + NH3 + H	0.17/0.06 				
+CH2NH+ + NH3	0.05/0.05							
+CH2NH2+ + NH2	0.45/0.15					
+CH3NH2+ + NH	0.17/0.06					
+CH3NH3+ + N4S	0.16/0.06

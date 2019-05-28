@@ -1,0 +1,18 @@
+HN2O+ + E			
+
+CHECKED	PP		
+			
+ALPHA	Logn	1.4e-6	1.1			
+REF_ALPHA	Geppert2004e	
+			
+BETA	Nort	0.74	0.02	0.5	1.5	
+REF_BETA	Geppert2004e		
+			
+REF_BR	Geppert2004e
+BR	Dirg			
+N2O + H	0.001/0.02
+N2 + OH	0.46/0.05
+NO + NH	0.09/0.03
+N2 + O3P + H	0.40/0.08
+NO + N4S + H	0.001/0.02
+OH + N4S + N4S	0.05/0.02
