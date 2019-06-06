@@ -1,0 +1,8 @@
+
+2019-05-29 : 	* Changed model for trimolecular reactions from Troe to Kadduct, according to Dobrijevic2016/Loison 
+		  Affects genSamples.R and plotRates.R 
+		* Unified mass calculations by use of massCalc.R (same as in Ions)
+		* Created kinParse.R to unify DB files reading in scripts
+		* Added reactions for O chemistry, mostly based on Vuitton2019 and KIDA
+		* Added Fc column in trimolecular data files
+

@@ -4,6 +4,8 @@
 # to account transparently for temperature effects:
 # f=f^a; g=g*a, with a~norm(0,1)
 
+options(stringsAsFactors = FALSE)
+
 version   = '1.1'
 rootDir   = '/home/pernot/Bureau/Titan-APSIS/MC-ChemDB/'
 sourceDir = paste0(rootDir,'Neutrals/Source/v_',version,'/')
@@ -14,7 +16,7 @@ docDir    = paste0(sourceDir,'Doc/')
 # Parameters #####
 maxReacts      = 3    # Max number of reactants slots in generated dBases
 maxProds       = 4    # Max number of product slots in generated dBases
-sampleSize     = 50    # Number of random samples to generate
+sampleSize     = 500  # Number of random samples to generate
 
 # Function to get stoichiometry and mass #####
 library('CHNOSZ')
@@ -24,7 +26,6 @@ source('./massCalc.R')
 
 # Kinetic Scheme
 source('./kinParse.R')
-
 
   
 species=levels(as.factor(unlist(c(reactants,products))))
@@ -38,9 +39,6 @@ colnames(compo)=elements
 mass  = apply(compo,1,massFormula)
 names(mass) = species
 dummyMass   = round(max(mass,na.rm=TRUE)+2)
-# dummySpecies = c('CxHy','CxHy+','CxHyNz','CxHyNz+',
-#                  'Products','HV','E','SOOTC','SOOTC+',
-#                  'C4H2X','HC3NX','HC5NX','SOOTS','SOOTN')
 mass[dummySpecies] = dummyMass
 
 # Check mass compatibility #####
@@ -68,13 +66,8 @@ for (i in 0:sampleSize) {
     rnd = rnorm(3*nbReac,0,1)
   
   dbOut = data.frame(
-    R1 = 'x',
-    R2 = 'x',
-    R3 = 'x',
-    P1 = 'x',
-    P2 = 'x',
-    P3 = 'x',
-    P4 = 'x',
+    R1 = 'x', R2 = 'x', R3 = 'x',
+    P1 = 'x', P2 = 'x', P3 = 'x', P4 = 'x',
     a = NA,
     b = NA,
     c = NA,
@@ -91,8 +84,7 @@ for (i in 0:sampleSize) {
     f2 = NA,
     g2 = NA,
     fc = NA,
-    ttype = 'x',
-    stringsAsFactors = FALSE
+    ttype = 'x'
   )
   
   for (m in 1:nbReac) {
@@ -101,15 +93,10 @@ for (i in 0:sampleSize) {
     typ  = type[m]
     pars = unlist(params[m])
     
-    if (typ == 'kooij') 
+    if (typ == 'kooij') {
       db1 = data.frame(
-        R1 = reac[1],
-        R2 = reac[2],
-        R3 = reac[3],
-        P1 = prod[1],
-        P2 = prod[2],
-        P3 = prod[3],
-        P4 = prod[4],
+        R1 = reac[1], R2 = reac[2], R3 = reac[3],
+        P1 = prod[1], P2 = prod[2], P3 = prod[3], P4 = prod[4],
         a = as.numeric(pars[1]),
         b = as.numeric(pars[2]),
         c = as.numeric(pars[3]),
@@ -126,19 +113,14 @@ for (i in 0:sampleSize) {
         f2 = NA,
         g2 = NA,
         fc = NA,
-        ttype = typ,
-        stringsAsFactors = FALSE
+        ttype = typ
       )
-    else      
-      if (typ == '3-body') 
+    } else {
+      if (typ == 'assocMD' | 
+          typ == 'assocVV'  ) {
         db1 = data.frame(
-          R1 = reac[1],
-          R2 = reac[2],
-          R3 = reac[3],
-          P1 = prod[1],
-          P2 = prod[2],
-          P3 = prod[3],
-          P4 = prod[4],
+          R1 = reac[1], R2 = reac[2], R3 = reac[3],
+          P1 = prod[1], P2 = prod[2], P3 = prod[3], P4 = prod[4],
           a = as.numeric(pars[1]),
           b = as.numeric(pars[2]),
           c = as.numeric(pars[3]),
@@ -155,37 +137,12 @@ for (i in 0:sampleSize) {
           f2 = as.numeric(pars[14]) ^ rnd[2 * nbReac + m],
           g2 = as.numeric(pars[15]) * rnd[2 * nbReac + m],
           fc = as.numeric(pars[16]),
-          ttype = typ,
-          stringsAsFactors = FALSE
+          ttype = typ
         )
-    #     else
-#       db1=data.frame(R1=reac[1],R2=reac[2],R3=reac[3],
-#                      P1=prod[1],P2=prod[2],P3=prod[3],P4=prod[4],
-#                      a=as.numeric(pars[1]),
-#                      b=as.numeric(pars[2]),
-#                      c=as.numeric(pars[3]),
-#                      f=as.numeric(pars[4])^rnd[m],
-#                      g=as.numeric(pars[5])*rnd[m],
-#                      a1=as.numeric(pars[6]),
-#                      b1=as.numeric(pars[7]),
-#                      c1=as.numeric(pars[8]),
-#                      f1=as.numeric(pars[9] )^rnd[nbReac+m],
-#                      g1=as.numeric(pars[10])*rnd[nbReac+m],
-#                      a2=as.numeric(pars[6]),
-#                      b2=as.numeric(pars[7]),
-#                      c2=as.numeric(pars[8]),
-#                      f2=as.numeric(pars[9] )^rnd[2*nbReac+m],
-#                      g2=as.numeric(pars[10])*rnd[2*nbReac+m],
-#                      ttype=typ,stringsAsFactors=FALSE)        
-    
+      }
+    }      
     dbOut[m,]=db1
   }
-#   dbOutm <- within(dbOut, {
-#     b <- sprintf("%6.3f", b)
-#     a <- sprintf("%6.3e", a)
-#     f <- sprintf("%6.3e", f)
-#     g <- sprintf("%6.3f", g)
-#   })
   write.table(dbOut,
               file=paste0(samplesDir,'run_',sprintf('%04i',i),'.csv'),
               quote=TRUE, sep=';', na=" ",

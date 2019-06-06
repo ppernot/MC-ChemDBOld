@@ -400,7 +400,7 @@ if(!file.exists('bib.Rdata')) {
 maxReacts      = 3     # Max number of reactants slots in generated dBases
 maxProds       = 4     # Max number of product slots in generated dBases
 sampleSize     = 500   # Number of random samples to generate
-writeSamples   = FALSE  # Output samples to disk (slow) or not (nominal sample)
+writeSamples   = TRUE  # Output samples to disk (slow) or not (nominal sample)
 tagged         = FALSE  # Print tagged strings for debug
 checkFragments = FALSE  # Partial run of script to check mass of fragments (no sampling)
 
@@ -409,7 +409,7 @@ listReacs = list.dirs(full.names=FALSE, recursive=FALSE)
 listReacs = gsub("./","",listReacs)
 cleanTmp  = TRUE
 
-# listReacs=c('C2H5O2+ + E') ; cleanTmp=FALSE ################################
+listReacs=c('C2H+ + C') ; cleanTmp=FALSE #################
 
 if (cleanTmp) {
   # Clean Tmp
@@ -630,8 +630,13 @@ for (reac in listReacs) {
   names(sigPars) = colnames(sampleRateParams)
   for (kwd in rateParKwdList) {
     sample = sampleRateParams[, kwd]
-    meanPars[kwd] = exp(mean(log(sample)))
-    sigPars[kwd]  = exp(sd(log(sample)))
+    if(substr(rateParDistStrings[kwd],1,5)!='Delta') {
+      meanPars[kwd] = exp(mean(log(sample)))
+      sigPars[kwd]  = exp(sd(log(sample)))
+    } else {
+      meanPars[kwd] = mean(sample)
+      sigPars[kwd]  = 1
+    }
   }
   rm(sample)
   

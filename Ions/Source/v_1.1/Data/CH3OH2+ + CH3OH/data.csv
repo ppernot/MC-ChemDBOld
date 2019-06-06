@@ -1,0 +1,13 @@
+CH3OH2+ + CH3OH
+
+CHECKED	PP
+
+REF_ALPHA	KIDA							
+ALPHA	Logn	1e-10	1.25						
+
+REF_BETA	KIDA							
+BETA	Delta	-1						
+
+REF_BR	KIDA
+BR									
+CH3OHCH3+ + H2O
