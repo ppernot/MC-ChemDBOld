@@ -1,12 +1,14 @@
 C2H5N+ + E			
 
 CHECKED	PP
-			
-RQ	Default data: auto generated		
-			
-ALPHA	Logu	3e-07	3.0e-06
-			
-BETA"	Unif"	5e-01	1.5e+00
-			
-BR			
-Products			
+	
+REF_ALPHA	Quan2016		
+ALPHA	Logn	3e-07	2
+
+REF_BETA	Quan2016					
+BETA	Delta	5e-01
+
+REF_BR	Quan2016					
+BR	Diri			
+C2H3NH + H	1/1
+H2CN + CH3	1

@@ -403,13 +403,28 @@ sampleSize     = 500   # Number of random samples to generate
 writeSamples   = TRUE  # Output samples to disk (slow) or not (nominal sample)
 tagged         = FALSE  # Print tagged strings for debug
 checkFragments = FALSE  # Partial run of script to check mass of fragments (no sampling)
+cleanTmp       = TRUE  # Clean all tmp files (full update)
+
 
 dataDir = paste0(sourceDir,'Data/'); setwd(dataDir)
 listReacs = list.dirs(full.names=FALSE, recursive=FALSE)
 listReacs = gsub("./","",listReacs)
-cleanTmp  = TRUE
 
-listReacs=c('C2H+ + C') ; cleanTmp=FALSE #################
+# # Select by date (same day)
+# finf <- file.info(listReacs, extra_cols = FALSE)
+# selByDate = which(difftime(Sys.time(), finf[,"mtime"], units = "days") <= 1 )
+# sel = selByDate
+# 
+# # # Select files where data.csv is newer than summary.html
+# # finf1 <- file.info(paste0(listReacs,'/data.csv'), extra_cols = FALSE)
+# # finf2 <- file.info(paste0(listReacs,'/summary.html'), extra_cols = FALSE)
+# # selByMod = which(difftime(finf1[,"mtime"],finf2[,"mtime"]) > 0)
+# # sel = unique(c(selByDate,selByMod))
+# 
+# listReacs = listReacs[sel]
+# cleanTmp=FALSE
+
+#listReacs=c('H3+ + E') ; cleanTmp=FALSE #################
 
 if (cleanTmp) {
   # Clean Tmp
