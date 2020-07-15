@@ -1,0 +1,18 @@
+N3P+ + C2H4									
+
+CHECKED	PP
+REF_ALPHA	Dutuit2013
+REF_BR	Dutuit2013	Anicich2004	
+									
+ALPHA	Logn	1.58e-9	1.2						
+									
+BETA	Delta	0							
+									
+BR	Dirg								
+C2H2+ + NH2	0.12/0.04								
+C2H3+ + NH	0.32/0.11								
+C2H4+ + N4S	0.38/0.13								
+HCN+ + CH3	0.02/0.02								
+HCNH+ + 1CH2	0.10/0.10								
+CHNC+ + H2 + H	0.01/0.01								
+CH2CN+ + H2	0.05/0.05								

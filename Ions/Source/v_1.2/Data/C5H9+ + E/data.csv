@@ -1,0 +1,12 @@
+C5H9+ + E				
+	
+CHECKED	PP
+			
+ALPHA	Logn	9.5e-7	1.32	
+REF_ALPHA	Rebrion-Rowe1998												
+
+BETA	Unif	0.5	1.5													
+REF_BETA	Plessis2010
+				
+BR				
+CxHy				

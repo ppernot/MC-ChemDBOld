@@ -1,0 +1,1178 @@
+ CH3+         E            1CH2         H                                     
+ CH3+         E            3CH2         H                                     
+ CH3+         E            CH           H2                                    
+ CH3+         E            CH           H            H                        
+ CH3+         E            C            H2           H                        
+ CH4+         E            CH3          H                                     
+ CH4+         E            1CH2         H            H                        
+ CH4+         E            3CH2         H            H                        
+ CH4+         E            1CH2         H2                                    
+ CH4+         E            3CH2         H2                                    
+ CH4+         E            CH           H2           H                        
+ CH4+         E            CH           H            H            H           
+ CH4+         E            C            H2           H2                       
+ CH5+         E            CH4          H                                     
+ CH5+         E            CH3          H2                                    
+ CH5+         E            CH3          H            H                        
+ CH5+         E            1CH2         H2           H                        
+ CH5+         E            3CH2         H2           H                        
+ CH5+         E            CH           H2           H2                       
+ C2H+         E            C2           H                                     
+ C2H+         E            CH           C                                     
+ C2H+         E            C            C            H                        
+ C2H3+        E            C2H2         H                                     
+ C2H3+        E            C2H          H2                                    
+ C2H3+        E            C2H          H            H                        
+ C2H3+        E            C2           H            H2                       
+ C2H3+        E            CH3          C                                     
+ C2H3+        E            1CH2         CH                                    
+ C2H3+        E            3CH2         CH                                    
+ C3H7+        E            C3H6         H                                     
+ C3H7+        E            C3H5         H2                                    
+ C3H7+        E            C3H5         H            H                        
+ C3H7+        E            CH3C2H       H2           H                        
+ C3H7+        E            CH2CCH2      H2           H                        
+ C3H7+        E            C2H4         CH3                                   
+ C3H7+        E            C2H4         1CH2         H                        
+ C3H7+        E            C2H4         3CH2         H                        
+ C3H7+        E            C2H3         CH4                                   
+ C3H7+        E            C2H3         CH3          H                        
+ C3H7+        E            C2H2         CH4          H                        
+ C3H7+        E            C2H2         CH3          H2                       
+ C3H7+        E            C3H3         H2           H2                       
+ C3H7+        E            C2H6         CH                                    
+ C3H7+        E            C2H5         1CH2                                  
+ C3H7+        E            C2H5         3CH2                                  
+ C3H7+        E            C2H4         CH           H2                       
+ C3H7+        E            C2H3         1CH2         1CH2                     
+ C3H7+        E            C2H3         1CH2         3CH2                     
+ C3H7+        E            C2H3         3CH2         3CH2                     
+ C3H7+        E            C2H          CH4          H2                       
+ C6H7+        E            dummy                                              
+ NH4+         E            NH3          H                                     
+ NH4+         E            NH2          H2                                    
+ NH4+         E            NH2          H            H                        
+ NH4+         E            NH           H            H2                       
+ NH4+         E            N4S          H2           H2                       
+ C4H3+        E            C4H2         H                                     
+ C4H3+        E            C4H          H2                                    
+ C4H3+        E            C4H          H            H                        
+ C4H3+        E            C4           H2           H                        
+ C4H3+        E            C3H3         C                                     
+ C4H3+        E            C3H2         CH                                    
+ C4H3+        E            C3H          1CH2                                  
+ C4H3+        E            C3H          3CH2                                  
+ C4H3+        E            C3           CH3                                   
+ C4H3+        E            C2H3         C2                                    
+ C4H3+        E            C2H2         C2H                                   
+ C4H5+        E            C4H4         H                                     
+ C4H5+        E            C4H3         H2                                    
+ C4H5+        E            C4H3         H            H                        
+ C4H5+        E            C4H2         H2           H                        
+ C4H5+        E            C4H          H2           H2                       
+ C4H5+        E            C3H          CH4                                   
+ C4H5+        E            C3H2         CH3                                   
+ C4H5+        E            C3H3         1CH2                                  
+ C4H5+        E            C3H3         3CH2                                  
+ C4H5+        E            CH3C2H       CH                                    
+ C4H5+        E            CH2CCH2      CH                                    
+ C4H5+        E            C3H5         C                                     
+ C4H5+        E            C2H5         C2                                    
+ C4H5+        E            C2H4         C2H                                   
+ C4H5+        E            C2H3         C2H2                                  
+ C4H5+        E            C2H2         C2H2         H                        
+ C4H5+        E            C2H2         C2H          H2                       
+ C4H9+        E            C4H8         H                                     
+ C4H9+        E            C4H7         H2                                    
+ C4H9+        E            C4H7         H            H                        
+ C4H9+        E            C4H6         H2           H                        
+ C4H9+        E            C4H5         H2           H2                       
+ C4H9+        E            C4H5         H2           H            H           
+ C4H9+        E            C3H8         CH                                    
+ C4H9+        E            C3H7         1CH2                                  
+ C4H9+        E            C3H7         3CH2                                  
+ C4H9+        E            C3H6         CH3                                   
+ C4H9+        E            C3H6         3CH2         H                        
+ C4H9+        E            C3H6         1CH2         H                        
+ C4H9+        E            C3H6         CH           H2                       
+ C4H9+        E            C3H5         CH4                                   
+ C4H9+        E            C3H5         CH3          H                        
+ C4H9+        E            C3H5         3CH2         H2                       
+ C4H9+        E            C3H5         1CH2         H2                       
+ C4H9+        E            CH3C2H       CH4          H                        
+ C4H9+        E            CH2CCH2      CH4          H                        
+ C4H9+        E            CH3C2H       CH3          H2                       
+ C4H9+        E            CH2CCH2      CH3          H2                       
+ C4H9+        E            C3H3         CH4          H2                       
+ C4H9+        E            C2H6         C2H3                                  
+ C4H9+        E            C2H6         C2H2         H                        
+ C4H9+        E            C2H6         C2H          H2                       
+ C4H9+        E            C2H5         C2H4                                  
+ C4H9+        E            C2H5         C2H3         H                        
+ C4H9+        E            C2H5         C2H2         H2                       
+ C4H9+        E            C2H4         C2H4         H                        
+ C4H9+        E            C2H4         CH           CH4                      
+ C4H9+        E            C2H4         1CH2         CH3                      
+ C4H9+        E            C2H4         3CH2         CH3                      
+ C4H9+        E            C2H3         CH3          CH3                      
+ C4H9+        E            C2H3         1CH2         CH4                      
+ C4H9+        E            C2H3         3CH2         CH4                      
+ C4H9+        E            C2H2         CH3          CH4                      
+ C5H3+        E            dummy                                              
+ C5H9+        E            dummy                                              
+ C6H4+        E            dummy                                              
+ C6H5+        E            dummy                                              
+ C6H6+        E            dummy                                              
+ C7H5+        E            dummy                                              
+ NH+          E            N4S          H                                     
+ CH3NH3+      E            dummy                                              
+ NH3+         E            NH2          H                                     
+ NH3+         E            NH           H2                                    
+ NH3+         E            NH           H            H                        
+ NH3+         E            N4S          H2           H                        
+ NH3+         E            N4S          H            H            H           
+ H+           E            H                                                  
+ CH+          E            C            H                                     
+ CH2+         E            C            H2                                    
+ CH2+         E            CH           H                                     
+ CH2+         E            C            H            H                        
+ C2H2+        E            C2H          H                                     
+ C2H2+        E            CH           CH                                    
+ C2H2+        E            C2           H            H                        
+ C2H2+        E            1CH2         CH                                    
+ C2H2+        E            3CH2         CH                                    
+ C2H2+        E            C2           H2                                    
+ C2H6+        E            dummy                                              
+ C2H7+        E            dummy                                              
+ C3+          E            C3                                                 
+ C3+          E            C2           C                                     
+ C3+          E            C            C            C                        
+ C3H+         E            C3           H                                     
+ C3H+         E            C2H          C                                     
+ C3H+         E            C2           CH                                    
+ C3H2+        E            C3H          H                                     
+ C3H2+        E            C3           H            H                        
+ C3H2+        E            C3           H2                                    
+ C3H2+        E            C2H          CH                                    
+ C3H2+        E            C2           C            H                        
+ C3H5+        E            CH3C2H       H                                     
+ C3H5+        E            CH2CCH2      H                                     
+ C3H5+        E            C3H3         H2                                    
+ C3H5+        E            C3H3         H            H                        
+ C3H5+        E            C3H2         H2           H                        
+ C3H5+        E            C3H          H2           H2                       
+ C3H5+        E            C2H5         C                                     
+ C3H5+        E            C2H4         CH                                    
+ C3H5+        E            C2H3         1CH2                                  
+ C3H5+        E            C2H3         3CH2                                  
+ C3H5+        E            C2H2         1CH2         H                        
+ C3H5+        E            C2H2         3CH2         H                        
+ C3H5+        E            C2H2         CH           H2                       
+ C3H5+        E            C2H2         CH3                                   
+ C3H5+        E            C2H          CH3          H                        
+ C3H5+        E            C2H          CH4                                   
+ C3H6+        E            C3H5         H                                     
+ C3H6+        E            CH3C2H       H            H                        
+ C3H6+        E            CH2CCH2      H            H                        
+ C3H6+        E            CH3C2H       H2                                    
+ C3H6+        E            CH2CCH2      H2                                    
+ C3H6+        E            C3H3         H2           H                        
+ C3H6+        E            C3H2         H2           H2                       
+ C3H6+        E            C3H2         H2           H            H           
+ C3H6+        E            C2H5         CH                                    
+ C3H6+        E            C2H4         1CH2                                  
+ C3H6+        E            C2H4         3CH2                                  
+ C3H6+        E            C2H4         CH           H                        
+ C3H6+        E            C2H4         C            H2                       
+ C3H6+        E            C2H3         CH           H2                       
+ C3H6+        E            C2H3         CH3                                   
+ C3H6+        E            C2H2         CH4                                   
+ C3H6+        E            C2H2         1CH2         H2                       
+ C3H6+        E            C2H2         3CH2         H2                       
+ C3H6+        E            C2H2         CH3          H                        
+ C3H6+        E            C2H          CH4          H                        
+ C3H6+        E            C2H          CH3          H2                       
+ C3H6+        E            C            CH3          CH4                      
+ C3H8+        E            C3H7         H                                     
+ C3H8+        E            C3H6         H2                                    
+ C3H8+        E            C3H6         H            H                        
+ C3H8+        E            C3H5         H2           H                        
+ C3H8+        E            CH3C2H       H2           H2                       
+ C3H8+        E            CH2CCH2      H2           H2                       
+ C3H8+        E            CH3C2H       H2           H            H           
+ C3H8+        E            CH2CCH2      H2           H            H           
+ C3H8+        E            C2H6         1CH2                                  
+ C3H8+        E            C2H6         3CH2                                  
+ C3H8+        E            C2H5         CH3                                   
+ C3H8+        E            C2H5         CH           H2                       
+ C3H8+        E            C2H5         CH           H            H           
+ C3H8+        E            C2H5         1CH2         H                        
+ C3H8+        E            C2H5         3CH2         H                        
+ C3H8+        E            C2H4         CH4                                   
+ C3H8+        E            C2H4         1CH2         H2                       
+ C3H8+        E            C2H4         1CH2         H            H           
+ C3H8+        E            C2H4         3CH2         H2                       
+ C3H8+        E            C2H4         3CH2         H            H           
+ C3H8+        E            C2H4         CH3          H                        
+ C3H8+        E            C2H3         CH3          H2                       
+ C3H8+        E            C2H3         CH3          H            H           
+ C3H8+        E            C2H3         CH4          H                        
+ C3H8+        E            C2H2         CH4          H2                       
+ C3H8+        E            1CH2         CH3          CH3                      
+ C3H8+        E            3CH2         CH3          CH3                      
+ C3H8+        E            1CH2         CH4          1CH2                     
+ C3H8+        E            1CH2         CH4          3CH2                     
+ C3H8+        E            3CH2         CH4          3CH2                     
+ C3H8+        E            CH4          CH3          CH                       
+ C3H9+        E            dummy                                              
+ C4H+         E            C4           H                                     
+ C4H+         E            C3H          C                                     
+ C4H+         E            C2H          C2                                    
+ C4H2+        E            C4H          H                                     
+ C4H2+        E            C4           H2                                    
+ C4H2+        E            C3H          CH                                    
+ C4H2+        E            C3H2         C                                     
+ C4H2+        E            C3           1CH2                                  
+ C4H2+        E            C3           3CH2                                  
+ C4H2+        E            C2H          C2H                                   
+ C4H2+        E            C2           C2H2                                  
+ C4H4+        E            C4H3         H                                     
+ C4H4+        E            C4H2         H2                                    
+ C4H4+        E            C4H2         H            H                        
+ C4H4+        E            C4H          H2           H                        
+ C4H4+        E            CH3C2H       C                                     
+ C4H4+        E            CH2CCH2      C                                     
+ C4H4+        E            C3H3         CH                                    
+ C4H4+        E            C3H2         1CH2                                  
+ C4H4+        E            C3H2         3CH2                                  
+ C4H4+        E            C3H2         C            H2                       
+ C4H4+        E            C3H          CH3                                   
+ C4H4+        E            C3           CH4                                   
+ C4H4+        E            C3           CH3          H                        
+ C4H4+        E            C2H4         C2                                    
+ C4H4+        E            C2H3         C2H                                   
+ C4H4+        E            C2H2         C2H2                                  
+ C4H4+        E            C2H2         C2H          H                        
+ C4H4+        E            C2H2         C2           H2                       
+ C4H4+        E            C2H          C2H          H2                       
+ C4H6+        E            C4H5         H                                     
+ C4H6+        E            C4H4         H2                                    
+ C4H6+        E            C4H4         H            H                        
+ C4H6+        E            C4H3         H2           H                        
+ C4H6+        E            C4H2         H2           H2                       
+ C4H6+        E            C4H2         H2           H            H           
+ C4H6+        E            C3H6         C                                     
+ C4H6+        E            C3H5         CH                                    
+ C4H6+        E            CH3C2H       1CH2                                  
+ C4H6+        E            CH2CCH2      1CH2                                  
+ C4H6+        E            CH3C2H       3CH2                                  
+ C4H6+        E            CH2CCH2      3CH2                                  
+ C4H6+        E            CH3C2H       C            H2                       
+ C4H6+        E            CH2CCH2      C            H2                       
+ C4H6+        E            C3H3         CH3                                   
+ C4H6+        E            C3H3         CH           H2                       
+ C4H6+        E            C3H2         CH4                                   
+ C4H6+        E            C3H2         CH3          H                        
+ C4H6+        E            C3H2         1CH2         H                        
+ C4H6+        E            C3H2         3CH2         H                        
+ C4H6+        E            C3H          CH4          H                        
+ C4H6+        E            C3H          CH3          H2                       
+ C4H6+        E            C2H6         C2                                    
+ C4H6+        E            C2H4         C2H          H                        
+ C4H6+        E            C2H4         C2H2                                  
+ C4H6+        E            C2H4         C2           H2                       
+ C4H6+        E            C2H3         C2H2         H                        
+ C4H6+        E            C2H3         C2H          H2                       
+ C4H6+        E            C2H5         C2H                                   
+ C4H6+        E            C2H2         CH           CH3                      
+ C4H6+        E            C2H2         C            CH4                      
+ C4H7+        E            C4H6         H                                     
+ C4H7+        E            C4H5         H2                                    
+ C4H7+        E            C4H5         H            H                        
+ C4H7+        E            C4H4         H2           H                        
+ C4H7+        E            C4H3         H2           H2                       
+ C4H7+        E            C3H7         C                                     
+ C4H7+        E            C3H6         CH                                    
+ C4H7+        E            C3H5         1CH2                                  
+ C4H7+        E            C3H5         3CH2                                  
+ C4H7+        E            CH3C2H       CH3                                   
+ C4H7+        E            CH2CCH2      CH3                                   
+ C4H7+        E            CH3C2H       1CH2         H                        
+ C4H7+        E            CH2CCH2      1CH2         H                        
+ C4H7+        E            CH3C2H       3CH2         H                        
+ C4H7+        E            CH2CCH2      3CH2         H                        
+ C4H7+        E            CH3C2H       CH           H2                       
+ C4H7+        E            CH2CCH2      CH           H2                       
+ C4H7+        E            C3H3         CH4                                   
+ C4H7+        E            C3H3         CH3          H                        
+ C4H7+        E            C3H3         1CH2         H2                       
+ C4H7+        E            C3H3         3CH2         H2                       
+ C4H7+        E            C3H2         CH4          H                        
+ C4H7+        E            C3H2         CH3          H2                       
+ C4H7+        E            C3H          CH4          H2                       
+ C4H7+        E            C2H6         C2H                                   
+ C4H7+        E            C2H5         C2H2                                  
+ C4H7+        E            C2H4         C2H2         H                        
+ C4H7+        E            C2H4         C2H          H2                       
+ C4H7+        E            C2H3         C2H3         H                        
+ C4H7+        E            C2H3         C2H2         H2                       
+ C4H7+        E            C2H2         1CH2         CH3                      
+ C4H7+        E            C2H2         3CH2         CH3                      
+ C4H8+        E            C4H7         H                                     
+ C4H8+        E            C4H6         H2                                    
+ C4H8+        E            C4H6         H            H                        
+ C4H8+        E            C4H5         H2           H                        
+ C4H8+        E            C4H5         H            H            H           
+ C4H8+        E            C4H4         H2           H2                       
+ C4H8+        E            C4H4         H2           H            H           
+ C4H8+        E            C3H8         C                                     
+ C4H8+        E            C3H7         CH                                    
+ C4H8+        E            C3H6         1CH2                                  
+ C4H8+        E            C3H6         3CH2                                  
+ C4H8+        E            C3H6         CH           H                        
+ C4H8+        E            C3H6         C            H2                       
+ C4H8+        E            C3H5         CH3                                   
+ C4H8+        E            C3H5         1CH2         H                        
+ C4H8+        E            C3H5         3CH2         H                        
+ C4H8+        E            C3H5         CH           H2                       
+ C4H8+        E            CH3C2H       CH4                                   
+ C4H8+        E            CH2CCH2      CH4                                   
+ C4H8+        E            CH3C2H       CH3          H                        
+ C4H8+        E            CH2CCH2      CH3          H                        
+ C4H8+        E            CH3C2H       1CH2         H2                       
+ C4H8+        E            CH2CCH2      1CH2         H2                       
+ C4H8+        E            CH3C2H       3CH2         H2                       
+ C4H8+        E            CH2CCH2      3CH2         H2                       
+ C4H8+        E            C3H3         CH4          H                        
+ C4H8+        E            C3H3         CH3          H2                       
+ C4H8+        E            C3H2         CH4          H2                       
+ C4H8+        E            C3H2         CH4          H            H           
+ C4H8+        E            C2H6         C2H2                                  
+ C4H8+        E            C2H6         C2H          H                        
+ C4H8+        E            C2H6         C2           H2                       
+ C4H8+        E            C2H5         C2H3                                  
+ C4H8+        E            C2H5         C2H2         H                        
+ C4H8+        E            C2H5         C2H          H2                       
+ C4H8+        E            C2H4         C2H4                                  
+ C4H8+        E            C2H4         C2H3         H                        
+ C4H8+        E            C2H4         CH           CH3                      
+ C4H8+        E            C2H4         C            CH4                      
+ C4H8+        E            C2H3         CH           CH4                      
+ C4H8+        E            C2H2         CH3          CH3                      
+ C4H8+        E            C2H2         1CH2         CH4                      
+ C4H8+        E            C2H2         3CH2         CH4                      
+ C4H8+        E            C2H          CH4          CH3                      
+ C4H8+        E            C2           CH4          CH4                      
+ C5H+         E            dummy                                              
+ C5H2+        E            dummy                                              
+ C5H4+        E            dummy                                              
+ C5H5+        E            dummy                                              
+ C5H7+        E            dummy                                              
+ C6H2+        E            dummy                                              
+ C6H3+        E            dummy                                              
+ C7H7+        E            dummy                                              
+ N(1D)+       E            dummy                                              
+ NH2+         E            N4S          H2                                    
+ NH2+         E            NH           H                                     
+ NH2+         E            N4S          H            H                        
+ NH2+         E            N2D          H            H                        
+ NH2+         E            N2D          H            H                        
+ CH3N+        E            dummy                                              
+ CH2NH2+      E            CH3N         H                                     
+ CH2NH2+      E            1CH2         NH2                                   
+ CH2NH2+      E            3CH2         NH2                                   
+ CH2NH2+      E            HCN          H2           H                        
+ CH2NH2+      E            HNC          H2           H                        
+ CH2NH2+      E            CN           H2           H2                       
+ CH3NH2+      E            dummy                                              
+ CNC+         E            CN           C                                     
+ CCN+         E            CN           C                                     
+ C2H2N+       E            dummy                                              
+ C2HN+        E            dummy                                              
+ CH3CN+       E            dummy                                              
+ C2N2+        E            CN           CN                                    
+ C2H5N+       E            dummy                                              
+ C2HN2+       E            dummy                                              
+ C3N+         E            CN           C2                                    
+ CHCCN+       E            C3N          H                                     
+ CHCCN+       E            C2H          CN                                    
+ CHCCN+       E            C2           H            CN                       
+ CHCCN+       E            HCN          C2                                    
+ CHCCN+       E            HNC          C2                                    
+ CHCCN+       E            C2N          C            H                        
+ CHCCN+       E            C2N          CH                                    
+ CHCCN+       E            N4S          C3H                                   
+ CHCCN+       E            HC2N         C                                     
+ CHCCN+       E            NH           C3                                    
+ CHCCNH+      E            HC3N         H                                     
+ CHCCNH+      E            C3NH         H                                     
+ CHCCNH+      E            HC2NC        H                                     
+ CHCCNH+      E            C2NCH        H                                     
+ CHCCNH+      E            C3N          H2                                    
+ CHCCNH+      E            HCN          C2H                                   
+ CHCCNH+      E            HNC          C2H                                   
+ CHCCNH+      E            CN           C2H2                                  
+ C2H3CN+      E            dummy                                              
+ C3H5N+       E            dummy                                              
+ C4N+         E            C2N          C2                                    
+ C4N+         E            C3N          C                                     
+ C4HN+        E            dummy                                              
+ C4H2N+       E            dummy                                              
+ C4H4N+       E            dummy                                              
+ C4H5N+       E            dummy                                              
+ C4H6N+       E            dummy                                              
+ C4N2+        E            dummy                                              
+ C4HN2+       E            dummy                                              
+ HC5N+        E            dummy                                              
+ C5H2N+       E            dummy                                              
+ C5H3N+       E            dummy                                              
+ C5H4N+       E            dummy                                              
+ C5H5N+       E            dummy                                              
+ C5H6N+       E            dummy                                              
+ C5HN2+       E            dummy                                              
+ C6H2N+       E            dummy                                              
+ Z            E            dummy                                              
+ C6H7N+       E            dummy                                              
+ C6H8N+       E            dummy                                              
+ CxHyNz+      E            dummy                                              
+ C8H2+        E            dummy                                              
+ C8H3+        E            dummy                                              
+ C8H6+        E            dummy                                              
+ C8H7+        E            dummy                                              
+ C9H7+        E            dummy                                              
+ C9H8+        E            dummy                                              
+ C9H9+        E            dummy                                              
+ C10H9+       E            dummy                                              
+ C10H11+      E            dummy                                              
+ C11H9+       E            dummy                                              
+ C7H3N+       E            dummy                                              
+ C6HN2+       E            dummy                                              
+ C6H2N2+      E            dummy                                              
+ C7H5N+       E            dummy                                              
+ C7H3N+       E            dummy                                              
+ C3HN3+       E            dummy                                              
+ H2+          E            H            H                                     
+ C+           E            C                                                  
+ C2H4+        E            C2H3         H                                     
+ C2H4+        E            C2H2         H2                                    
+ C2H4+        E            C2H2         H            H                        
+ C2H4+        E            C2H          H2           H                        
+ C2H4+        E            CH4          C                                     
+ C2H4+        E            CH3          CH                                    
+ C2H4+        E            1CH2         1CH2                                  
+ C2H4+        E            1CH2         3CH2                                  
+ C2H4+        E            3CH2         3CH2                                  
+ C2H5+        E            C2H4         H                                     
+ C2H5+        E            C2H3         H            H                        
+ C2H5+        E            C2H2         H            H            H           
+ C2H5+        E            C2H2         H2           H                        
+ C2H5+        E            CH3          1CH2                                  
+ C2H5+        E            CH3          3CH2                                  
+ C2H5+        E            CH4          CH                                    
+ l-C3H3+      E            C3H2         H                                     
+ l-C3H3+      E            C3H          H2                                    
+ l-C3H3+      E            C3H          H            H                        
+ l-C3H3+      E            C3           H            H2                       
+ l-C3H3+      E            C2H2         CH                                    
+ l-C3H3+      E            C2H2         C            H                        
+ l-C3H3+      E            C2H          1CH2                                  
+ l-C3H3+      E            C2H          3CH2                                  
+ l-C3H3+      E            C2           CH3                                   
+ c-C3H3+      E            C3H2         H                                     
+ c-C3H3+      E            C3H          H2                                    
+ c-C3H3+      E            C3H          H            H                        
+ c-C3H3+      E            C3           H            H2                       
+ c-C3H3+      E            C2H2         CH                                    
+ c-C3H3+      E            C2H2         C            H                        
+ c-C3H3+      E            C2H          1CH2                                  
+ c-C3H3+      E            C2H          3CH2                                  
+ c-C3H3+      E            C2           CH3                                   
+ C3H4+        E            C3H3         H                                     
+ C3H4+        E            C3H2         H2                                    
+ C3H4+        E            C2H3         CH                                    
+ C3H4+        E            C2H2         1CH2                                  
+ C3H4+        E            C2H2         3CH2                                  
+ C3H4+        E            C2H          CH3                                   
+ C3H4+        E            C3H2         H            H                        
+ N(3P)+       E            N4S                                                
+ N2+          E            N4S          N2D                                   
+ N2+          E            N4S          N2D                                   
+ N2+          E            N2D          N2D                                   
+ CN+          E            N4S          C                                     
+ CN+          E            N4S          C                                     
+ CN+          E            N2D          C                                     
+ CN+          E            N4S          C                                     
+ CN+          E            N2D          C                                     
+ CN+          E            N2D          C                                     
+ CN+          E            N2D          C                                     
+ CN+          E            N2D          C                                     
+ CN+          E            N2D          C                                     
+ HCN+         E            CN           H                                     
+ HNC+         E            CN           H                                     
+ CH3CNH+      E            CH3CN        H                                     
+ CH3CNH+      E            CH2CN        H2                                    
+ CH3CNH+      E            CH2CN        H            H                        
+ CH3CNH+      E            CHCN         H2           H                        
+ CH3CNH+      E            C2N          H2           H2                       
+ CH3CNH+      E            C2H4         N4S                                   
+ CH3CNH+      E            C2H2         NH2                                   
+ CH3CNH+      E            C2H2         NH           H                        
+ CH3CNH+      E            C2H2         N4S          H2                       
+ CH3CNH+      E            C2H          NH3                                   
+ CH3CNH+      E            C2H          NH           H2                       
+ CH3CNH+      E            HCN          CH3                                   
+ CH3CNH+      E            HNC          CH3                                   
+ CH3CNH+      E            HCN          1CH2         H                        
+ CH3CNH+      E            HCN          3CH2         H                        
+ CH3CNH+      E            HNC          1CH2         H                        
+ CH3CNH+      E            HNC          3CH2         H                        
+ CH3CNH+      E            HCN          CH           H2                       
+ CH3CNH+      E            HNC          CH           H2                       
+ CH3CNH+      E            CN           CH3          H                        
+ CH3CNH+      E            CH3N         CH                                    
+ CH3CNH+      E            CH2N         1CH2                                  
+ CH3CNH+      E            CH2N         3CH2                                  
+ CH3CNH+      E            CN           CH4                                   
+ CH3CNH+      E            CN           1CH2         H2                       
+ CH3CNH+      E            CN           3CH2         H2                       
+ CH2CHCNH+    E            C2H3CN       H                                     
+ CH2CHCNH+    E            H2C3N        H2                                    
+ CH2CHCNH+    E            H2C3N        H            H                        
+ CH2CHCNH+    E            C3HN         H            H2                       
+ CH2CHCNH+    E            C3N          H2           H2                       
+ CH2CHCNH+    E            C3N          H            H            H2          
+ CH2CHCNH+    E            CNH3         C2H                                   
+ CH2CHCNH+    E            H2CN         C2H2                                  
+ CH2CHCNH+    E            HCN          C2H3                                  
+ CH2CHCNH+    E            HNC          C2H3                                  
+ CH2CHCNH+    E            HCN          C2H2         H                        
+ CH2CHCNH+    E            HNC          C2H2         H                        
+ CH2CHCNH+    E            HCN          C2H          H2                       
+ CH2CHCNH+    E            HNC          C2H          H2                       
+ CH2CHCNH+    E            CN           C2H4                                  
+ CH2CHCNH+    E            CN           C2H2         H2                       
+ CH2CHCNH+    E            CH3CN        CH                                    
+ CH2CHCNH+    E            CH2CN        1CH2                                  
+ CH2CHCNH+    E            CH2CN        3CH2                                  
+ CH2CHCNH+    E            CHCN         CH3                                   
+ CH2CHCNH+    E            C2N          CH4                                   
+ CH2CHCNH+    E            C2N          CH3          H                        
+ CH2CHCNH+    E            NH3          C3H                                   
+ CH2CHCNH+    E            NH2          C3H2                                  
+ CH2CHCNH+    E            NH           C3H3                                  
+ CH2CHCNH+    E            N4S          CH3C2H                                
+ CH2CHCNH+    E            N4S          CH2CCH2                               
+ C2H5CNH+     E            dummy                                              
+ H3+          E            H            H            H                        
+ H3+          E            H2           H                                     
+ H3+          E            H3                                                 
+ HCNH+        E            HCN          H                                     
+ HCNH+        E            HNC          H                                     
+ HCNH+        E            CN           H2                                    
+ HCNH+        E            CN           H            H                        
+ N2H+         E            N2           H                                     
+ N2H+         E            NH           N4S                                   
+ H+           H2           H2+          H                                     
+ H+           CH4          CH3+         H2                                    
+ H+           CH4          CH4+         H                                     
+ H+           C2H6         C2H3+        H2           H2                       
+ H+           C2H6         C2H4+        H2           H                        
+ H+           C2H6         C2H5+        H2                                    
+ H+           HCN          HCN+         H                                     
+ H+           NH3          NH3+         H                                     
+ H2+          H            H+           H2                                    
+ H2+          H2           H3+          H                                     
+ H2+          CH4          CH3+         H2           H                        
+ H2+          CH4          CH4+         H2                                    
+ H2+          CH4          CH5+         H                                     
+ H2+          C2H2         C2H2+        H2                                    
+ H2+          C2H2         C2H3+        H                                     
+ H2+          C2H4         C2H2+        H2           H2                       
+ H2+          C2H4         C2H3+        H2           H                        
+ H2+          C2H4         C2H4+        H2                                    
+ H2+          C2H6         C2H2+        H2           H2           H2          
+ H2+          C2H6         C2H3+        H2           H2           H           
+ H2+          C2H6         C2H4+        H2           H2                       
+ H2+          C2H6         C2H5+        H2           H                        
+ H2+          C2H6         C2H6+        H2                                    
+ H2+          N2           N2H+         H                                     
+ H2+          NH3          NH3+         H2                                    
+ H3+          CH4          CH5+         H2                                    
+ H3+          C2H2         C2H3+        H2                                    
+ H3+          C2H4         C2H3+        H2           H2                       
+ H3+          C2H4         C2H5+        H2                                    
+ H3+          C2H6         C2H5+        H2           H2                       
+ H3+          C4H2         C4H3+        H2                                    
+ H3+          N4S          NH2+         H                                     
+ H3+          N2           N2H+         H2                                    
+ H3+          HCN          HCN+         H2                                    
+ H3+          CH3CN        CH3CNH+      H2                                    
+ H3+          HC3N         CHCCNH+      H2                                    
+ H3+          C2N2         C2HN2+       H2                                    
+ H3+          NH3          NH4+         H2                                    
+ C+           CH4          C2H2+        H2                                    
+ C+           CH4          C2H3+        H                                     
+ C+           C2H2         C3H+         H                                     
+ C+           C2H4         C2H3+        CH                                    
+ C+           C2H4         C2H4+        C                                     
+ C+           C2H4         C3H+         H2           H                        
+ C+           C2H4         C3H2+        H2                                    
+ C+           C2H4         c-C3H3+      H                                     
+ C+           C2H6         C2H2+        CH4                                   
+ C+           C2H6         C2H3+        CH3                                   
+ C+           C2H6         C2H4+        3CH2                                  
+ C+           C2H6         C2H5+        CH                                    
+ C+           C2H6         C3H2+        H2           H2                       
+ C+           C2H6         c-C3H3+      H2           H                        
+ C+           C3H8         C2H3+        C2H5                                  
+ C+           C3H8         c-C3H3+      H2           CH4                      
+ C+           C3H8         C3H7+        1CH2                                  
+ C+           C3H8         C3H8+        C                                     
+ C+           C3H8         C4H5+        H2           H                        
+ C+           C4H2         C5H+         H                                     
+ C+           C4H2         C4H2+        C                                     
+ C+           C4H2         C3H+         C2H                                   
+ C+           HCN          CNC+         H                                     
+ C+           HCN          CCN+         H                                     
+ C+           CH3CN        CxHyNz+      dummy                                 
+ C+           C2N2         CCN+         CN                                    
+ C+           C2N2         CNC+         CN                                    
+ C+           HC3N         C3+          HCN                                   
+ C+           HC3N         C3H+         CN                                    
+ C+           HC3N         CNC+         C2H                                   
+ C+           HC3N         C4N+         H                                     
+ C+           NH3          NH3+         C                                     
+ C+           NH3          HCN+         H2                                    
+ C+           NH3          HCNH+        H                                     
+ CH+          H            C+           H2                                    
+ CH+          H2           CH2+         H                                     
+ CH+          CH4          C2H2+        H2           H                        
+ CH+          CH4          C2H3+        H2                                    
+ CH+          CH4          C2H4+        H                                     
+ CH+          C2H2         C3H2+        H                                     
+ CH+          N4S          CN+          H                                     
+ CH+          N4S          H+           CN                                    
+ CH+          HCN          HCNH+        C                                     
+ CH+          HCN          CNC+         H2                                    
+ CH+          HCN          C2HN+        H                                     
+ CH+          NH3          HCNH+        H2                                    
+ CH+          NH3          NH3+         CH                                    
+ CH+          NH3          NH4+         C                                     
+ CH2+         H2           CH3+         H                                     
+ CH2+         CH4          C2H4+        H2                                    
+ CH2+         CH4          C2H5+        H                                     
+ CH2+         C2H2         c-C3H3+      H                                     
+ CH2+         N4S          CN+          H2                                    
+ CH2+         N4S          HCN+         H                                     
+ CH2+         HCN          C2H2N+       H                                     
+ CH2+         HC3N         CHCCNH+      CH                                    
+ CH2+         NH3          NH4+         CH                                    
+ CH2+         NH3          CH2NH2+      H                                     
+ CH3+         H2           CH5+                                               
+ CH3+         CH4          C2H5+        H2                                    
+ CH3+         C2H2         c-C3H3+      H2                                    
+ CH3+         C2H2         l-C3H3+      H2                                    
+ CH3+         C2H4         C2H3+        CH4                                   
+ CH3+         C2H4         c-C3H3+      H2           H2                       
+ CH3+         C2H4         C3H5+        H2                                    
+ CH3+         C2H6         C2H5+        CH4                                   
+ CH3+         C2H6         C3H5+        H2           H2                       
+ CH3+         C2H6         C3H7+        H2                                    
+ CH3+         C4H2         c-C3H3+      C2H2                                  
+ CH3+         C4H2         C5H3+        H2                                    
+ CH3+         N4S          HCN+         H2                                    
+ CH3+         N4S          HCNH+        H                                     
+ CH3+         HCN          CH3CNH+                                            
+ CH3+         CH3CN        C2H5+        HCN                                   
+ CH3+         CH3CN        HCNH+        C2H4                                  
+ CH3+         CH3CN        C2H5CNH+                                           
+ CH3+         CH3NH2       CH2NH2+      CH4                                   
+ CH3+         HC3N         c-C3H3+      HCN                                   
+ CH3+         HC3N         C4H4N+                                             
+ CH3+         C2N2         C2H2N+       HCN                                   
+ CH3+         C2N2         C2H3CN+                                            
+ CH3+         NH3          NH4+         1CH2                                  
+ CH3+         NH3          NH4+         3CH2                                  
+ CH3+         NH3          CH2NH2+      H2                                    
+ CH4+         H2           CH5+         H                                     
+ CH4+         CH4          CH5+         CH3                                   
+ CH4+         C2H2         C2H2+        CH4                                   
+ CH4+         C2H2         C2H3+        CH3                                   
+ CH4+         C2H2         C2H3+        H2           H                        
+ CH4+         C2H4         C2H4+        CH4                                   
+ CH4+         C2H4         C2H5+        CH3                                   
+ CH4+         C2H4         C3H5+        H2           H                        
+ CH4+         C2H6         C2H4+        H2           CH4                      
+ CH4+         HCN          HCNH+        CH3                                   
+ CH4+         HCN          CH3CNH+      H                                     
+ CH4+         HC3N         CHCCNH+      CH3                                   
+ CH4+         NH3          CH5+         NH2                                   
+ CH4+         NH3          NH4+         CH3                                   
+ CH4+         NH3          NH3+         CH4                                   
+ CH5+         H            CH4+         H2                                    
+ CH5+         C2H2         C2H3+        CH4                                   
+ CH5+         C2H4         C2H5+        CH4                                   
+ CH5+         C2H6         C2H5+        H2           CH4                      
+ CH5+         C2H6         C2H7+        CH4                                   
+ CH5+         HC3N         CHCCNH+      CH4                                   
+ CH5+         NH3          NH4+         CH4                                   
+ C2H+         H2           C2H2+        H                                     
+ C2H+         CH4          C2H2+        CH3                                   
+ C2H+         CH4          c-C3H3+      H2                                    
+ C2H+         CH4          C3H4+        H                                     
+ C2H+         CH4          C3H5+                                              
+ C2H+         C2H2         C4H2+        H                                     
+ C2H+         C2H4         C4H3+        H2                                    
+ C2H+         C2H4         C4H2+        H2           H                        
+ C2H+         N4S          CH+          CN                                    
+ C2H+         HCN          C2H2+        CN                                    
+ C2H+         HCN          HCNH+        C2                                    
+ C2H+         HCN          CHCCN+       H                                     
+ C2H+         HC3N         C4H+         HCN                                   
+ C2H+         HC3N         C4H2+        CN                                    
+ C2H+         HC3N         CHCCNH+      C2                                    
+ C2H+         HC3N         HC5N+        H                                     
+ C2H+         NH3          NH4+         C2                                    
+ C2H+         NH3          C2H2N+       H2                                    
+ C2H2+        H2           C2H3+        H                                     
+ C2H2+        CH4          C3H4+        H2                                    
+ C2H2+        CH4          C3H5+        H                                     
+ C2H2+        C2H2         C4H2+        H2                                    
+ C2H2+        C2H2         C4H3+        H                                     
+ C2H2+        C2H4         C2H4+        C2H2                                  
+ C2H2+        C2H4         c-C3H3+      CH3                                   
+ C2H2+        C2H4         C4H5+        H                                     
+ C2H2+        C2H6         C2H4+        C2H4                                  
+ C2H2+        C2H6         C2H5+        C2H3                                  
+ C2H2+        C2H6         c-C3H3+      H2           CH3                      
+ C2H2+        C2H6         C3H4+        CH4                                   
+ C2H2+        C2H6         C3H5+        CH3                                   
+ C2H2+        C2H6         C4H5+        H2           H                        
+ C2H2+        C2H6         C4H7+        H                                     
+ C2H2+        C4H2         C4H2+        C2H2                                  
+ C2H2+        C4H2         C6H3+        H                                     
+ C2H2+        N4S          CH+          HCN                                   
+ C2H2+        N4S          CNC+         H2                                    
+ C2H2+        N4S          C2HN+        H                                     
+ C2H2+        HCN          HCNH+        C2H                                   
+ C2H2+        HCN          CHCCNH+      H                                     
+ C2H2+        CH3CN        CH3CNH+      C2H                                   
+ C2H2+        CH3CN        C3H4+        HCN                                   
+ C2H2+        CH3CN        C3H5+        CN                                    
+ C2H2+        CH3CN        C4H5N+                                             
+ C2H2+        HC3N         C4H2+        HCN                                   
+ C2H2+        HC3N         C5H3N+                                             
+ C2H2+        NH3          NH3+         C2H2                                  
+ C2H2+        NH3          NH4+         C2H                                   
+ C2H3+        H            C2H2+        H2                                    
+ C2H3+        CH4          C3H5+        H2                                    
+ C2H3+        C2H2         C4H3+        H2                                    
+ C2H3+        C2H4         C2H5+        C2H2                                  
+ C2H3+        C2H6         C2H5+        C2H4                                  
+ C2H3+        C2H6         C3H5+        CH4                                   
+ C2H3+        C2H6         C4H7+        H2                                    
+ C2H3+        N4S          C2HN+        H2                                    
+ C2H3+        HCN          HCNH+        C2H2                                  
+ C2H3+        HC3N         CHCCNH+      C2H2                                  
+ C2H3+        C2N2         C2HN2+       C2H2                                  
+ C2H3+        NH3          NH4+         C2H2                                  
+ C2H4+        H            C2H3+        H2                                    
+ C2H4+        C2H2         c-C3H3+      CH3                                   
+ C2H4+        C2H2         C4H5+        H                                     
+ C2H4+        C2H4         C3H5+        CH3                                   
+ C2H4+        C2H4         C4H7+        H                                     
+ C2H4+        C2H6         C3H6+        CH4                                   
+ C2H4+        C2H6         C3H7+        CH3                                   
+ C2H4+        HC3N         CHCCNH+      C2H3                                  
+ C2H4+        HC3N         C5H4N+       H                                     
+ C2H4+        NH3          NH3+         C2H4                                  
+ C2H4+        NH3          NH4+         C2H3                                  
+ C2H5+        H            C2H4+        H2                                    
+ C2H5+        CH4          C3H7+        H2                                    
+ C2H5+        C2H2         c-C3H3+      CH4                                   
+ C2H5+        C2H2         C4H5+        H2                                    
+ C2H5+        C2H4         C3H5+        CH4                                   
+ C2H5+        C2H6         C3H7+        CH4                                   
+ C2H5+        C2H6         C4H9+        H2                                    
+ C2H5+        C3H8         C3H7+        C2H6                                  
+ C2H5+        HCN          HCNH+        C2H4                                  
+ C2H5+        CH2NH        CH2NH2+      C2H4                                  
+ C2H5+        CH3NH2       CH3NH3+      C2H4                                  
+ C2H5+        CH3CN        CH3CNH+      C2H4                                  
+ C2H5+        C2N2         C2HN2+       C2H4                                  
+ C2H5+        HC3N         CHCCNH+      C2H4                                  
+ C2H5+        NH3          NH4+         C2H4                                  
+ C2H6+        H            C2H5+        H2                                    
+ C2H6+        C2H2         C2H5+        C2H3                                  
+ C2H6+        C2H2         C3H5+        CH3                                   
+ C2H6+        C2H2         C4H7+        H                                     
+ C2H6+        C2H4         C2H4+        C2H6                                  
+ C2H6+        C2H6         C3H8+        CH4                                   
+ C2H6+        C2H6         C3H9+        CH3                                   
+ C2H6+        HCN          HCNH+        C2H5                                  
+ C2H6+        HCN          C2H5CNH+     H                                     
+ C2H6+        NH3          NH3+         C2H6                                  
+ C2H6+        NH3          NH4+         C2H5                                  
+ C2H7+        NH3          NH4+         C2H6                                  
+ C3H+         H2           C3H2+        H                                     
+ C3H+         H2           c-C3H3+                                            
+ C3H+         CH4          C2H3+        C2H2                                  
+ C3H+         CH4          C4H3+        H2                                    
+ C3H+         C2H2         C5H2+        H                                     
+ C3H+         C2H4         c-C3H3+      C2H2                                  
+ C3H+         C2H4         C5H2+        H2                                    
+ C3H+         CH3C2H       C4H3+        C2H2                                  
+ C3H+         CH2CCH2      C4H3+        C2H2                                  
+ C3H+         C4H2         C5H2+        C2H                                   
+ C3H+         C4H2         C5H+         C2H2                                  
+ C3H+         C4H2         C4H2+        C3H                                   
+ C3H+         HCN          HCNH+        C3                                    
+ C3H+         HCN          C4H2N+                                             
+ C3H+         CH3CN        C2H3+        HC3N                                  
+ C3H+         CH3CN        CH3CNH+      C3                                    
+ C3H+         CH3CN        CHCCNH+      C2H2                                  
+ C3H+         CH3CN        C5H4N+                                             
+ C3H+         C2N2         C5HN2+                                             
+ C3H+         HC3N         C6H2N+                                             
+ C3H2+        C2H2         C5H3+        H                                     
+ C3H2+        CH3C2H       C4H2+        C2H4                                  
+ C3H2+        CH3C2H       C4H3+        C2H3                                  
+ C3H2+        CH3C2H       C4H4+        C2H2                                  
+ C3H2+        CH3C2H       C5H3+        CH3                                   
+ C3H2+        CH3C2H       C6H5+        H                                     
+ C3H2+        CH2CCH2      C4H2+        C2H4                                  
+ C3H2+        CH2CCH2      C4H3+        C2H3                                  
+ C3H2+        CH2CCH2      C4H4+        C2H2                                  
+ C3H2+        CH2CCH2      C5H3+        CH3                                   
+ C3H2+        CH2CCH2      C6H5+        H                                     
+ C3H2+        HCN          Z            dummy                                 
+ C3H2+        NH3          NH4+         C3H                                   
+ C3H2+        NH3          CH3N+        C2H2                                  
+ C3H2+        NH3          C2H5+        CN                                    
+ C3H2+        NH3          CH2CHCNH+    H                                     
+ C3H2+        NH3          C3H5N+                                             
+ l-C3H3+      N4S          CHCCN+       H2                                    
+ l-C3H3+      C2H2         c-C3H3+      C2H2                                  
+ l-C3H3+      C2H4         C5H5+        H2                                    
+ l-C3H3+      C2H4         C5H7+                                              
+ l-C3H3+      C4H2         c-C3H3+      C4H2                                  
+ l-C3H3+      C4H2         C5H3+        C2H2                                  
+ l-C3H3+      CH3CN        CxHyNz+      dummy                                 
+ l-C3H3+      HC3N         CxHyNz+      dummy                                 
+ l-C3H3+      NH3          NH4+         C3H2                                  
+ l-C3H3+      NH3          HCNH+        C2H4                                  
+ C3H4+        H            c-C3H3+      H2                                    
+ C3H4+        C2H2         C5H5+        H                                     
+ C3H4+        CH3C2H       C3H5+        C3H3                                  
+ C3H4+        CH3C2H       C4H4+        C2H4                                  
+ C3H4+        CH3C2H       C4H6+        C2H2                                  
+ C3H4+        CH3C2H       C5H5+        CH3                                   
+ C3H4+        CH3C2H       C6H5+        H2           H                        
+ C3H4+        CH3C2H       C6H7+        H                                     
+ C3H4+        CH2CCH2      C3H5+        C3H3                                  
+ C3H4+        CH2CCH2      C4H4+        C2H4                                  
+ C3H4+        CH2CCH2      C4H6+        C2H2                                  
+ C3H4+        CH2CCH2      C5H5+        CH3                                   
+ C3H4+        CH2CCH2      C6H5+        H2           H                        
+ C3H4+        CH2CCH2      C6H7+        H                                     
+ C3H4+        NH3          NH3+         CH3C2H                                
+ C3H4+        NH3          NH3+         CH2CCH2                               
+ C3H4+        NH3          NH4+         C3H3                                  
+ C3H5+        H            C2H2+        CH4                                   
+ C3H5+        H            C2H3+        CH3                                   
+ C3H5+        C2H2         C5H5+        H2                                    
+ C3H5+        C2H4         C5H7+        H2                                    
+ C3H5+        C2H4         C5H9+                                              
+ C3H5+        N4S          C2H4+        HCN                                   
+ C3H5+        N4S          CH2CHCNH+    H2                                    
+ C3H5+        HCN          C4H6N+                                             
+ C3H5+        CH3CN        CH2CHCNH+    CH3C2H                                
+ C3H5+        CH3CN        CH2CHCNH+    CH2CCH2                               
+ C3H5+        HC3N         CHCCNH+      CH3C2H                                
+ C3H5+        HC3N         CHCCNH+      CH2CCH2                               
+ C3H5+        CH2NH        CH2NH2+      CH3C2H                                
+ C3H5+        CH2NH        CH2NH2+      CH2CCH2                               
+ C3H5+        CH3NH2       CH3NH3+      CH3C2H                                
+ C3H5+        CH3NH2       CH3NH3+      CH2CCH2                               
+ C3H5+        CH3NH2       CH2NH2+      C3H6                                  
+ C3H5+        NH3          NH4+         CH3C2H                                
+ C3H5+        NH3          NH4+         CH2CCH2                               
+ C3H6+        C3H6         C3H7+        C3H5                                  
+ C3H6+        C3H6         C4H7+        C2H5                                  
+ C3H6+        C3H6         C4H8+        C2H4                                  
+ C3H6+        C3H6         C5H9+        CH3                                   
+ C3H6+        HCN          CH3CN+       C2H4                                  
+ C3H6+        HCN          C4H6N+       H                                     
+ C3H6+        NH3          CH2NH2+      C2H5                                  
+ C3H6+        NH3          CH3NH2+      C2H4                                  
+ C3H6+        NH3          NH4+         C3H5                                  
+ C3H7+        H            C3H6+        H2                                    
+ C3H7+        NH3          NH4+         C3H6                                  
+ C4H2+        C2H2         C6H3+        H                                     
+ C4H2+        C2H2         C6H4+                                              
+ C4H2+        CH3C2H       C5H4+        C2H2                                  
+ C4H2+        CH3C2H       C7H5+        H                                     
+ C4H2+        CH2CCH2      C5H4+        C2H2                                  
+ C4H2+        CH2CCH2      C7H5+        H                                     
+ C4H2+        C4H2         C6H2+        C2H2                                  
+ C4H2+        C4H2         C8H2+        H2                                    
+ C4H2+        C4H2         C8H3+        H                                     
+ C4H2+        HC3N         C7H3N+                                             
+ C4H2+        C2N2         CxHyNz+      dummy                                 
+ C4H3+        C2H2         C6H5+                                              
+ C4H3+        CH3C2H       C5H5+        C2H2                                  
+ C4H3+        CH3C2H       C6H5+        1CH2                                  
+ C4H3+        CH2CCH2      C5H5+        C2H2                                  
+ C4H3+        CH2CCH2      C6H5+        1CH2                                  
+ C4H3+        C4H2         C6H3+        C2H2                                  
+ C4H3+        C2N2         CxHyNz+      dummy                                 
+ C4H3+        NH3          NH4+         C4H2                                  
+ C4H3+        CH2NH        CH2NH2+      C4H2                                  
+ C4H3+        CH3NH2       CH3NH3+      C4H2                                  
+ C4H3+        CH3NH2       CH2NH2+      C4H2         H2                       
+ C4H5+        CH3C2H       C6H5+        CH4                                   
+ C4H5+        CH3C2H       C7H7+        H2                                    
+ C4H5+        CH2CCH2      C6H5+        CH4                                   
+ C4H5+        CH2CCH2      C7H7+        H2                                    
+ C4H5+        C4H2         C6H5+        C2H2                                  
+ C4H5+        NH3          NH4+         C4H4                                  
+ C5H5+        C2H2         C7H7+                                              
+ C5H5+        CH3C2H       C6H7+        C2H2                                  
+ C5H5+        CH3C2H       C8H7+        H2                                    
+ C5H5+        CH2CCH2      C6H7+        C2H2                                  
+ C5H5+        CH2CCH2      C8H7+        H2                                    
+ C5H5+        C4H2         C7H5+        C2H2                                  
+ C5H5+        C4H2         C7H7+        C2                                    
+ C5H5+        C4H2         C9H7+                                              
+ C5H5+        NH3          NH4+         C5H4                                  
+ C5H5+        CH2NH        CH2NH2+      C5H4                                  
+ C5H5+        CH3NH2       CH3NH3+      C5H4                                  
+ C5H5+        CH3NH2       CH2NH2+      C5H4         H2                       
+ C6H4+        H            C6H5+                                              
+ C6H5+        CH4          C7H7+        H2                                    
+ C6H5+        C2H2         C8H6+        H                                     
+ C6H5+        C2H2         C8H7+                                              
+ C6H5+        C2H4         C6H7+        C2H2                                  
+ C6H5+        C2H4         C8H7+        H2                                    
+ C6H5+        C2H6         C6H7+        C2H4                                  
+ C6H5+        C2H6         C7H7+        CH4                                   
+ C6H5+        CH3C2H       C7H7+        C2H2                                  
+ C6H5+        CH3C2H       C9H7+        H2                                    
+ C6H5+        CH3C2H       C9H8+        H                                     
+ C6H5+        CH2CCH2      C7H7+        C2H2                                  
+ C6H5+        CH2CCH2      C9H7+        H2                                    
+ C6H5+        CH2CCH2      C9H8+        H                                     
+ C6H5+        C3H6         C7H7+        C2H4                                  
+ C6H5+        NH3          NH4+         C6H4                                  
+ C6H5+        NH3          C6H7N+       H                                     
+ C6H5+        NH3          C6H8N+                                             
+ C6H7+        CH3C2H       C7H7+        C2H4                                  
+ C6H7+        CH2CCH2      C7H7+        C2H4                                  
+ C6H7+        NH3          NH4+         C6H6                                  
+ C7H7+        CH3C2H       C9H8+        CH3                                   
+ C7H7+        CH3C2H       C10H9+       H2                                    
+ C7H7+        CH3C2H       C10H11+                                            
+ C7H7+        CH2CCH2      C9H8+        CH3                                   
+ C7H7+        CH2CCH2      C10H9+       H2                                    
+ C7H7+        CH2CCH2      C10H11+                                            
+ C7H7+        C4H2         C11H9+                                             
+ C7H7+        CH2NH        CH2NH2+      C4H2                                  
+ N(3P)+       H2           NH+          H                                     
+ N(3P)+       CH4          CH3+         NH                                    
+ N(3P)+       CH4          CH4+         N4S                                   
+ N(3P)+       CH4          HCN+         H2           H                        
+ N(3P)+       CH4          HCNH+        H2                                    
+ N(3P)+       C2H2         C2H2+        N4S                                   
+ N(3P)+       C2H2         CNC+         H2                                    
+ N(3P)+       C2H2         C2HN+        H                                     
+ N(3P)+       C2H4         C2H2+        NH2                                   
+ N(3P)+       C2H4         C2H3+        NH                                    
+ N(3P)+       C2H4         C2H4+        N4S                                   
+ N(3P)+       C2H4         HCN+         CH3                                   
+ N(3P)+       C2H4         HCNH+        1CH2                                  
+ N(3P)+       C2H4         C2HN+        H2           H                        
+ N(3P)+       C2H4         C2H2N+       H2                                    
+ N(3P)+       C2H6         C2H5+        NH                                    
+ N(3P)+       C2H6         C2H4+        NH2                                   
+ N(3P)+       C2H6         C2H3+        NH3                                   
+ N(3P)+       C2H6         HCNH+        CH4                                   
+ N(3P)+       HCN          HCN+         N4S                                   
+ N(3P)+       HCN          CH+          N2                                    
+ N(3P)+       C2N2         CNC+         N2                                    
+ N(3P)+       C2N2         C2N2+        N4S                                   
+ N(3P)+       HC3N         C3H+         N2                                    
+ N(3P)+       HC3N         CHCCN+       N4S                                   
+ N(3P)+       NH3          NH2+         NH                                    
+ N(3P)+       NH3          NH3+         N4S                                   
+ N(3P)+       NH3          N2H+         H2                                    
+ N(3P)+       N2           N(3P)+       N2                                    
+ NH+          H2           H3+          N4S                                   
+ NH+          H2           NH2+         H                                     
+ NH+          CH4          CH5+         N4S                                   
+ NH+          CH4          NH2+         CH3                                   
+ NH+          CH4          HCNH+        H2           H                        
+ NH+          C2H4         C2H2+        NH3                                   
+ NH+          C2H4         C2H3+        NH2                                   
+ NH+          C2H4         C2H4+        NH                                    
+ NH+          C2H4         HCNH+        CH3                                   
+ NH+          C2H4         CH3N+        1CH2                                  
+ NH+          C2H4         CH3CN+       H2                                    
+ NH+          N2           N2H+         N4S                                   
+ NH+          NH3          NH3+         NH                                    
+ NH+          NH3          NH4+         N4S                                   
+ NH2+         H2           NH3+         H                                     
+ NH2+         CH4          NH3+         CH3                                   
+ NH2+         C2H4         C2H4+        NH2                                   
+ NH2+         C2H4         C2H5+        NH                                    
+ NH2+         C2H4         CH2NH2+      1CH2                                  
+ NH2+         C2H4         C2H5N+       H                                     
+ NH2+         NH3          NH3+         NH2                                   
+ NH2+         NH3          NH4+         NH                                    
+ NH3+         H2           NH4+         H                                     
+ NH3+         CH4          NH4+         CH3                                   
+ NH3+         C2H4         NH4+         C2H3                                  
+ NH3+         NH3          NH4+         NH2                                   
+ N2+          H2           N2H+         H                                     
+ N2+          CH4          CH2+         H2           N2                       
+ N2+          CH4          CH3+         H            N2                       
+ N2+          CH4          N2H+         CH3                                   
+ N2+          C2H2         C2H2+        N2                                    
+ N2+          C2H4         C2H3+        H            N2                       
+ N2+          C2H4         C2H2+        H2           N2                       
+ N2+          C2H4         N2H+         C2H3                                  
+ N2+          C2H6         C2H5+        N2           H                        
+ N2+          C2H6         C2H4+        N2           H2                       
+ N2+          C2H6         C2H3+        N2           H2           H           
+ N2+          C2H6         C2H2+        N2           H2           H2          
+ N2+          C2H6         CH3+         N2           CH3                      
+ N2+          C2H6         CH4+         N2           1CH2                     
+ N2+          C3H8         C3H5+        N2           H2           H           
+ N2+          C3H8         C2H5+        N2           CH3                      
+ N2+          C3H8         C2H4+        N2           CH4                      
+ N2+          C3H8         C2H3+        N2           CH4          H           
+ N2+          HCN          HCN+         N2                                    
+ N2+          CH3CN        C2HN+        H2           N2                       
+ N2+          CH3CN        C2H2N+       H            N2                       
+ N2+          CH3CN        CH3CN+       N2                                    
+ N2+          CH3NH2       CH2NH2+      N2           H                        
+ N2+          C2N2         C2N2+        N2                                    
+ N2+          HC3N         CHCCN+       N2                                    
+ N2+          HC3N         N2H+         C3N                                   
+ N2+          NH3          NH3+         N2                                    
+ N2H+         CH4          CH5+         N2                                    
+ N2H+         C2H2         C2H3+        N2                                    
+ N2H+         C2H6         C2H5+        H2           N2                       
+ N2H+         C2H6         C2H7+        N2                                    
+ N2H+         C4H2         C4H3+        N2                                    
+ N2H+         HCN          HCNH+        N2                                    
+ N2H+         C2N2         C2HN2+       N2                                    
+ N2H+         HC3N         CHCCNH+      N2                                    
+ N2H+         NH3          NH4+         N2                                    
+ CN+          H            H+           CN                                    
+ CN+          H2           HCN+         H                                     
+ CN+          H2           HCN+         H                                     
+ CN+          CH4          CH3+         HCN                                   
+ CN+          CH4          CH4+         CN                                    
+ CN+          CH4          HCN+         CH3                                   
+ CN+          CH4          HCNH+        1CH2                                  
+ CN+          CH4          C4H2N+       H2                                    
+ CN+          C2H2         C2H2+        CN                                    
+ CN+          C2H2         CHCCN+       H                                     
+ CN+          C2H4         C2H4+        CN                                    
+ CN+          C2H4         HCN+         C2H5                                  
+ CN+          C2H4         CHCCNH+      H2                                    
+ CN+          C2H6         C2H3+        H2           HCN                      
+ CN+          C2H6         C2H4+        H            HCN                      
+ CN+          C2H6         C2H5+        HCN                                   
+ CN+          C4H2         C4H2+        CN                                    
+ CN+          C4H2         HC5N+        H                                     
+ CN+          N4S          N2+          C                                     
+ CN+          HCN          HCN+         CN                                    
+ CN+          HCN          C2N2+        H                                     
+ CN+          C2N2         CNC+         CN2                                   
+ CN+          C2N2         C2N2+        CN                                    
+ CN+          C2N2         C3N+         N2                                    
+ CN+          HC3N         C3N+         HCN                                   
+ CN+          HC3N         CHCCN+       CN                                    
+ CN+          NH3          NH2+         HCN                                   
+ CN+          NH3          NH3+         CN                                    
+ CN+          NH3          HCN+         NH2                                   
+ CN+          NH3          HCNH+        NH                                    
+ HCN+         H2           HCNH+        H                                     
+ HCN+         CH4          C2H3+        NH2                                   
+ HCN+         CH4          HCNH+        CH3                                   
+ HCN+         C2H2         C2H2+        HCN                                   
+ HCN+         C2H2         C2H3+        CN                                    
+ HCN+         C2H2         CHCCNH+      H                                     
+ HCN+         HCN          HCNH+        CN                                    
+ HCN+         HC3N         CHCCN+       HCN                                   
+ HCN+         HC3N         CHCCNH+      CN                                    
+ HCN+         C2N2         C2HN2+       CN                                    
+ HCN+         NH3          NH3+         HCN                                   
+ HCN+         NH3          HCNH+        NH2                                   
+ HCNH+        C4H2         C4H3+        HCN                                   
+ HCNH+        CH2NH        CH2NH2+      HCN                                   
+ HCNH+        CH3NH2       CH3NH3+      HCN                                   
+ HCNH+        CH3CN        CH3CNH+      HCN                                   
+ HCNH+        HC3N         CHCCNH+      HCN                                   
+ HCNH+        NH3          NH4+         HCN                                   
+ CNC+         CH4          C2H3+        HCN                                   
+ CNC+         CH4          CHCCNH+      H2                                    
+ CNC+         C2H2         C3H+         HCN                                   
+ CNC+         C2H2         HCNH+        C3                                    
+ CNC+         C2H2         C4HN+        H                                     
+ CNC+         C2H4         C2H4+        C2N                                   
+ CNC+         C2H4         c-C3H3+      HCN                                   
+ CNC+         C2H4         C2H2N+       C2H2                                  
+ CNC+         C2H4         C4H2N+       H2                                    
+ CNC+         C2H6         C2H3+        CH3CN                                 
+ CNC+         C2H6         C2H5+        HC2N                                  
+ CNC+         C2H6         c-C3H3+      H2           HCN                      
+ CNC+         C2H6         C3H5+        HCN                                   
+ CNC+         C2H6         C2H2N+       C2H4                                  
+ CNC+         C4H2         C5H+         HCN                                   
+ CNC+         C4H2         C4H2+        C2N                                   
+ CNC+         C4H2         C6H2N+                                             
+ CNC+         CH3CN        C2H3+        C2N2                                  
+ CNC+         HC3N         C3H+         C2N2                                  
+ CNC+         NH3          HCNH+        HCN                                   
+ CNC+         NH3          N2H+         C2H2                                  
+ CCN+         H2           HCNH+        H                                     
+ CCN+         H2           C2H2N+                                             
+ CCN+         CH4          C2H3+        HCN                                   
+ CCN+         CH4          HCNH+        C2H2                                  
+ CCN+         CH4          CHCCNH+      H2                                    
+ CCN+         C2H2         C3H+         HCN                                   
+ CCN+         C2H2         HCNH+        C3                                    
+ CHCCN+       H2           C2H2+        HCN                                   
+ CHCCN+       H2           CHCCNH+      H                                     
+ CHCCN+       CH4          C3H4+        HCN                                   
+ CHCCN+       CH4          CH3CN+       C2H2                                  
+ CHCCN+       CH4          CHCCNH+      CH3                                   
+ CHCCN+       C2H2         C2H2+        HC3N                                  
+ CHCCN+       C2H2         C4H2+        HCN                                   
+ CHCCN+       C2H4         C2H4+        HC3N                                  
+ CHCCN+       C2H4         CHCCNH+      C2H3                                  
+ CHCCN+       C4H2         C4H2+        HC3N                                  
+ CHCCN+       HC3N         HC5N+        HCN                                   
+ CHCCN+       HC3N         C6HN2+       H                                     
+ CHCCN+       HC3N         C6H2N2+                                            
+ CHCCN+       NH3          NH3+         HC3N                                  
+ CHCCNH+      C2H4         C5H5N+       H                                     
+ CHCCNH+      NH3          NH4+         HC3N                                  
+ HC5N+        C2H4         C5H2N+       C2H3                                  
+ HC5N+        C2H4         C7H3N+       H2                                    
+ HC5N+        C2H4         C7H5N+                                             
+ C2N2+        H            HNC+         CN                                    
+ C2N2+        H            C2H+         N2                                    
+ C2N2+        H2           C2HN2+       H                                     
+ C2N2+        C2H2         C2H2+        C2N2                                  
+ C2N2+        C2H2         C4HN2+       H                                     
+ C2N2+        C2H2         C4N2+        H2                                    
+ C2N2+        C4H2         C4H2+        C2N2                                  
+ C2N2+        C4H2         HC5N+        HCN                                   
+ C2N2+        HCN          HCN+         C2N2                                  
+ C2N2+        HCN          C2HN2+       CN                                    
+ C2N2+        HCN          C3HN3+                                             
+ C3N+         H2           CHCCN+       H                                     
+ C3N+         H2           CHCCNH+                                            

@@ -1,0 +1,18 @@
+CH5+ + E					
+	
+CHECKED	PP
+				
+ALPHA	Logu	2.8e-7	14e-7	
+REF_ALPHA	Florescu2006	Sheehan2004	physto
+	
+BETA	Nort	1.5	1.5	0.5	1.5
+REF_BETA	Florescu2006	Sheehan2004	physto	Plessis2010
+					
+REF_BR		Molek2009
+BR	Diri	Dior	Diut		
+CH4 + H			0.8/1		
+CH3 + H2		2	0/0.08		
+CH3 + H + H		1			
+1CH2 + H2 + H	1/1		0/0.01		
+3CH2 + H2 + H	1				
+CH + H2 + H2			0/0.01		

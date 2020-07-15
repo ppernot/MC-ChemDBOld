@@ -1,0 +1,11 @@
+H2O+ + HCN									
+
+CHECKED	PP
+REF_ALPHA	McEwan2007							
+REF_BR	McEwan2007
+									
+ALPHA	Logn	0.2100E-08	1.1						
+									
+BR	Dior								
+HCNH+ + OH	1								
+H3O+ + CN	2								

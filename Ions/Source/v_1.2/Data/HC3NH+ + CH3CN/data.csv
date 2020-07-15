@@ -1,0 +1,13 @@
+HC3NH+ + CH3CN			
+			
+RQ	Bug in reference for product (C5H4N+)		
+			
+CHECKED	PP		
+REF_ALPHA	McEwan2007		
+REF_BR	McEwan2007		
+			
+ALPHA	Logn	1.6e-9	1.3
+			
+BR	Dirg		
+CH3CNH+ + HC3N	0.80/0.08		
+C4H4N+ + HCN	0.20/0.07		

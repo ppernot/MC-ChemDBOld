@@ -1,0 +1,14 @@
+H+ + CH3CHNH
+
+CHECKED	PP
+
+REF_ALPHA	Quan2016							
+ALPHA	Logn	10.3e-9	2						
+
+REF_BETA	Quan2016							
+BETA	Delta	-0.5						
+
+REF_BR	Quan2016
+BR	Diri									
+CH3CNH+ + H2	1/1
+C2H5N+ + H	1	

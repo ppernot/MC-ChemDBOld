@@ -1,0 +1,10 @@
+O+ + CH4									
+
+CHECKED	PP
+REF_ALPHA	Smith1992							
+ALPHA	Logn	1.1e-9	1.2						
+
+REF_BR	Smith1992									
+BR	Dirg									
+CH4+ + O3P	0.8/0.02
+CH3+ + OH	0.2/0.02									

@@ -1,6 +1,6 @@
 rm(list = ls())
 
-version   = '1.1'
+version   = '1.2'
 rootDir   = '/home/pernot/Bureau/Titan-APSIS/MC-ChemDB/'
 sourceDir = paste0(rootDir, 'Neutrals/Source/v_', version, '/')
 publicDir = paste0(rootDir, 'Neutrals/Public/v_', version, '/')

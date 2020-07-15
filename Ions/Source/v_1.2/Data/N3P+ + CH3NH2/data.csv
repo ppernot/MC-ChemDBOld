@@ -1,0 +1,16 @@
+N3P+ + CH3NH2									
+
+CHECKED	PP
+REF_ALPHA	Jackson2005							
+REF_BR	Jackson2005
+									
+ALPHA	Logn	2.56e-9	1.15						
+									
+BETA	Delta	0							
+									
+BR	Dirg								
+CH3+ + NH2 + N4S	0.07/0.05					
+HCNH+ + H2 + H + N4S	0.18/0.05				
+CH2NH+ + H2 + N4S	0.07/0.05				
+CH2NH2+ + H + N4S	0.62/0.05					
+CH3NH2+ + N4S	0.06/0.05						

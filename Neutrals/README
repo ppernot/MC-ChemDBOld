@@ -6,3 +6,7 @@
 		* Added reactions for O chemistry, mostly based on Vuitton2019 and KIDA
 		* Added Fc column in trimolecular data files
 
+2020-06-23 : 	* v1.2
+		* Introduced updates in Hickson2020 (A kinetic study of the N(2D)+ C2H4 
+               	reaction at low temperature)
+

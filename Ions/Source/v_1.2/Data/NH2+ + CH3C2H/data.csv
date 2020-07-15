@@ -1,0 +1,17 @@
+NH2+ + CH3C2H			
+			
+CHECKED	PP		
+			
+RQ 	The rates of the channels seem to have been measured independently: the global rate is fixed and the BR are taken here as independent, with the 20% uncertainty of the partial rates. Check products CHCNH+, CH2CNH+, CH2CHCNH+ ???		
+			
+REF_ALPHA	Operti2004	Vuitton2007	
+REF_BR	Operti2004	Vuitton2007	
+			
+ALPHA	Delta	7.8e-10	
+			
+BR	Diri	Diri	Mlgn
+C3H4+ + NH2	1/1		0.37/1.2
+CHCNH+ + CH4	1		
+C3H5+ + NH		1/1	0.37/1.2
+CH2CNH+ + 3CH2 + H		1	
+CH2CHCNH+ + H2			0.26/1.2

@@ -1,0 +1,11 @@
+CNC+ + NH3									
+
+CHECKED	PP
+REF_ALPHA	Anicich2003							
+REF_BR	Anicich2003
+									
+ALPHA	Logn	0.1850E-08	1.1						
+									
+BR	Dirg								
+HCNH+ + HCN	0.95/0.09								
+N2H+ + C2H2	0.05/0.05								

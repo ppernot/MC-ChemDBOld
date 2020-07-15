@@ -1,0 +1,13 @@
+H+ + CH4
+
+CHECKED	PP									
+									
+ALPHA	Logn	0.4150E-08	1.1000E+00
+REF_ALPHA	Anicich2003						
+									
+BETA	Delta	0							
+			
+REF_BR	Anicich2003						
+BR	Dirg								
+CH3+ + H2	0.8200E+00/0.2460E+00							
+CH4+ + H	0.1800E+00/0.5400E-01							

@@ -1,0 +1,12 @@
+N3P+ + E			
+
+CHECKED	PP
+														
+ALPHA	Logn	3.5e-12	1.2
+REF_ALPHA	Dutuit2013
+			
+BETA	Nort	0.7	0.2	0.5	1.5
+REF_BETA	Dutuit2013
+								
+BR			
+N4S + HV			

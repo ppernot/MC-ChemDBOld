@@ -1,0 +1,29 @@
+CN+ + E					
+
+CHECKED	PP
+					
+ALPHA	Logn	3.4E-7	1.16		
+REF_ALPHA 	LePadellec1999				
+					
+BETA	Nort	0.55	0.55	0.5	1.5
+REF_BETA	LePadellec1999	Adams2006	Plessis2010		
+					
+REF_BR	LePadellec1999	Plessis2010			
+					
+###BR###	Diri	Diri	Diri	Dirg	
+N4S + C3P				0.003/0.005	
+N4S + C1D				0.038/0.028	
+N2D + C3P	1/1			0.142/0.014	
+N4S + C1S	1				
+N2P + C3P		1/1		0.560/0.026	
+N2D + C1D		1			
+N2P + C1D			1/1	0.255/0.014	
+N2D + C1S			1		
+N2P + C1S				0.002/0.004	
+					
+BR	Diri	Diri	Dirg		
+N4S + C			0.04/0.03		
+N2D + C	1/1		0.14/0.014		
+N4S + C	1				
+N2P + C		1/1	0.82/0.03		
+N2D + C		1			

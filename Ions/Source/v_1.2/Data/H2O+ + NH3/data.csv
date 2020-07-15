@@ -1,0 +1,10 @@
+H2O+ + NH3									
+
+CHECKED	PP
+REF_ALPHA	Anicich1993							
+ALPHA	Logn	0.3150E-08	1.1						
+
+REF_BR	Anicich1993									
+BR	Dirg									
+NH3+ + H2O	0.7/0.07
+NH4+ + OH	0.3/0.03									

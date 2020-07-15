@@ -1,0 +1,17 @@
+CH4+ + NH3			
+			
+CHECKED	PP		
+			
+TYPE	ionpol1		
+			
+ALPHA	Logn	1.18E-9	2
+REF_ALPHA	KIDA		
+			
+BETA	Delta	3.65	
+REF_BETA	KIDA		
+			
+REF_BR		Anicich2003	
+BR	Dirg		
+CH5+ + NH2	0.02/0.02		
+NH4+ + CH3	0.45/0.15		
+NH3+ + CH4	0.53/0.18		

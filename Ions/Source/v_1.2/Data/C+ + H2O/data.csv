@@ -1,0 +1,11 @@
+C+ + H2O
+
+CHECKED	PP									
+									
+ALPHA	Logn	0.2400E-08	1.1500E+00						
+REF_ALPHA	McEwan2007							
+
+REF_BR	McEwan2007								
+BR	Dirg								
+H2O+ + C	0.1000E+00/0.1000E+00								
+HCO+ + H	0.9000E+00/0.2700E+00								

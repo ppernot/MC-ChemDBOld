@@ -1,0 +1,838 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{datetime}
+\usepackage{refstyle}
+\usepackage{url}
+\usepackage[title,toc,page,header]{appendix} 
+\usepackage[nosort,super]{cite}
+
+\usepackage{todonotes}
+\newcommand{\PP}[1]{\todo[inline,color=green!20!white]{\textbf{Pascal:} #1}}
+
+\newcommand{\brarrow}[1]{\stackrel{\underrightarrow{#1}}{}}
+\end_preamble
+\use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "citecolor = teal, linkcolor = teal,  urlcolor  = teal"
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 2
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #b5bd68
+\end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+PhotoProcs database
+\end_layout
+
+\begin_layout Author
+P.
+ Pernot
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+name "orcid:0000-0001-8586-6222"
+target "http://orcid.org/0000-0001-8586-6222"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Abstract
+This note describes the procedures and codes used to generate the photoprocesses
+ cross-sections and branching ratios database for the 
+\family typewriter
+reactor
+\family default
+ code.
+\end_layout
+
+\begin_layout Section
+What
+\end_layout
+
+\begin_layout Standard
+The PhotoProcs database is built on a scheme to integrate with MCChemDB.
+ It stores random samples of the properties necessary to run the photolysis
+ module of the 
+\family typewriter
+reactor
+\family default
+ photochemistry code 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Peng2014"
+literal "false"
+
+\end_inset
+
+.
+ For each sample and species (X) there is a photo-absorption cross-section
+ file (seX.dat) and several branching ratios (quantum yields) files (qyX_i.dat)
+ depending on the number of channels.
+ 
+\end_layout
+
+\begin_layout Standard
+This separation aims at preserving the uncertainty budget on experimental
+ data, cross-sections and branching ratios being issued from different experimen
+ts.
+ This enables also to ensure that the uncertain branching ratios always
+ sum to 1, decoupling their uncertainty from the cross-section uncertainty
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Plessis2010"
+literal "false"
+
+\end_inset
+
+.
+ Partial cross-sections are recovered by product of the photo-absorption
+ cross-section with the channel-wise branching ratios.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\overline{J_{ij}\left(x\right)}=\int_{\lambda}I_{0}\left(\lambda\right)\sigma_{i}\left(\lambda\right)b_{ij}\left(\lambda\right)\frac{1-e^{-L{\displaystyle \sum_{i}}\left(c_{i}\sigma_{i}\left(\lambda\right)\right)}}{L{\displaystyle \sum_{i}}\left(c_{i}\sigma_{i}\left(\lambda\right)\right)}\mathrm{d}\lambda.
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement !t
+wide true
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename PhotoProcsPrinciple.pdf
+	lyxscale 50
+	width 12cm
+	BoundingBox 0bp 0bp 595bp 842bp
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Dataflow"
+
+\end_inset
+
+Dataflow to generate PhotoProcs samples
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+How
+\end_layout
+
+\begin_layout Standard
+The generation of MC samples for cross-sections and branching ratios requires
+ three steps (Fig.
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Dataflow"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+), as described below.
+\end_layout
+
+\begin_layout Subsection
+Management of reference data ( from 
+\family typewriter
+Data
+\family default
+ to 
+\family typewriter
+Generated
+\family default
+)
+\end_layout
+
+\begin_layout Standard
+The raw data of several sources (Leiden
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://home.strw.leidenuniv.nl/~ewine/photo
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+, SWRI
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://phidrates.space.swri.edu
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+...)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Heays2017,Huebner2015"
+literal "false"
+
+\end_inset
+
+ are stored as-is, and treated to generate '
+\family typewriter
+se
+\family default
+' and '
+\family typewriter
+qy
+\family default
+' files at low(1
+\begin_inset space \thinspace{}
+\end_inset
+
+nm) and high (0.1
+\begin_inset space \thinspace{}
+\end_inset
+
+nm) resolutions.
+ The data are linearly interpolated on a regular grid of the specified resolutio
+n.
+ As the reference data are in incompatible formats (hdf5, csv...), each source
+ has a dedicated treatment script, 
+\family typewriter
+R/genXSxxx.R
+\family default
+, where 
+\family typewriter
+xxx = Leiden, SWRI...
+\end_layout
+
+\begin_layout Standard
+The results, stored in the 
+\family typewriter
+Generated
+\family default
+ directory, are in a common format: typically 2-columns .csv (wavelength,
+ property).
+ 
+\end_layout
+
+\begin_layout Standard
+The '
+\family typewriter
+qy
+\family default
+' files are numbered by increasing channel order, and the key to the chemical
+ products for each channel is managed manually in the 
+\family typewriter
+PhotoSchemeGen.dat
+\family default
+ file, in order to ensure the conformity of the species names to MC-ChemDB's
+ chemical nomenclature.
+ For instance, for 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ce{C2H2}
+\end_layout
+
+\end_inset
+
+ there are five channels, described as:
+\family typewriter
+\size small
+
+\begin_inset listings
+lstparams "numbers=left,numberstyle={\small},basicstyle={\small\ttfamily},showspaces=true"
+inline false
+status open
+
+\begin_layout Plain Layout
+
+C2H2       HV         C2H2+                           E           01
+\end_layout
+
+\begin_layout Plain Layout
+
+C2H2       HV         C2H+       H                    E           02
+\end_layout
+
+\begin_layout Plain Layout
+
+C2H2       HV         1C2        H2                               03
+\end_layout
+
+\begin_layout Plain Layout
+
+C2H2       HV         C2H        H                                04
+\end_layout
+
+\begin_layout Plain Layout
+
+C2H2       HV         C2H2*                                       05
+\end_layout
+
+\end_inset
+
+
+\family default
+\series bold
+\size default
+Rq.
+\series default
+: Excited-state 
+\family typewriter
+C2H2*
+\family default
+ is not presently considered in 
+\family typewriter
+MC-ChemDB
+\family default
+, and the user's 
+\family typewriter
+PhotoScheme.dat
+\family default
+ file should not contain the corresponding line.
+ The normalization of the branching ratios would not be properly treated
+ if this channel was ignored at this stage.
+\end_layout
+
+\begin_layout Subsection
+Collection of the nominal database ( from 
+\family typewriter
+Generated
+\family default
+ to 
+\family typewriter
+Cross-sections
+\family default
+)
+\end_layout
+
+\begin_layout Standard
+The second step consists in the collection of data according to various
+ preferences and constraints.
+ For instance, Leiden does not provide branching ratios to individual channels
+ (only total dissociation and ionization), also, its cross-section for 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ce{C2H4}
+\end_layout
+
+\end_inset
+
+ is obsolete.
+ In those instances, the SWRI data are used preferentially.
+ An exception is made for the branching ratios of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ce{CH4}
+\end_layout
+
+\end_inset
+
+ which are taken from Refs.
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Gans2013,Peng2014"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Generation of MC samples ( from 
+\family typewriter
+Cross-sections
+\family default
+ to 
+\family typewriter
+MC-ChemDB
+\family default
+)
+\end_layout
+
+\begin_layout Standard
+Finally, the collected database is used to generate MC samples.
+\end_layout
+
+\begin_layout Standard
+For cross-sections, we use the uncertainty levels provided in the Leiden
+ database to sample from a log-normal distribution.
+ The errors are then systematic.
+ 
+\end_layout
+
+\begin_layout Standard
+For branching ratios, we use a hierarchy as described in Peng 
+\emph on
+et al.
+\emph default
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Peng2014"
+literal "false"
+
+\end_inset
+
+, as follows:
+\begin_inset Float figure
+placement !t
+wide true
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/pernot/Bureau/Titan-APSIS/Reactor_Runs/PhotoProcs/v_1.1/Figs/figXsecMC_N2.png
+	lyxscale 30
+	width 17cm
+	BoundingBox 0bp 0bp 2000bp 1200bp
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/pernot/Bureau/Titan-APSIS/Reactor_Runs/PhotoProcs/v_1.1/Figs/figXsecMC_C2H2.png
+	lyxscale 30
+	width 17cm
+	BoundingBox 0bp 0bp 2000bp 1200bp
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:C2H2Sample"
+
+\end_inset
+
+Samples for 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ce{N2}
+\end_layout
+
+\end_inset
+
+ and 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ce{C2H2}
+\end_layout
+
+\end_inset
+
+ at 0.1
+\begin_inset space \thinspace{}
+\end_inset
+
+nm resolution.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+for the species without photo-ionization channel in the wavelength range
+ of the experiment, a single-level Dirichlet distribution is used, with
+ a relative uncertainty of 
+\begin_inset Formula $0.2$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Itemize
+otherwise, we use a nested scheme
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Plessis2010"
+literal "false"
+
+\end_inset
+
+ to preserve as much uncertainty structure as possible:
+\lang french
+
+\begin_inset Formula 
+\begin{equation}
+\mathrm{A+h\nu}\longrightarrow\left\{ \begin{array}{l}
+\brarrow{B_{neu}\left(1\pm\Delta B_{n/i}\right)}\left\{ \begin{array}{l}
+\brarrow{B_{n1}\left(1\pm\Delta B_{n1}\right)}\mathrm{Neutral}\:\mathrm{Channel\:1}\\
+\brarrow{B_{n2}\left(1\pm\Delta B_{n2}\right)}\mathrm{Neutral}\:\mathrm{Channel\:2}\\
+\cdots\cdots
+\end{array}\right.\\
+\brarrow{B_{ion}\left(1\pm\Delta B_{n/i}\right)}\left\{ \begin{array}{l}
+\brarrow{B_{i1}\left(1\pm\Delta B_{i1}\right)}\mathrm{Ionic}\:\mathrm{Channel\:1}\\
+\brarrow{B_{i2}\left(1\pm\Delta B_{i2}\right)}\mathrm{Ionic}\:\mathrm{Channel\:2}\\
+\cdots\cdots
+\end{array}\right.
+\end{array}\right.,
+\end{equation}
+
+\end_inset
+
+
+\lang english
+where 
+\begin_inset Formula $B_{neu}$
+\end_inset
+
+ and 
+\begin_inset Formula $B_{ion}$
+\end_inset
+
+ are respectively the total neutral and ionic contributions and both have
+ a relative uncertainty of 
+\begin_inset Formula $\Delta B_{n/i}$
+\end_inset
+
+.
+ 
+\begin_inset Formula $B_{n1}$
+\end_inset
+
+, 
+\begin_inset Formula $B_{n2}$
+\end_inset
+
+...
+ and 
+\begin_inset Formula $B_{i1}$
+\end_inset
+
+, 
+\begin_inset Formula $B_{i2}$
+\end_inset
+
+...
+ are the branching ratios of the neutral and ionic channels, respectively,
+ and 
+\begin_inset Formula $\Delta B_{n1}$
+\end_inset
+
+, 
+\begin_inset Formula $\Delta B_{n2}$
+\end_inset
+
+...
+ and 
+\begin_inset Formula $\Delta B_{i1}$
+\end_inset
+
+, 
+\begin_inset Formula $\Delta B_{i2}$
+\end_inset
+
+...
+ are their corresponding relative uncertainties.
+ For lack of data and according to their typical values in the literature
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Anicich1993"
+literal "true"
+
+\end_inset
+
+, we assign the branching ratios of all ionic channels a 20
+\begin_inset space \thinspace{}
+\end_inset
+
+% relative uncertainty.
+ Their total contribution is typically more accurate and its relative uncertaint
+y was estimated to 
+\begin_inset Formula $\Delta B_{n/i}=3\,\%$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+the representation of the branching ratios for the photolysis of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ce{CH4}
+\end_layout
+
+\end_inset
+
+ is based on the same scheme.
+ We apply the representation described in Gans 
+\emph on
+et al.
+\emph default
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Gans2013"
+literal "true"
+
+\end_inset
+
+ to the neutral part, with a lower wavelength limit extented to 80
+\begin_inset space \thinspace{}
+\end_inset
+
+nm, where the neutral channels become negligible in Ref.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Huebner2015"
+literal "true"
+
+\end_inset
+
+.
+ The remaining part of the representation is the same as in the previous
+ case.
+
+\family typewriter
+\color purple
+ PAS ENCORE VRAI...
+\end_layout
+
+\begin_layout Standard
+The sampling is done 
+\emph on
+per
+\emph default
+ wavelength, which generates random errors, while a notable degree of systematic
+ errors is expected.
+ In order to recover this feature, the samples at each wavelength are ordered
+ and assembled.
+ This generates a mixture of systematic and random errors, which depends
+ on the sample size.
+ 
+\family typewriter
+\color purple
+TO BE CHARACTERIZED...
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintCited"
+bibfiles "/home/pernot/Bureau/Titan-APSIS/MC-ChemDB/Doc/refsDR,packages"
+options "unsrturlPP"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

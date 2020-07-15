@@ -1,0 +1,12 @@
+CH+ + HCN									
+
+CHECKED	PP									
+											
+ALPHA	Logn	0.2800E-08	1.1500E+00						
+REF_ALPHA	McEwan2007							
+
+REF_BR	McEwan2007							
+BR	Dirg								
+HCNH+ + C	0.7500E+00/0.2250E+00								
+CNC+ + H2	0.1500E+00/0.4500E-01								
+CHNC+ + H	0.1000E+00/0.1000E+00								

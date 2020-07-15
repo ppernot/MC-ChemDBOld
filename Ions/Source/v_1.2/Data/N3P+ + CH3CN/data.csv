@@ -1,0 +1,15 @@
+N3P+ + CH3CN								
+
+CHECKED	PP		
+RQ	Rate estimated			
+REF_BR	McEwan2007
+									
+ALPHA	Logn	1e-9	2						
+									
+RQ	Check products CHCNH+ ???					
+									
+BR	Diri	Dirg								
+CH3CN+ + N4S		0.50/0.05							
+CHCNH+ + NH		0.30/0.10					
+C2H2+ + N2 + H	1/1	0.20/0.07
+CN+ + CH2NH	1

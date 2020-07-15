@@ -1,0 +1,18 @@
+NH3+ + E			
+	
+CHECKED	PP
+		
+ALPHA	Logn	3.1e-7	2
+REF_ALPHA 	Woodall2007		
+			
+BETA	Unif	0.5	1.5
+REF_BETA	Plessis2010		
+			
+REF_BR	Plessis2010
+			
+BR	Dior	Dior	Diri
+NH2 + H			1/1
+NH + H2	2		1
+NH + H + H	1		
+N4S + H2 + H		2	1
+N4S + H + H + H		1	

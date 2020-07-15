@@ -1,0 +1,13 @@
+CCN+ + C4H2									
+
+RQ	 Removed the unreactive path in the reference
+
+CHECKED	PP
+REF_ALPHA	McEwan2007							
+REF_BR	McEwan2007	KIDA
+									
+ALPHA	Logn	0.1300E-08	1.3						
+									
+BR	Dirg								
+C5H+ + HCN	0.70/0.07								
+C4H2+ + C2N	0.30/0.10						

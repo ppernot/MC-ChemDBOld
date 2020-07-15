@@ -1,0 +1,12 @@
+N3P+ + CO2									
+	
+CHECKED	PP
+
+REF_ALPHA	Anicich1993								
+ALPHA	Logn	1.12e-9	1.1						
+	
+REF_BR	Anicich1993								
+BR	Dirg								
+CO+ + NO	0.18/0.05
+CO2+ + N4S	0.82/0.05						
+

@@ -1,0 +1,13 @@
+N2+ + H2
+
+
+CHECKED	PP
+REF_ALPHA	Dutuit2013
+REF_BR	Dutuit2013									
+									
+ALPHA	Logn	1.56e-9	1.2											
+RQ	Other avlue proposed in ref: 1.3e-9@150K
+								
+BR	Dirg									
+N2H+ + H	0.99/0.01
+H2+ + N2	0.01/0.01									

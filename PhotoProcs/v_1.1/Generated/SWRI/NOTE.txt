@@ -1,0 +1,3 @@
+2019_09_04: Need to correct qy files in SWRI for missing data at 
+            long wavelengths. When all BRs are 0, extrapolate the 
+            most abundant one... 

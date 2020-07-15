@@ -1,0 +1,15 @@
+N3P+ + CH2CHCN			
+			
+CHECKED	PP		
+RQ	Rate estimated + corrected invalid product in orig. ref (CH2N2 --> H2CN)		
+REF_BR	McEwan2007		
+			
+ALPHA	Logn	1e-9	2
+			
+BR	Diri	Diri	Dirg
+CH2CHCN+ + N4S			0.35/0.12
+HC3NH+ + NH			0.15/0.05
+CHCN+ + H2CN	1/1		0.25/0.08
+cC3H3+ + N2	1		
+CN+ + CH3CN		1/1	0.25/0.08
+C2H2+ + N2 + CH		1	

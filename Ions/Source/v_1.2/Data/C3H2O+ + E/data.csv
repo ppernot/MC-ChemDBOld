@@ -1,0 +1,16 @@
+C3H2O+ + E			
+
+CHECKED	PP		
+			
+ALPHA	Logn	8.0e-7	3			
+REF_ALPHA	KIDA	
+			
+BETA	Delta	0.7	
+REF_BETA	KIDA		
+			
+REF_BR	KIDA
+BR	Dirg			
+CO + C2H2	0.25/0.1
+C3O + H + H	0.125/0.1
+HC3O + H	0.125/0.1
+CO + C2H + H	0.50/0.1

@@ -1,0 +1,13 @@
+C+ + C6H6									
+
+CHECKED	PP									
+										
+ALPHA	Logn	2.4e-9	1.25					
+REF_ALPHA	Anicich2003							
+
+REF_BR	Anicich2003							
+BR	Dirg								
+C6H6+ + C	0.67/0.07
+C5H3+ + C2H3	0.17/0.06
+C7H5+ + H	0.10/0.10
+cC3H3+ + C4H3	0.06/0.06

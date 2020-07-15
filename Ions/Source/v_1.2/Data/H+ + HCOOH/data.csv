@@ -1,0 +1,15 @@
+H+ + HCOOH									
+	
+CHECKED	PP
+
+TYPE 	ionpol1
+
+REF_ALPHA	Woon2009								
+ALPHA	Logn	4.31e-9	2						
+
+REF_BETA	Woon2009								
+BETA	Delta	2.77						
+
+REF_BR	Woon2009								
+BR
+HCOOH+ + H

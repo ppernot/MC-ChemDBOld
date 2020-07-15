@@ -1,0 +1,11 @@
+NH3+ + O3P								
+
+CHECKED	PP
+
+REF_ALPHA	KIDA							
+ALPHA	Logn	2.0e-11	2						
+
+REF_BR	KIDA
+BR	Dirg							
+HNO+ + H2	0.50/0.10									
+H2NO+ + H	0.50/0.10

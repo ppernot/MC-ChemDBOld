@@ -1,0 +1,12 @@
+NH2+ + H2O									
+
+CHECKED	PP
+REF_ALPHA	McEwan2007							
+REF_BR	McEwan2007
+									
+ALPHA	Logn	0.2900E-08	1.2						
+									
+BR	Dirg								
+NH3+ + OH	0.03/0.03								
+NH4+ + O3P	0.03/0.03								
+H3O+ + NH	0.94/0.09								

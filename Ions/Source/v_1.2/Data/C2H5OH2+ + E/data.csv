@@ -1,0 +1,15 @@
+C2H5OH2+ + E			
+
+CHECKED	PP		
+			
+ALPHA	Logn	4.5e-7	2			
+REF_ALPHA	KIDA	
+			
+BETA	Delta	0.5	
+REF_BETA	KIDA		
+			
+REF_BR	KIDA
+BR	Dirg			
+C2H4 + H2O + H	0.333/0.1
+CH3CHO + H2 + H	0.333/0.1
+C2H5OH + H	0.333/0.1						

@@ -80,28 +80,34 @@ nds = function(ns,dist) {
   nds=matrix(liste[2:nlast],ncol=nleaves,byrow=T)
   return(nds)
 }
-oneDist = function(ic,d,tags,tagged=FALSE) {
-  dSub=d[[ic]]
-  string=paste0(dSub$dist,'(')
-  sSub=c()
+oneDist = function(ic, d, tags, tagged = FALSE) {
+  dSub = d[[ic]]
+  string = paste0(dSub$dist, '(')
+  sSub = c()
   for (ip in 1:length(dSub$elem)) {
-    sSub[ip]=paste0(dSub$mu[ip],
-                    ifelse(dSub$link[ip]==0,
-                           ifelse(tagged,
-                                  paste0(":'",tags[dSub$elem[ip]],"'"),
-                                  ''),
-                           paste0('*LINK/',dSub$link[ip],'/')
-                    ),
-                    collapse='')
+    sSub[ip] = paste0(
+      dSub$mu[ip],
+      ifelse(
+        dSub$link[ip] == 0,
+        ifelse(tagged,
+               paste0(":'", tags[dSub$elem[ip]], "'"),
+               ''),
+        paste0('*LINK/', dSub$link[ip], '/')
+      ),
+      collapse = '')
   }
-  sig=dSub$sig[which(!is.na(dSub$sig))]
-  return(paste0(string,
-                paste0(sSub,collapse=','),
-                ifelse(length(sig)==0,
-                       '',
-                       paste0(';',paste0(sig,collapse=','))
-                ),                
-                ')')
+  sig = dSub$sig[which(!is.na(dSub$sig))]
+  return(
+    paste0(
+      string,
+      paste0(sSub, collapse = ','),
+      ifelse(
+        length(sig) == 0,
+        '',
+        paste0(';', paste0(sig, collapse = ','))
+      ),
+      ')'
+    )
   )
 }
 oneNewick = function(ic,d,tags,tagged=TRUE) {

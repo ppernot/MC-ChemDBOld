@@ -1,0 +1,12 @@
+C2H2+ + CH3NH2									
+
+CHECKED	PP
+REF_ALPHA	Anicich2003							
+REF_BR	Anicich2003
+									
+ALPHA	Logn	2.7e-9	1.25						
+									
+BR	Dirg								
+CH3NH3+ + C2H	0.48/0.17								
+CH3NH2+ + C2H2	0.28/0.09								
+CH2NH2+ + C2H3	0.24/0.08

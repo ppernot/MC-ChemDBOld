@@ -1,0 +1,29 @@
+C3H5+ + E										
+										
+CHECKED	PP									
+										
+ALPHA	Logu	0.5e-6	3.0e-6							
+REF_ALPHA	Plessis2010									
+										
+BETA	Unif	0.5	1.5							
+REF_BETA	Plessis2010									
+										
+REF_BR		Plessis2010	Florescu2006	Angelova2004	Mitchell2005					
+BR	Dior	Diri	Diri	Diri	Diri	Diri	Diri	Diri	Diri	Dirg
+CH3C2H + H							1/1	1/1		0.867/0.004
+CH2CCH2 + H							1			
+C3H3 + H2	2							1		
+C3H3 + H + H	1									
+cC3H2 + H2 + H								1		
+cC3H + H2 + H2		1/1						1		
+lC3H + H2 + H2		1								
+C2H5 + C									1/1	0.133/0.026
+C2H4 + CH									1	
+C2H3 + 1CH2			1/1						1	
+C2H3 + 3CH2			1							
+C2H2 + 1CH2 + H				1/1	1/1				1	
+C2H2 + 3CH2 + H				1						
+C2H2 + CH + H2					1					
+C2H2 + CH3					1					
+C2H + CH3 + H						1/1			1	
+C2H + CH4						1				

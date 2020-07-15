@@ -1,0 +1,13 @@
+HO2+ + E			
+
+CHECKED	PP		
+			
+ALPHA	Logn	3.e-7	2			
+REF_ALPHA	KIDA	
+			
+BETA	Delta	0.5	
+REF_BETA	KIDA		
+			
+REF_BR	KIDA
+BR			
+O2 + H						

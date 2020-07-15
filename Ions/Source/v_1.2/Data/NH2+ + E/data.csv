@@ -1,0 +1,18 @@
+NH2+ + E			
+
+CHECKED	PP
+			
+ALPHA	Logu	0.5e-7	10.0e-7
+REF_ALPHA 	Plessis2010		
+			
+BETA	Unif	0.5	1.5
+REF_BETA	Plessis2010		
+			
+REF_BR	Vikor1999	Thomas2005a	
+			
+BR	Dirg	Dirg	
+N4S + H2		0.04/0.03	
+NH + H		0.38/0.06	
+N4S + H + H	0.53/0.04	0.58/0.09	
+N2D + H + H	0.45/0.05		
+N2P + H + H	0.02/0.02		
