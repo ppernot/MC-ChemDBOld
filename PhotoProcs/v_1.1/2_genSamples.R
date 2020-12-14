@@ -6,7 +6,7 @@ library(here)
 
 # setwd(here::here()) # Define working directory
 
-test = FALSE
+test = TRUE
 GP_Fit = FALSE
 eps = 5e-3 # Threshold for zero in compositions
 
@@ -24,7 +24,7 @@ ruBRNI = 0.03 # relative uncertainty on Ionic vs. Neutral channels
 # Target directory for chemistry samples
 sourceDir   = './Cross-sections/'
 uncFDir     = './Generated/Leiden/'
-targetMCDir = ### '../../ChemDBPublic/PhotoProcs_v_1.1/'
+targetMCDir = '../../../Reactor_Runs/ChemDBPublic/PhotoProcs_v_1.1/'
 if(test)
   targetMCDir = './Test/'
 
@@ -110,12 +110,17 @@ for (reso in resolutions) {
     }
 
     ## Get BR data
-    x = read.table(paste0(sourceDir1,fileList[1]))
-    qy = matrix(NA,nrow=sum(selBR),ncol=length(fileList))
+    
+    #### Build file list in numeric order (fileList is alphabetic) 
+    nch = length(fileList)
+    qyFiles = paste0('qy',sp,'_',1:nch,'.dat') 
+    
+    x = read.table(paste0(sourceDir1,qyFiles[1]))
+    qy = matrix(NA,nrow=sum(selBR),ncol=nch)
     wavl   = x[selBR,1]
     qy[,1] = x[selBR,2]
-    for(i in 2:length(fileList)) {
-      x = read.table(paste0(sourceDir1,fileList[i]))
+    for(i in 2:nch) {
+      x = read.table(paste0(sourceDir1,qyFiles[i]))
       qy[,i] = x[selBR,2]
     }
     nw = length(wavl)
@@ -142,7 +147,7 @@ for (reso in resolutions) {
       )
 
     } else {
-
+      
       qy = qy / rowSums(qy)
 
       if(GP_Fit) {
