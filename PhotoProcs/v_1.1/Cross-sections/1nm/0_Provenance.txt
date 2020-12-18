@@ -33,6 +33,21 @@
  - ./Generated/SWRI/1nm/qyCO_3.dat 
  - ./Generated/SWRI/1nm/qyCO_4.dat 
  - ./Generated/SWRI/1nm/qyCO_5.dat 
+ - ./Generated/SWRI/1nm/qyCO2_1.dat 
+ - ./Generated/SWRI/1nm/qyCO2_2.dat 
+ - ./Generated/SWRI/1nm/qyCO2_3.dat 
+ - ./Generated/SWRI/1nm/qyCO2_4.dat 
+ - ./Generated/SWRI/1nm/qyCO2_5.dat 
+ - ./Generated/SWRI/1nm/qyCO2_6.dat 
+ - ./Generated/SWRI/1nm/qyCO2_7.dat 
+ - ./Generated/Leiden/1nm/seCO2.dat 
+ - ./Generated/SWRI/1nm/qyCO2_1.dat 
+ - ./Generated/SWRI/1nm/qyCO2_2.dat 
+ - ./Generated/SWRI/1nm/qyCO2_3.dat 
+ - ./Generated/SWRI/1nm/qyCO2_4.dat 
+ - ./Generated/SWRI/1nm/qyCO2_5.dat 
+ - ./Generated/SWRI/1nm/qyCO2_6.dat 
+ - ./Generated/SWRI/1nm/qyCO2_7.dat 
  - ./Generated/Leiden/1nm/seH2.dat 
  - ./Generated/SWRI/1nm/qyH2_1.dat 
  - ./Generated/SWRI/1nm/qyH2_2.dat 
@@ -60,7 +75,7 @@
  - ./Generated/SWRI/1nm/qyN2_1.dat 
  - ./Generated/SWRI/1nm/qyN2_2.dat 
  - ./Generated/SWRI/1nm/qyN2_3.dat 
- - ./Generated/SWRI/1nm/seNH3.dat 
+ - ./Generated/Leiden/1nm/seNH3.dat 
  - ./Generated/SWRI/1nm/qyNH3_1.dat 
  - ./Generated/SWRI/1nm/qyNH3_2.dat 
  - ./Generated/SWRI/1nm/qyNH3_3.dat 

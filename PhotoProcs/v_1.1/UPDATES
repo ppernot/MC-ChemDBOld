@@ -13,4 +13,7 @@
           + generative model enables choice between Leiden and SWRI XS
     	  + in absence of BR in Leiden DB, SWRI ones are used by default
             except for CH4 (taken from Plessis et al.)
+2109-12-18 :
+	* Correct problem with numbering of CH4 channels
+        * Added CO2; Assigned 3CO to CO (Channel 7)
  

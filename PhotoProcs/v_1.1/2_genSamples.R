@@ -10,7 +10,7 @@ test = TRUE
 GP_Fit = FALSE
 eps = 5e-3 # Threshold for zero in compositions
 
-resolutions = c(1, 0.1)[2]
+resolutions = c(1, 0.1)[1:2]
 
 # Monte Carlo parameters
 nMC = 500
@@ -25,8 +25,8 @@ ruBRNI = 0.03 # relative uncertainty on Ionic vs. Neutral channels
 sourceDir   = './Cross-sections/'
 uncFDir     = './Generated/Leiden/'
 targetMCDir = '../../../Reactor_Runs/ChemDBPublic/PhotoProcs_v_1.1/'
-if(test)
-  targetMCDir = './Test/'
+# if(test)
+#   targetMCDir = './Test/'
 
 cols     = rev(inlmisc::GetColors(11))[1:10]
 cols_tr  = rev(inlmisc::GetColors(11, alpha = 0.1))[1:10]
@@ -42,7 +42,7 @@ products = l$products
 
 
 if(test)
-  species = 'CH4'
+  species = 'CO2'
 
 cat('Species List:', species, '\n')
 

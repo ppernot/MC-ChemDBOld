@@ -52,3 +52,10 @@
  NH3        HV         NH+        H2                   E           06
  NH3        HV         N3P+       H2         H         E           07
  NH3        HV         H+         NH2                  E           08
+ CO2        HV         CO         O1D                              01
+ CO2        HV         CO2+                            E           02
+ CO2        HV         CO+        O3P                  E           03
+ CO2        HV         O+         CO                   E           04     
+ CO2        HV         C+         O2                   E           05
+ CO2        HV         CO         O3P                              06    
+ CO2        HV         CO         O3P                              07 
