@@ -137,7 +137,7 @@ downSample = function(wl,xs,reso = 1) {
         }
       }
     } else {
-      # At least one point in gegular interval: sum contributions
+      # At least one point in regular interval: sum contributions
       p1[i] = sum(pI[sel]) / sum(dwl[sel])
     }
   }

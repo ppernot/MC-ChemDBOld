@@ -1,4 +1,4 @@
-setwd("~/Bureau/Titan-APSIS/Reactor_Runs/PhotoProcs/v1.1")
+# setwd("~/Bureau/Titan-APSIS/Reactor_Runs/PhotoProcs/v1.1")
 options(warn=2)
 
 leiden = FALSE
@@ -22,7 +22,7 @@ source('R/functions.R')
 nbReac=0
 reactants = products = params = type = orig = locnum = list()
 
-filename= 'PhotoScheme.dat'
+filename= 'PhotoSchemeGen.dat'
 scheme  = read.fwf(file=filename, widths= rep(11,12))
 scheme  = t(apply(scheme,1,function(x) gsub(" ","",x)))
 for (i in 1:nrow(scheme)) {

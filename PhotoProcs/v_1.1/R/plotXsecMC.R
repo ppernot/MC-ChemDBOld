@@ -1,11 +1,11 @@
-library(here)
-setwd(here::here())
+# library(here)
+# setwd(here::here())
 
-reso = 1
+reso = 0.1
 nMC  = 200
-test = TRUE
+test = FALSE
 
-source_dir =paste0('../../ChemDBPublic/PhotoProcs/',reso,'nm/')
+source_dir =paste0('../../../Reactor_Runs/ChemDBPublic/PhotoProcs_v_1.1/',reso,'nm/')
 if(test)
   source_dir =paste0('./Test/',reso,'nm/')
 
@@ -17,7 +17,7 @@ cols     = rev(inlmisc::GetColors(11))[1:10]
 cols_tr  = rev(inlmisc::GetColors(11, alpha = 0.1))[1:10]
 cols_tr2 = rev(inlmisc::GetColors(11, alpha = 0.5))[1:10]
 
-source('R/functions.R')
+source('./R/functions.R')
 
 # Get species list and network ####
 spL = getSpecies('PhotoSchemeGen.dat')
@@ -26,8 +26,8 @@ L        = spL$L
 params   = spL$params
 products = spL$products
 
-# if(test)
-#   species = 'N2' # species[1]
+if(test)
+  species = c('CO2') # species[1]
 
 # XS ####
 for (sp in species) {

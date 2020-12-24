@@ -92,9 +92,14 @@ for (reso in resolutions) {
       }
       seMC = se * rnd
       write.table(
-        cbind(wavl,seMC),
-        sep=' ', row.names=FALSE, col.names=FALSE,
-        file=paste0(targetMCDir1,prefix,'se', sp, '.dat'))
+        cbind(wavl, seMC),
+        sep = ' ', 
+        row.names = FALSE, 
+        col.names = FALSE,
+        file = gzfile(
+          paste0(targetMCDir1, prefix, 'se', sp, '.dat.gz')
+        )
+      )
     }
 
     # qy ####
@@ -131,11 +136,14 @@ for (reso in resolutions) {
     prefix = paste0(sprintf('%04i',iMC),'_')
     # save
     for(i in 1:nc) {
-      fileOut = paste0(targetMCDir1,prefix,'qy',sp,'_',i,'.dat')
+      fileOut = paste0(targetMCDir1, prefix, 'qy', sp, '_', i, '.dat')
       write.table(
-        cbind(wavl,qy[,i]),
-        sep=' ', row.names=FALSE, col.names=FALSE,
-        file=fileOut)
+        cbind(wavl, qy[, i]),
+        sep = ' ',
+        row.names = FALSE,
+        col.names = FALSE,
+        file = gzfile(paste0(fileOut, '.gz'))
+      )
     }
 
 
@@ -276,10 +284,10 @@ for (reso in resolutions) {
         write.table(
           cbind(wavl,qySample[iMC,,i]),
           sep=' ', row.names=FALSE, col.names=FALSE,
-          file=fileOut)
+          file = gzfile(paste0(fileOut, '.gz'))
+        )
       }
     }
-
   }
 }
 

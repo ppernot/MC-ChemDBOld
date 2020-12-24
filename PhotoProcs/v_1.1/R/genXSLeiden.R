@@ -3,7 +3,7 @@
 
 test = FALSE
 
-setwd("~/Bureau/Titan-APSIS/Reactor_Runs/PhotoProcs/v1.1")
+# setwd("~/Bureau/Titan-APSIS/Reactor_Runs/PhotoProcs/v1.1")
 
 libs = c('hdf5r','repmis')
 repmis::LoadandCite(libs,file=NULL)
@@ -14,7 +14,7 @@ target_dir =paste0('Generated/Leiden/')
 source('R/functions.R')
 
 # Get species list in photoprocess scheme
-l = getSpecies('PhotoScheme.dat')
+l = getSpecies('PhotoSchemeGen.dat')
 species = l$species
 cat('Species List:',species,'\n')
 

@@ -1,8 +1,8 @@
 # Generate fixed resolution absorption cross-sections
 # from SWRI data
 
-library(here)
-setwd(here::here())
+# library(here)
+# setwd(here::here())
 
 source_dir = './Data/SWRI/'
 target_dir = paste0('./Generated/SWRI/')
