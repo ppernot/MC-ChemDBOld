@@ -18,18 +18,15 @@ maxReacts      = 3    # Max number of reactants slots in generated dBases
 maxProds       = 4    # Max number of product slots in generated dBases
 sampleSize     = 500  # Number of random samples to generate
 
-# Function to get stoichiometry and mass #####
-library('CHNOSZ')
-
 # Stoechiometry functions
 source('./massCalc.R')
 
 # Kinetic Scheme
 source('./kinParse.R')
-
   
-species=levels(as.factor(unlist(c(reactants,products))))
-nbSpecies=length(species)
+# species=levels(as.factor(unlist(c(reactants,products))))
+species = sort(unique(unlist(c(reactants, products))))
+nbSpecies = length(species)
 print("Species List:")
 print(species)
 
@@ -50,10 +47,25 @@ for (m in 1:nbReac) {
   if(!is.na(massReacs) & !is.na(massFrags)) {
     if(abs(massFrags-massReacs) > 0.01) {
       setwd("..")
-      stop(paste0('Pb mass of fragments vs. reactants: ',m))
+      stop(
+        paste0(
+          'Pb mass of fragments vs. reactants: ',m,' : \n',
+          paste(reac,collapse = ' + '),' --> ',
+          paste(prod,collapse = ' + '),'\n',
+          massReacs, ' /= ', massFrags
+        )
+      )
     }      
   }
 }
+
+# Species per mass
+sink(file = 'speciesList.txt')
+mu = sort(unique(mass))
+for (m in mu) {
+  cat(m,' : ',names(mass[mass==m]),'\n')
+}
+sink()
 
 # Generate random samples #####
 
