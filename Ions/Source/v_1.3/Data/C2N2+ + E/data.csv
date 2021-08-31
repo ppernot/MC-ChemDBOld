@@ -1,0 +1,13 @@
+C2N2+ + E			
+
+CHECKED	PP
+			
+ALPHA	Logu	0.5e-6	3.0e-6
+REF_ALPHA 	Plessis2010		
+			
+BETA	Unif	0.5	1.5
+REF_BETA	Plessis2010		
+
+REF_BR		Jacox2007			
+BR			
+CN + CN			

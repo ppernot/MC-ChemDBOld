@@ -1,0 +1,17 @@
+CH3+ + E					
+	
+CHECKED	PP
+				
+ALPHA	Logu	3.56e-7	12e-7	
+REF_ALPHA	Florescu2006	Sheehan2004	physto
+	
+BETA	Nort	0.51	0.02	0.5	1.5
+REF_BETA	Florescu2006	Sheehan2004	physto
+	
+REF_BR		Vejby-Christensen1997		
+BR	Diri	Dirg			
+1CH2 + H	1/1	0.4/0.1			
+3CH2 + H	1				
+CH + H2		0.14/0.1			
+CH + H + H		0.16/0.15			
+C + H2 + H		0.3/0.08			

@@ -1,0 +1,12 @@
+CH+ + NH3									
+
+CHECKED	PP									
+										
+ALPHA	Logn	0.2700E-08	1.2000E+00						
+REF_ALPHA	Anicich2003							
+
+REF_BR	Anicich2003								
+BR	Dirg								
+HCNH+ + H2	0.6800E+00/0.2040E+00								
+NH3+ + CH	0.1700E+00/0.5100E-01								
+NH4+ + C	0.1500E+00/0.4500E-01								

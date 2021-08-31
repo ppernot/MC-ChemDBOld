@@ -10,5 +10,10 @@
 		* Introduced updates in Hickson2020 (A kinetic study of the N(2D)+ C2H4 
                	reaction at low temperature)
 
-2021-01-06 :    * Added reactions for heavy species leading to PAH             
+2021-01-06 :    * Added reactions for heavy species leading to PAH     
+
+2021-01-08 :    * Removed reacs involving C4H2X
+                * Introduced SOOTO
+                * Removed spurious reacs with unspecified products (SOOTC) 
+                  replaced by Jeremy's PAH reacs        
 

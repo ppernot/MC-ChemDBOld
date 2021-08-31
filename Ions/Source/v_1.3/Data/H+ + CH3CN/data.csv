@@ -1,0 +1,17 @@
+H+ + CH3CN		
+			
+CHECKED	PP
+
+TYPE	ionpol1		
+			
+ALPHA	Logn	4.29E-09	1.5
+REF_ALPHA	KIDA		
+
+BETA	Delta	6.58
+REF_BETA	KIDA		
+			
+REF_BR	McEwan2007		
+BR	Dirg		
+CH3CN+ + H	0.70/0.07		
+CH2CN+ + H2	0.05/0.05	
+CH3+ + HCN	0.25/0.03		

@@ -1,0 +1,16 @@
+CH4+ + C2H2
+			
+CHECKED	PP			
+RQ	1rst channel absent in KIDA		
+			
+ALPHA	Logn	0.2720E-08	1.1000E+00
+REF_ALPHA	Anicich1997		
+			
+BETA	Delta	0	
+			
+REF_BR	Anicich1997		
+BR	Diri	Dirg	
+C2H2+ + CH4		0.53/0.05	
+C2H3+ + CH3		0.41/0.05	
+cC3H3+ + H2 + H	1/1	0.06/0.06	
+lC3H3+ + H2 + H	1		

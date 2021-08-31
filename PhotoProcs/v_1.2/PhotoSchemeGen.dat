@@ -1,0 +1,61 @@
+ N2         HV         N4S        N2D                              01
+ N2         HV         N4S        N3P+                 E           02
+ N2         HV         N2+                             E           03
+ H2         HV         H          H                                01
+ H2         HV         H          H                                02
+ H2         HV         H2+                             E           03
+ H2         HV         H+         H                    E           04
+ CH4        HV         CH3        H                                01
+ CH4        HV         1CH2       H2                               02
+ CH4        HV         3CH2       H          H                     03
+ CH4        HV         CH4+                            E           04
+ CH4        HV         CH3+       H                    E           05
+ CH4        HV         CH2+       H2                   E           06
+ CH4        HV         CH+        H2         H         E           07
+ CH4        HV         H+         CH3                  E           08
+ CH4        HV         CH         H2         H                     09
+ CH4        HV         1CH2       H          H                     10
+ CO         HV         CO+                             E           01
+ CO         HV         C+         O3P                  E           02
+ CO         HV         C          O+                   E           03
+ CO         HV         C          O3P                              04
+ CO         HV         CxHyNz     O1D                              05
+ C2H2       HV         C2H2+                           E           01
+ C2H2       HV         C2H+       H                    E           02
+ C2H2       HV         1C2        H2                               03
+ C2H2       HV         C2H        H                                04
+ C2H2       HV         C2H2*                                       05
+ C2H4       HV         C2H4+                           E           01
+ C2H4       HV         C2H2+      H2                   E           02
+ C2H4       HV         C2H3+      H                    E           03
+ C2H4       HV         C2H2       H          H                     04
+ C2H4       HV         C2H2       H2                               05
+ C2H6       HV         CH3        CH3                              01
+ C2H6       HV         C2H5       H                                02
+ C2H6       HV         1CH2       CH4                              03
+ C2H6       HV         C2H6+                           E           04
+ C2H6       HV         C2H4       H2                               05
+ HCN        HV         CN         H                                01
+ HCN        HV         HCN+                            E           02
+ H2O        HV         OH         H                                01
+ H2O        HV         H2         O1D                              02
+ H2O        HV         O3P        H          H                     03
+ H2O        HV         OH+        H                    E           04
+ H2O        HV         O+         H2                   E           05
+ H2O        HV         H+         OH                   E           06
+ H2O        HV         H2O+                            E           07
+ NH3        HV         NH2        H                                01
+ NH3        HV         NH         H2                               02
+ NH3        HV         NH         H          H                     03
+ NH3        HV         NH3+                            E           04
+ NH3        HV         NH2+       H                    E           05
+ NH3        HV         NH+        H2                   E           06
+ NH3        HV         N3P+       H2         H         E           07
+ NH3        HV         H+         NH2                  E           08
+ CO2        HV         CO         O1D                              01
+ CO2        HV         CO2+                            E           02
+ CO2        HV         CO+        O3P                  E           03
+ CO2        HV         O+         CO                   E           04     
+ CO2        HV         C+         O2                   E           05
+ CO2        HV         CO         O3P                              06    
+ CO2        HV         CO         O3P                              07 

@@ -424,7 +424,17 @@ listReacs = gsub("./","",listReacs)
 # listReacs = listReacs[sel]
 # cleanTmp=FALSE
 
-#listReacs=c('H3+ + E') ; cleanTmp=FALSE #################
+# listReacs=c(
+#   'CH+ + C2H6',
+#   'CH2+ + C2H6',
+#   'CH5+ + CH2CCH2',
+#   'C2H+ + C3H8',
+#   'C3H4+ + C3H8'
+# ); cleanTmp=FALSE ###
+
+for (dir in paste0(targetDir,c('Reactions','Species')))
+  if(!dir.exists(dir))
+    dir.create(dir)
 
 if (cleanTmp) {
   # Clean Tmp
@@ -432,7 +442,7 @@ if (cleanTmp) {
   system(command,intern=FALSE)
   command=paste0('rm -rf ',targetDir,'Species/*') 
   system(command,intern=FALSE)  
-}
+} 
 
 # Main loop over reactions #####
 for (reac in listReacs) {

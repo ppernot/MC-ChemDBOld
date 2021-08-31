@@ -1,0 +1,17 @@
+CO+ + E					
+
+CHECKED	PP
+
+RQ	Check the uncertainties
+					
+ALPHA	Logn	2.75E-7	2		
+REF_ALPHA 	Rosen1998				
+					
+BETA	Delt	0.55
+REF_BETA	Rosen1998		
+					
+REF_BR	Rosen1998			
+					
+BR	Dirg			
+O3P + C	0.90/0.09		
+O1D + C	0.10/0.10

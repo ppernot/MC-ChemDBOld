@@ -1,0 +1,10 @@
+C5H4+ + N4S
+
+CHECKED	PP
+
+REF_ALPHA	KIDA							
+ALPHA	Logn	1e-10	2						
+
+REF_BR	KIDA
+BR									
+C5H3N+ + H

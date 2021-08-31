@@ -1,0 +1,11 @@
+lC3H3+ + CH3OH									
+
+CHECKED	PP
+REF_ALPHA	Anicich2003							
+REF_BR	Anicich2003
+									
+ALPHA	Logn	3e-10	1.2						
+																
+BR	Diri								
+CH2OH+ + CH3C2H	1/1								
+CH2OH+ + CH2CCH2	1								

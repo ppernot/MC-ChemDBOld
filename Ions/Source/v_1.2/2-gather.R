@@ -49,7 +49,10 @@ file.remove(indexFile)
 spIndexFile=paste0(sourceDir,'spIndex.html')
 file.remove(spIndexFile)
 
-fileList=list.files(path=paste0(publicDir,'Databases'),full.name=TRUE)
+dbDir = paste0(publicDir, 'Databases')
+if (!dir.exists(dbDir))
+  dir.create(dbDir)
+fileList = list.files(path = dbDir, full.name = TRUE)
 file.remove(fileList)
 
 dataTableFile=paste0(publicDir,'dataTable.html')

@@ -1,0 +1,15 @@
+C3H+ + E			
+
+CHECKED	PP
+			
+ALPHA	Logu	5e-7	3e-6
+REF_ALPHA	Plessis2010	
+
+BETA	Unif	0.5	1.5
+REF_BETA	Plessis2010
+
+REF_BR		Florescu2006	Angelova2004	Mitchell2005	physto		
+BR	Dirg		
+C3 + H	0.661/0.015		
+C2H + C	0.338/0.017		
+1C2 + CH	0.001/0.01		

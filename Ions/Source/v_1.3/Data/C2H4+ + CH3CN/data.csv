@@ -1,0 +1,13 @@
+C2H4+ + CH3CN									
+
+RQ Corrected products bug C2H4 --> C2H3
+
+CHECKED	PP
+REF_ALPHA	Anicich2003							
+REF_BR	Anicich2003	
+									
+ALPHA	Logn	3.2e-9	1.2						
+									
+BR	Dirg									
+CH3CNH+ + C2H3	0.89/0.09									
+CxHyNz+ + Products	0.11/0.10

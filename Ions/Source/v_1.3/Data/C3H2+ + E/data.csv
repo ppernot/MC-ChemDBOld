@@ -1,0 +1,19 @@
+C3H2+ + E					
+					
+CHECKED	PP				
+					
+ALPHA	Logu	5e-7	3e-6		
+REF_ALPHA	Plessis2010				
+					
+BETA	Unif	0.5	1.5		
+REF_BETA	Plessis2010				
+					
+REF_BR	Plessis2010	Florescu2006	Angelova2004	Mitchell2005	physto
+BR	Diri	Dior	Diri	Diri	Dirg
+C3 + H + H		1	1/1		0.875/0.02
+C3 + H2		2			
+cC3H + H	1/1		1		
+lC3H + H	1				
+C2H2 + C				1/1	0.125/0.02
+1C2 + 1CH2				1	
+3C2 + 3CH2				1	

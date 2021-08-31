@@ -1,0 +1,14 @@
+C2H5CNH+ + E			
+			
+RQ	BR to be done: need thermochemistry of fragments		
+			
+ALPHA	Logn	1.5e-6	1.15
+REF_ALPHA	Vigren2010		
+			
+BETA	Norm	0.76	0.02
+REF_BETA	Vigren2010		
+			
+REF_BR	Vigren2010	Plessis2010
+			
+BR			
+Products			

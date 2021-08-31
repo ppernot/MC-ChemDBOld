@@ -1,0 +1,13 @@
+C+ + C2H3NH
+
+CHECKED	PP
+
+REF_ALPHA	Quan2016							
+ALPHA	Logn	8.1e-10	2						
+
+REF_BETA	Quan2016							
+BETA	Delta	-0.5						
+
+REF_BR	Quan2016
+BR									
+C2H3+ + HNC	

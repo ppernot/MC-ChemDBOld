@@ -39,33 +39,56 @@ dummyMass   = round(max(mass,na.rm=TRUE)+2)
 mass[dummySpecies] = dummyMass
 
 # Check mass compatibility #####
+massProds = reacTags = c()
 for (m in 1:nbReac) {
   reac = unlist(reactants[m])
   prod = unlist(products[m])
   massReacs = getMassList(reac,excludeList = dummySpecies)
   massFrags = getMassList(prod,excludeList = dummySpecies)
+  reacTags[m] = paste(
+    paste(reac,collapse = ' + '),
+    '-->',
+    paste(prod,collapse = ' + ')
+  )
   if(!is.na(massReacs) & !is.na(massFrags)) {
     if(abs(massFrags-massReacs) > 0.01) {
-      setwd("..")
+      # setwd("..")
       stop(
         paste0(
           'Pb mass of fragments vs. reactants: ',m,' : \n',
-          paste(reac,collapse = ' + '),' --> ',
-          paste(prod,collapse = ' + '),'\n',
+          reacTags[m],'\n',
           massReacs, ' /= ', massFrags
         )
       )
     }      
   }
+  massProds[m] = round(massReacs,4)
 }
+names(massProds) = reacTags
+
+# Reactions per mass to identify unsuitable dummy species
+sink(file = 'reacsMassList.txt')
+mu = sort(unique(massProds))
+for (m in mu) {
+  cat(
+    m,' : ',
+    paste(names(massProds)[massProds==m],
+          collapse = '\n\t\t\t\t\t\t '),
+    '\n\n'
+  )
+}
+sink()
+
 
 # Species per mass
 sink(file = 'speciesList.txt')
 mu = sort(unique(mass))
 for (m in mu) {
-  cat(m,' : ',names(mass[mass==m]),'\n')
+  cat(m,' : ',names(mass)[mass==m],'\n')
 }
 sink()
+
+stop()
 
 # Generate random samples #####
 

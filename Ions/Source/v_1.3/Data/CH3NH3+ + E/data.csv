@@ -1,0 +1,11 @@
+CH3NH3+ + E			
+			
+ALPHA	Logu	0.5e-6	3e-6
+REF_ALPHA 	Plessis2010		
+			
+BETA	Unif	0.5 	1.5
+REF_BETA	Plessis2010		
+			
+REF_BR	
+BR	
+Products

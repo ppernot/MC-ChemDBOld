@@ -1,0 +1,11 @@
+H2O+ + N4S									
+
+CHECKED	PP
+REF_ALPHA	McEwan2007							
+REF_BR	McEwan2007
+									
+ALPHA	Logn	1.4e-10	1.2						
+									
+BR	Dirg								
+HNO+ + H	0.80/0.08								
+NO+ + H2	0.20/0.07								

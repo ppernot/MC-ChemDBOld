@@ -1,0 +1,12 @@
+CH+ + E			
+
+CHECKED	PP
+			
+ALPHA	Logu	0.97e-7	3.1e-7
+REF_ALPHA	Florescu2006	Sheehan2004	Woodall2007
+
+BETA	Unif	0.37	0.89
+REF_BETA	Florescu2006	Sheehan2004	Woodall2007
+			
+BR			
+C + H			

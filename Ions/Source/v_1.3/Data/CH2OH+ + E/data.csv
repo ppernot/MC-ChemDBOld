@@ -1,0 +1,18 @@
+CH2OH+ + E					
+					
+CHECKED	PP				
+					
+REF_ALPHA	Hamberg2007				
+REF_BETA	Hamberg2007				
+REF_BR	Hamberg2007				
+					
+ALPHA	Logn	7.0e-7	1.2		
+					
+BETA	Nort	0.70	0.07	0.5	1.5
+					
+BR	Dior	Diri	Dirg		
+HCO + H + H	1	 	0.92/0.02		
+HCO + H2	2	 			
+CH + H2O			0.02/0.01		
+1CH2 + OH		1/1	0.06/0.01		
+3CH2 + OH		1 			

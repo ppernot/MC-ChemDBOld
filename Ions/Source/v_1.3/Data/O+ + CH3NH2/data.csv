@@ -1,0 +1,11 @@
+O+ + CH3NH2									
+
+CHECKED	PP
+REF_ALPHA	Vuitton2019							
+ALPHA	Logn	2.1e-9	1.2						
+
+REF_BR	Vuitton2019									
+BR	Dirg									
+CH3NH2+ + O3P	0.06/0.06									
+CH2NH2+ + OH	0.79/0.06									
+CH2NH+ + H2O	0.15/0.06									

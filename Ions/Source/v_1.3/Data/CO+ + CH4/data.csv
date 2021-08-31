@@ -1,0 +1,12 @@
+CO+ + CH4	
+
+CHECKED	PP
+REF_ALPHA	McEwan2007							
+REF_BR	McEwan2007								
+									
+ALPHA	Logn	0.1340E-08	1.1						
+									
+BR	Dirg								
+CH4+ + CO	0.67/0.07								
+HCO+ + CH3	0.28/0.09								
+CH3CO+ + H	0.05/0.05								

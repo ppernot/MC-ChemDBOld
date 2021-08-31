@@ -1,0 +1,39 @@
+CH3CNH+ + E																
+																
+CHECKED	PP															
+																
+ALPHA	Logn	3.3e-7	1.15													
+REF_ALPHA	Florescu2006	McLain2009a	Geoghegan1991	McLain2009												
+																
+BETA	Nort	1.03	1	0.5	1.5											
+REF_BETA	Plessis2010	McLain2009a														
+																
+REF_BR	Vigren2008	Plessis2010														
+																
+BR	Dior	Diri	Diut	Diri	Diri	Diri	Diri	Diri	Diri	Diri	Diri	Diri	Dior	Diri	Dior	Dirg
+CH3CN + H		1/1	0.25/1.00													0.65/0.03
+CH2CN + H2	2	1														
+CH2CN + H + H	1															
+CHCN + H2 + H		1														
+C2N + H2 + H2			0.00/0.25													
+C2H4 + N4S														1/1	2	0.35/0.03
+C2H2 + NH2														1		
+C2H2 + NH + H														1		
+C2H2 + N4S + H2														1		
+C2H + NH3														1		
+C2H + NH + H2														1		
+HCN + CH3							1/1		1/1				1		1	
+HNC + CH3							1									
+HCN + 1CH2 + H				1/1		1/1			1							
+HCN + 3CH2 + H				1												
+HNC + 1CH2 + H					1/1	1										
+HNC + 3CH2 + H					1											
+HCN + CH + H2								1/1	1							
+HNC + CH + H2								1								
+CN + CH3 + H									1							
+CH2NH + CH												1/1	2			
+H2CN + 1CH2										1/1		1				
+H2CN + 3CH2										1						
+CN + CH4												1				
+CN + 1CH2 + H2											1/1	1				
+CN + 3CH2 + H2											1					

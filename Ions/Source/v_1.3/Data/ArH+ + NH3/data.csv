@@ -1,0 +1,11 @@
+ArH+ + NH3										
+
+CHECKED	PP								
+									
+ALPHA	Logn	2.4e-09	1.15		
+REF_ALPHA	Anicich2003						
+															
+REF_BR	Anicich2003					
+BR	Diut									
+NH3+ + Ar + H	0.00/0.25				
+NH4+ + Ar	0.75/1

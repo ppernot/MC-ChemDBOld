@@ -1,0 +1,1396 @@
+2.0159  :  H + H --> H2 
+
+14.0067  :  N2D --> N4S 
+
+14.0269  :  H + CH --> C + H2
+						 C + H2 --> 3CH2 
+
+15.0348  :  H + 1CH2 --> CH + H2
+						 H + 3CH2 --> CH + H2
+						 CH + H2 --> 3CH2 + H
+						 CH + H2 --> CH3 
+
+16.0226  :  N2D + H2 --> NH + H
+						 NH + H --> N4S + H2 
+
+16.0428  :  H + CH3 --> 3CH2 + H2
+						 1CH2 + H2 --> 3CH2 + H2
+						 1CH2 + H2 --> CH3 + H
+						 3CH2 + H2 --> CH3 + H
+						 H + CH3 --> CH4 
+
+17.0305  :  NH2 + H --> NH + H2
+						 NH2 + H --> NH3 
+
+17.0507  :  H + CH4 --> CH3 + H2
+						 CH3 + H2 --> CH4 + H 
+
+18.0153  :  O1D + H2 --> OH + H 
+
+18.0385  :  NH2 + H2 --> NH3 + H
+						 NH3 + H --> NH2 + H2 
+
+19.0232  :  OH + H2 --> H2O + H 
+
+26.0379  :  CH + CH --> C2H + H
+						 CH + CH --> 3CH2 + C
+						 1C2 + H2 --> C2H + H
+						 3C2 + H2 --> C2H + H
+						 H + C2H --> C2H2 
+
+27.0256  :  N4S + CH --> CN + H
+						 CN + H --> HCN 
+
+27.0458  :  H + C2H2 --> C2H + H2
+						 CH + 3CH2 --> C2H2 + H
+						 C2H + H2 --> C2H2 + H
+						 H + C2H2 --> C2H3 
+
+28.0134  :  N4S + N4S --> N2 
+
+28.0336  :  N4S + 3CH2 --> HCN + H
+						 N4S + 3CH2 --> HNC + H
+						 NH + CH --> HCN + H
+						 NH + CH --> HNC + H
+						 NH2 + C --> HCN + H
+						 NH2 + C --> HNC + H
+						 CN + H2 --> HCN + H
+						 HNC + H --> HCN + H
+						 HCN + H --> H2CN 
+
+28.0538  :  H + C2H3 --> C2H2 + H2
+						 CH + CH3 --> C2H3 + H
+						 CH + CH3 --> C2H2 + H + H
+						 1CH2 + 3CH2 --> C2H2 + H + H
+						 1CH2 + 1CH2 --> C2H2 + H + H
+						 3CH2 + 3CH2 --> C2H2 + H + H
+						 3CH2 + 3CH2 --> C2H2 + H2
+						 3CH2 + 3CH2 --> C2H3 + H
+						 H + C2H3 --> C2H4 
+
+29.0183  :  CO + H --> HCO 
+
+29.0213  :  N4S + NH --> N2 + H 
+
+29.0415  :  N4S + CH3 --> H2CN + H
+						 N4S + CH3 --> HCN + H + H
+						 NH + 3CH2 --> H2CN + H
+						 NH + 3CH2 --> HCN + H + H
+						 NH + 3CH2 --> HNC + H2
+						 NH3 + C --> H2CN + H
+						 H2CN + H --> HCN + H2 
+
+29.0617  :  CH + CH4 --> C2H4 + H
+						 1CH2 + CH3 --> C2H4 + H
+						 3CH2 + CH3 --> C2H4 + H
+						 C2H3 + H2 --> C2H4 + H
+						 H + C2H4 --> C2H5 
+
+30.0263  :  O3P + 1CH2 --> HCO + H
+						 O3P + 1CH2 --> CO + H + H
+						 O3P + 1CH2 --> CO + H2
+						 O3P + 3CH2 --> HCO + H
+						 O3P + 3CH2 --> CO + H + H
+						 O3P + 3CH2 --> CO + H2
+						 HCO + H --> CO + H2 
+
+30.0293  :  N4S + NH2 --> N2 + H + H
+						 NH + NH --> N2 + H + H
+						 N2H + H --> N2 + H2 
+
+30.0495  :  N2D + CH4 --> NH + CH3
+						 N2D + CH4 --> CH2NH + H
+						 NH + CH3 --> CH2NH + H
+						 NH3 + CH --> CH2NH + H
+						 CH2NH + H --> H2CN + H2
+						 CH2NH + H --> CH3NH 
+
+30.0696  :  H + C2H5 --> C2H4 + H2
+						 1CH2 + CH4 --> 3CH2 + CH4
+						 1CH2 + CH4 --> CH3 + CH3
+						 3CH2 + CH4 --> CH3 + CH3
+						 CH3 + CH3 --> C2H5 + H
+						 CH3 + CH3 --> C2H6 
+
+31.014  :  O3P + NH --> NO + H
+						 OH + N4S --> NO + H
+						 OH + N2D --> NO + H
+						 NO + H --> HNO 
+
+31.0342  :  O3P + CH3 --> CO + H2 + H
+						 O3P + CH3 --> H2CO + H
+						 H2O + CH --> H2CO + H
+						 H2CO + H --> HCO + H2 
+
+31.0372  :  N2D + NH3 --> N2H2 + H
+						 NH + NH2 --> N2H2 + H
+						 N2H2 + H --> N2H + H2 
+
+31.0574  :  CH3NH + H --> CH2NH + H2
+						 NH2 + CH3 --> CH3NH2
+						 CH2NH2 + H --> CH2NH + H2
+						 CH2NH2 + H --> NH2 + CH3 
+
+31.0776  :  H + C2H6 --> C2H5 + H2
+						 C2H5 + H2 --> C2H6 + H 
+
+32.022  :  H2O + N2D --> OH + NH
+						 H2O + N2D --> HNO + H
+						 HNO + H --> NO + H2 
+
+32.0422  :  O1D + CH4 --> OH + CH3
+						 O1D + CH4 --> CH3O + H
+						 O1D + CH4 --> H2CO + H2
+						 OH + CH3 --> H2O + 1CH2
+						 OH + CH3 --> H2CO + H2
+						 CH3O + H --> H2CO + H2
+						 CH3O + H --> OH + CH3
+						 OH + CH3 --> CH3OH
+						 H2O + 1CH2 --> CH3 + OH
+						 H2O + 1CH2 --> H2CO + H2
+						 CH2OH + H --> H2CO + H2
+						 CH2OH + H --> CH3 + OH 
+
+32.0452  :  N2H3 + H --> NH2 + NH2
+						 N2H3 + H --> N2H2 + H2
+						 NH2 + NH2 --> N2H4 
+
+32.0653  :  NH2 + CH4 --> NH3 + CH3
+						 NH3 + CH3 --> NH2 + CH4 
+
+33.0501  :  OH + CH4 --> H2O + CH3
+						 CH3OH + H --> CH3O + H2 
+
+33.0531  :  N2H4 + H --> N2H3 + H2 
+
+34.0147  :  H + HO2 --> H2 + O2
+						 H + HO2 --> OH + OH
+						 H + HO2 --> O3P + H2O 
+
+34.0759  :  SH + H --> H2 + S3P
+						 S1D + H2 --> SH + H 
+
+35.0838  :  H2S + H --> SH + H2 
+
+37.0409  :  H + C3 --> cC3H
+						 H + C3 --> lC3H 
+
+38.0287  :  N4S + 1C2 --> CN + C
+						 N4S + 1C2 --> CN + C 
+
+38.0489  :  C + C2H2 --> C3 + H2
+						 C + C2H2 --> cC3H + H
+						 C + C2H2 --> lC3H + H 
+
+39.0366  :  N4S + C2H --> C2N + H
+						 N4S + C2H --> HCN + C
+						 N4S + C2H --> HNC + C
+						 NH + 1C2 --> HNC + C
+						 NH + 3C2 --> HNC + C
+						 CN + CH --> C2N + H
+						 CN + CH --> HCN + C
+						 HNC + C --> HCN + C
+						 HNC + C --> C2N + H
+						 C2N + H --> HCN + C
+						 H + CNC --> HCN + C 
+
+39.0568  :  C + C2H3 --> cC3H2 + H
+						 C + C2H3 --> lC3H2 + H
+						 C + C2H3 --> tC3H2 + H
+						 C + C2H3 --> cC3H + H2
+						 C + C2H3 --> lC3H + H2
+						 CH + C2H2 --> cC3H2 + H
+						 CH + C2H2 --> tC3H2 + H
+						 CH + C2H2 --> lC3H + H2
+						 1CH2 + C2H --> cC3H2 + H
+						 1CH2 + C2H --> tC3H2 + H
+						 1CH2 + C2H --> lC3H2 + H
+						 3CH2 + C2H --> cC3H2 + H
+						 3CH2 + C2H --> tC3H2 + H
+						 3CH2 + C2H --> lC3H2 + H
+						 3CH2 + C2H --> cC3H + H2
+						 3CH2 + C2H --> lC3H + H2
+						 cC3H + H2 --> cC3H2 + H
+						 lC3H + H2 --> lC3H2 + H
+						 H + cC3H2 --> C3H3 
+
+40.0244  :  N4S + CN --> C + N2
+						 N2 + C --> CN2 
+
+40.0446  :  N2D + C2H2 --> CHCN + H
+						 NH + C2H --> CHCN + H
+						 CN + 3CH2 --> HCN + CH
+						 CN + 3CH2 --> CHCN + H
+						 CN + 3CH2 --> C2N + H2
+						 HCN + CH --> CHCN + H
+						 HCN + CH --> C2N + H2
+						 HNC + CH --> CHCN + H
+						 HNC + CH --> C2N + H2
+						 H2CN + C --> C2N + H2
+						 H2CN + C --> HCN + CH
+						 H2CN + C --> CHCN + H
+						 CHCN + H --> C2N + H2 
+
+40.0648  :  C + C2H4 --> C3H3 + H
+						 C + C2H4 --> C2H2 + 3CH2
+						 1CH2 + C2H2 --> 3CH2 + C2H2
+						 1CH2 + C2H2 --> C3H3 + H
+						 CH3 + C2H --> C3H3 + H
+						 1C2 + CH4 --> C2H + CH3
+						 tC3H2 + H2 --> C3H3 + H
+						 H + C3H3 --> CH3C2H
+						 H + C3H3 --> CH2CCH2 
+
+41.0323  :  N2D + HCN --> CH + N2
+						 N2D + HNC --> CN2 + H
+						 N2D + HNC --> CH + N2
+						 NH + CN --> CN2 + H
+						 NH + CN --> N2 + CH
+						 CN2 + H --> CH + N2
+						 N2 + CH --> HCNN 
+
+41.0525  :  N4S + C2H3 --> CH2CN + H
+						 N4S + C2H3 --> NH + C2H2
+						 NH + C2H2 --> CH2CN + H
+						 CN + CH3 --> CH2CN + H
+						 CH2NH + C --> HCN + 3CH2
+						 CH2NH + C --> CH2CN + H
+						 CH2CN + H --> CH3CN 
+
+41.0727  :  CH + C2H4 --> CH3C2H + H
+						 CH + C2H4 --> CH2CCH2 + H
+						 1CH2 + C2H3 --> C2H2 + CH3
+						 3CH2 + C2H3 --> C2H2 + CH3
+						 C2H + CH4 --> C2H2 + CH3
+						 C3H3 + H2 --> CH3C2H + H
+						 C3H3 + H2 --> CH2CCH2 + H
+						 H + CH3C2H --> C3H5
+						 H + CH2CCH2 --> C3H5 
+
+42.0171  :  NO + C --> CN + O3P
+						 NO + C --> CO + N4S 
+
+42.0201  :  N2D + N2 --> N4S + N2
+						 N2P + N2 --> N4S + N2 
+
+42.0373  :  O3P + C2H2 --> CO + 3CH2
+						 O3P + C2H2 --> HC2O + H
+						 H2CO + C --> CO + 3CH2
+						 HC2O + H --> 3CH2 + CO 
+
+42.0403  :  1CH2 + N2 --> 3CH2 + N2
+						 N4S + H2CN --> N2 + 3CH2
+						 N4S + H2CN --> HCN + NH
+						 HCNN + H --> 1CH2 + N2 
+
+42.0605  :  N2D + C2H4 --> CH2NCH + H
+						 N2D + C2H4 --> cCH2NCH + H
+						 NH + C2H3 --> CH3CN + H
+						 NH + C2H3 --> HNC + CH3
+						 NH + C2H3 --> NH2 + C2H2
+						 NH2 + C2H2 --> NH3 + C2H
+						 NH3 + C2H --> NH2 + C2H2
+						 CN + CH4 --> HCN + CH3
+						 CH2NH + CH --> CH3CN + H
+						 CH3CN + H --> CH2CN + H2
+						 CH2NCH + H --> HCN + CH3
+						 CH2NCH + H --> HCN + CH3
+						 cCH2NCH + H --> CH3CN + H
+						 cCH2NCH + H --> HCN + CH3
+						 CH2NH2 + C --> NH2 + C2H2 
+
+42.0806  :  H + C3H5 --> CH2CCH2 + H2
+						 H + C3H5 --> CH3C2H + H2
+						 1CH2 + C2H4 --> 3CH2 + C2H4
+						 1CH2 + C2H4 --> C3H5 + H
+						 CH3 + C2H3 --> C2H2 + CH4
+						 H + C3H5 --> C3H6 
+
+43.025  :  HCO + N4S --> CO + NH
+						 NO + CH --> HCN + O3P
+						 NO + CH --> NCO + H
+						 NO + CH --> CO + NH
+						 NO + CH --> OH + CN
+						 HNO + C --> NO + CH
+						 HNO + C --> NCO + H
+						 HNO + C --> HNC + O3P
+						 HNO + C --> CO + NH
+						 NCO + H --> CO + NH 
+
+43.0452  :  O3P + C2H3 --> CH3 + CO
+						 O3P + C2H3 --> OH + C2H2
+						 H2O + C2H --> OH + C2H2
+						 H2CO + CH --> CO + CH3
+						 H2CO + CH --> CH2CO + H
+						 OH + C2H2 --> C2H2OH
+						 HCO + 3CH2 --> CO + CH3
+						 CH2CO + H --> CO + CH3 
+
+43.0482  :  N2D + CH2NH --> H2CNN + H
+						 N2D + CH2NH --> HNCNH + H
+						 NH + H2CN --> NH2 + HCN
+						 NH + H2CN --> H2CNN + H
+						 CN + NH3 --> HCN + NH2
+						 HNCNH + H --> NH2 + HCN
+						 H2CNN + H --> CH3 + N2 
+
+43.0684  :  N4S + C2H5 --> H2CN + CH3
+						 N4S + C2H5 --> NH + C2H4
+						 NH + C2H4 --> H2CN + CH3
+						 NH2 + C2H3 --> NH3 + C2H2
+						 NH2 + C2H3 --> C2H3NH + H
+						 H2CN + CH3 --> CH4 + HCN
+						 CH2NH + 1CH2 --> H2CN + CH3
+						 H2CN + CH3 --> CH2NCH3
+						 C2H3NH + H --> CH3CN + H2
+						 N4S + C2H5 --> C2H3NH + H 
+
+43.0886  :  H + C3H6 --> CH3 + C2H4
+						 H + C3H6 --> C3H5 + H2
+						 CH + C2H6 --> C3H6 + H
+						 CH + C2H6 --> C2H4 + CH3
+						 1CH2 + C2H5 --> C2H4 + CH3
+						 1CH2 + C2H5 --> C3H6 + H
+						 3CH2 + C2H5 --> C2H4 + CH3
+						 CH3 + C2H4 --> C2H3 + CH4
+						 C2H3 + CH4 --> C2H4 + CH3
+						 C3H5 + H2 --> C3H6 + H
+						 H + C3H6 --> C3H7 
+
+44.0128  :  O1D + N2 --> O3P + N2
+						 NO + N4S --> O3P + N2
+						 NO + N2D --> O3P + N2 
+
+44.033  :  O3P + H2CN --> OH + HCN
+						 O3P + H2CN --> OH + HNC
+						 O3P + H2CN --> HNCO + H
+						 H2CO + N2D --> HNCO + H
+						 NO + 3CH2 --> HNCO + H
+						 NO + 3CH2 --> CO + NH2
+						 HNO + CH --> NO + 3CH2
+						 HNO + CH --> HNCO + H 
+
+44.0532  :  O3P + C2H4 --> CH3CO + H
+						 O3P + C2H4 --> CH3CO + H
+						 O3P + C2H4 --> HCO + CH3
+						 O3P + C2H4 --> H2CO + 3CH2
+						 O3P + C2H4 --> CH2CO + H2
+						 HCO + CH3 --> CO + CH4
+						 CH3CO + H --> HCO + CH3
+						 CH3CO + H --> CH2CO + H2
+						 C2H2OH + H --> HCO + CH3
+						 C2H2OH + H --> CH3CO + H
+						 C2H2OH + H --> CO + CH4
+						 HCO + CH3 --> CH3CHO 
+
+44.0562  :  NH2 + H2CN --> HCN + NH3
+						 NH2 + H2CN --> H2CNNH2
+						 CH2NH2 + N4S --> CH2NH + NH
+						 CH2NH2 + N4S --> NH3 + HCN 
+
+44.0763  :  N2D + C2H6 --> CH2NH + CH3
+						 NH + C2H5 --> NH2 + C2H4
+						 NH + C2H5 --> CH3CHNH + H
+						 NH2 + C2H4 --> NH3 + C2H3
+						 CH3NH2 + CH --> C2H3NH2 + H
+						 CH2NCH3 + H --> CH2NH + CH3
+						 CH3CHNH + H --> C2H3NH + H2
+						 NH + C2H5 --> CH3CHNH + H 
+
+44.0965  :  H + C3H7 --> C3H6 + H2
+						 1CH2 + C2H6 --> 3CH2 + C2H6
+						 1CH2 + C2H6 --> C2H5 + CH3
+						 CH3 + C2H5 --> C2H4 + CH4
+						 C2H5 + CH3 --> C3H8 
+
+45.0177  :  OH + CO --> CO2 + H
+						 OH + CO --> CO2 + H
+						 O3P + HCO --> H + CO2
+						 O3P + HCO --> OH + CO 
+
+45.0207  :  NO + NH --> N2O + H
+						 NO + NH --> OH + N2
+						 HNO + N2D --> NO + NH 
+
+45.0409  :  CH3O + N4S --> NO + CH3
+						 NO + CH3 --> CH3NO 
+
+45.0611  :  O3P + C2H5 --> H2CO + CH3
+						 O3P + C2H5 --> CH3CHO + H
+						 O3P + C2H5 --> OH + C2H4
+						 CH3OH + CH --> H2CO + CH3
+						 CH3OH + CH --> OH + C2H4
+						 CH3CHO + H --> CH3CO + H2
+						 OH + C2H4 --> C2H4OH
+						 CH2OH + 3CH2 --> C2H4 + OH
+						 CH2OH + 3CH2 --> H2CO + CH3 
+
+45.0641  :  N2D + CH3NH2 --> CH3NNH + H
+						 N2D + CH3NH2 --> HNCHNH2 + H 
+
+45.0789  :  CS + H --> HCS 
+
+45.0843  :  NH2 + C2H5 --> NH3 + C2H4
+						 NH2 + C2H5 --> CH3NH + CH3
+						 CH3NH + CH3 --> CH2NH + CH4
+						 CH3NH + CH3 --> CH3NHCH3 
+
+45.1045  :  H + C3H8 --> C3H7 + H2
+						 CH3 + C2H6 --> C2H5 + CH4
+						 C2H5 + CH4 --> C2H6 + CH3
+						 C3H7 + H2 --> C3H8 + H 
+
+46.0287  :  NO + NH2 --> N2 + H2O
+						 NO + NH2 --> N2 + OH + H 
+
+46.0489  :  CH3OH + N2D --> OH + CH2NH
+						 CH3OH + N2D --> HNO + CH3
+						 CH3NO + H --> HNO + CH3
+						 CH2NH2 + O3P --> CH2NH + OH
+						 CH2NH2 + O3P --> NH2 + H2CO 
+
+46.0519  :  NH2 + N2H2 --> NH3 + N2H 
+
+46.069  :  CH3O + CH3 --> H2CO + CH4
+						 C2H4OH + H --> H2O + C2H4
+						 C2H4OH + H --> CH3O + CH3
+						 C2H4OH + H --> OH + C2H5
+						 CH2OH + CH3 --> H2CO + CH4 
+
+46.0869  :  H2S + C --> HCS + H
+						 HCS + H --> CS + H2 
+
+46.0922  :  NH2 + C2H6 --> NH3 + C2H5
+						 CH3NH2 + CH3 --> CH3NH + CH4 
+
+47.0134  :  O3P + HNO --> OH + NO 
+
+47.0746  :  SH + N2D --> NS + H
+						 SH + N4S --> NS + H
+						 S3P + NH --> NS + H 
+
+47.08  :  N2H4 + CH3 --> N2H3 + CH4 
+
+47.0948  :  H2S + CH --> H2CS + H
+						 H2CS + H --> HCS + H2
+						 S3P + CH3 --> H2CS + H 
+
+48.0416  :  CH3 + HO2 --> O2 + CH4 
+
+48.1028  :  CH3S + H --> H2CS + H2
+						 CH3S + H --> SH + CH3
+						 S1D + CH4 --> SH + CH3
+						 SH + CH3 --> CH3SH 
+
+49.0519  :  CH + C3 --> C4 + H 
+
+49.1107  :  CH3SH + H --> CH3S + H2 
+
+50.0397  :  N4S + C3 --> CN + 3C2
+						 N2D + C3 --> CN + 1C2
+						 C2N + C --> CN + 1C2 
+
+50.0599  :  C + cC3H2 --> C4H + H
+						 C + tC3H2 --> C4H + H
+						 C + lC3H2 --> C4H + H
+						 1CH2 + C3 --> C4H + H
+						 1C2 + C2H2 --> C4H + H
+						 3C2 + C2H2 --> C4H + H
+						 C2H + C2H --> C2H2 + 1C2
+						 H + C4H --> C4H2 
+
+51.0476  :  N4S + lC3H --> CN + C2H
+						 N4S + lC3H --> C3N + H
+						 N4S + cC3H --> CN + C2H
+						 N4S + cC3H --> C3N + H
+						 HCN + 1C2 --> C3N + H
+						 HNC + 1C2 --> C3N + H
+						 C3N + H --> HC3N 
+
+51.0678  :  CH + cC3H2 --> C4H2 + H
+						 CH + tC3H2 --> C4H2 + H
+						 CH + lC3H2 --> C4H2 + H
+						 3CH2 + cC3H --> C4H2 + H
+						 3CH2 + lC3H --> C4H2 + H
+						 C2H + C2H2 --> C4H2 + H
+						 C4H + H2 --> C4H2 + H
+						 H + C4H2 --> C4H3 
+
+52.0324  :  O3P + C3 --> CO + 3C2 
+
+52.0354  :  3C2 + N2 --> 1C2 + N2
+						 N4S + C2N --> CN + CN
+						 CN + CN --> C2N2 
+
+52.0556  :  N4S + tC3H2 --> HC3N + H
+						 N2D + cC3H2 --> HC3N + H
+						 N2D + lC3H2 --> HC3N + H
+						 N2D + tC3H2 --> HC3N + H
+						 CN + C2H2 --> HC3N + H
+						 HCN + C2H --> HC3N + H
+						 HNC + C2H --> HC3N + H
+						 CH2CN + C --> HC3N + H
+						 C3N + H2 --> HC3N + H
+						 HC3N + H --> H2C3N 
+
+52.0758  :  H + C4H3 --> C4H2 + H2
+						 C + CH3C2H --> C4H3 + H
+						 C + CH2CCH2 --> C4H3 + H
+						 1CH2 + cC3H2 --> C4H3 + H
+						 1CH2 + tC3H2 --> C4H3 + H
+						 1CH2 + lC3H2 --> C4H3 + H
+						 3CH2 + cC3H2 --> C4H3 + H
+						 3CH2 + cC3H2 --> C2H2 + C2H2
+						 CH3 + cC3H --> C4H3 + H
+						 CH3 + lC3H --> C4H3 + H
+						 1C2 + C2H4 --> C4H3 + H
+						 1C2 + C2H4 --> C2H2 + C2H2
+						 3C2 + C2H4 --> C4H3 + H
+						 3C2 + C2H4 --> C4H2 + H2
+						 3C2 + C2H4 --> C2H2 + C2H2
+						 C2H + C2H3 --> C2H2 + C2H2
+						 C2H + C2H3 --> C4H3 + H 
+
+53.0433  :  N4S + CHCN --> HCN + CN
+						 N4S + CHCN --> HNC + CN
+						 N4S + CHCN --> C2N2 + H
+						 CN + HCN --> C2N2 + H
+						 CN + HNC --> C2N2 + H
+						 C2N2 + H --> HC2N2 
+
+53.0635  :  N4S + C3H3 --> H2C3N + H
+						 C2N + CH3 --> H2C3N + H
+						 H2C3N + H --> HC3N + H2 
+
+53.0837  :  CH + CH3C2H --> C4H4 + H
+						 CH + CH2CCH2 --> C4H4 + H
+						 3CH2 + C3H3 --> C4H4 + H
+						 CH3 + cC3H2 --> C4H4 + H
+						 CH3 + tC3H2 --> C4H4 + H
+						 CH3 + tC3H2 --> C2H3 + C2H2
+						 CH3 + lC3H2 --> C4H4 + H
+						 CH3 + lC3H2 --> C2H3 + C2H2
+						 C2H + C2H4 --> C4H4 + H
+						 cC3H + CH4 --> cC3H2 + CH3
+						 lC3H + CH4 --> lC3H2 + CH3
+						 C4H3 + H2 --> C4H4 + H
+						 H + C4H4 --> iC4H5 
+
+53.9547  :  N2D + Ar --> N4S + Ar 
+
+54.0281  :  C2O + N4S --> CO + CN 
+
+54.0311  :  N4S + CN2 --> CN + N2 
+
+54.0513  :  N4S + CH2CN --> H2CN + CN
+						 N4S + CH2CN --> HC2N2 + H
+						 HC2N2 + H --> C2N2 + H2
+						 HC2N2 + H --> HCN + HNC 
+
+54.0715  :  N2D + CH3C2H --> CHCN + CH3
+						 N2D + CH3C2H --> C2H3CN + H
+						 N2D + CH2CCH2 --> C2H3CN + H
+						 NH + C3H3 --> C2H3CN + H
+						 CN + C2H4 --> C2H3CN + H
+						 HCN + C2H3 --> C2H3CN + H
+						 HNC + C2H3 --> C2H3CN + H
+						 CH2NH + C2H --> C2H3CN + H
+						 C2N + CH4 --> C2H3CN + H
+						 CHCN + CH3 --> C2H3CN + H
+						 CH3CN + CH --> C2H3CN + H
+						 C2H3CN + H --> C2H4CN
+						 C2H3NH + C --> CH3CN + CH 
+
+54.0916  :  H + C4H5 --> C4H4 + H2
+						 C + C3H6 --> C4H5 + H
+						 C + C3H6 --> C3H3 + CH3
+						 1CH2 + CH3C2H --> C4H5 + H
+						 1CH2 + CH2CCH2 --> C4H5 + H
+						 1C2 + C2H6 --> C3H3 + CH3
+						 C2H + C2H5 --> C2H4 + C2H2
+						 C2H + C2H5 --> C3H3 + CH3
+						 C2H3 + C2H3 --> C2H4 + C2H2 
+
+55.036  :  HC2O + N4S --> HCN + CO
+						 HNCO + C --> HCN + CO
+						 HNCO + C --> HNC + CO 
+
+55.0592  :  N2D + CH3CN --> CH2CN + NH
+						 N2D + CH3CN --> HNCHCN + H
+						 N2D + CH3CN --> N2 + C2H3
+						 N2D + cCH2NCH --> N2 + C2H2 + H
+						 N2D + cCH2NCH --> HCN + HCN + H
+						 CN + CH2NH --> NCCHNH + H
+						 CN + CH2NH --> H2CNCN + H 
+
+55.0794  :  N4S + C3H5 --> C2H3CN + H2
+						 N4S + C3H5 --> HCN + C2H4
+						 N4S + C3H5 --> NH + CH2CCH2
+						 C2H4CN + H --> C2H3CN + H2
+						 CH2CN + CH3 --> C2H5CN
+						 CH3CHNH + C --> C2H3NH + CH 
+
+55.0996  :  H + C4H6 --> C4H5 + H2
+						 CH + C3H6 --> C4H6 + H
+						 CH + C3H6 --> CH2CCH2 + CH3
+						 1CH2 + C3H5 --> C4H6 + H
+						 1CH2 + C3H5 --> C2H4 + C2H3
+						 3CH2 + C3H5 --> C4H6 + H
+						 3CH2 + C3H5 --> C2H3 + C2H4
+						 CH3 + CH3C2H --> C2H6 + C2H
+						 CH3 + CH2CCH2 --> C2H5 + C2H2
+						 C2H + C2H6 --> C2H5 + C2H2
+						 C2H3 + C2H4 --> C4H6 + H
+						 C2H5 + C2H2 --> C2H6 + C2H
+						 C3H3 + CH4 --> CH3C2H + CH3
+						 C3H3 + CH4 --> CH2CCH2 + CH3
+						 tC4H5 + H2 --> C4H6 + H
+						 H + C4H6 --> C4H7 
+
+56.0238  :  NCO + N4S --> CO + N2
+						 N2O + C --> CO + N2
+						 N2O + C --> NO + CN 
+
+56.044  :  H2CO + CN --> HCO + HCN
+						 HNCO + CH --> CO + H2CN
+						 HNCO + CH --> CO + HCN + H 
+
+56.0642  :  HC2O + CH3 --> C2H4 + CO
+						 CH3CHO + C --> C2H2 + H2 + CO
+						 CH2OH + C2H --> H2CO + C2H2
+						 CH2OH + C2H --> OH + C3H3 
+
+56.0672  :  H2CN + H2CN --> CH2NH + HCN 
+
+56.0873  :  N2D + C3H6 --> CH2NCH + CH3
+						 N2D + C3H6 --> cCH2NCH + CH3
+						 CN + C2H6 --> HCN + C2H5
+						 CH3NH2 + C2H --> CH3NH + C2H2
+						 CH2NCH + CH3 --> HCN + C2H5 
+
+56.1075  :  H + C4H7 --> C4H6 + H2
+						 CH3 + C3H5 --> CH3C2H + CH4
+						 CH3 + C3H5 --> CH2CCH2 + CH4
+						 C2H3 + C2H5 --> C2H4 + C2H4
+						 C2H3 + C2H5 --> C2H6 + C2H2
+						 CH3 + C3H5 --> C4H8 
+
+57.0287  :  O3P + HC2O --> H + CO + CO
+						 O3P + HC2O --> CH + CO2
+						 CO2 + CH --> CO + CO + H 
+
+57.0317  :  HNCO + N2D --> CO + N2 + H
+						 N2O + CH --> CO + N2 + H
+						 N2O + CH --> NO + HCN 
+
+57.0721  :  CH3OH + C2H --> CH3O + C2H2
+						 CH3CHO + CH --> C2H2 + H2 + CO + H
+						 CH3CO + 3CH2 --> CH2CO + CH3 
+
+57.0751  :  CN + CH3NH2 --> CH3NH + HCN 
+
+57.0899  :  CS + CH --> C2S + H
+						 CS + CH --> S3P + C2H
+						 C2S + H --> HCCS 
+
+57.0953  :  N4S + C3H7 --> H2CN + C2H5 
+
+57.1155  :  CH + C3H8 --> C4H8 + H
+						 CH + C3H8 --> C3H6 + CH3
+						 CH + C3H8 --> C2H5 + C2H4
+						 1CH2 + C3H7 --> C2H5 + C2H4
+						 1CH2 + C3H7 --> C3H6 + CH3
+						 3CH2 + C3H7 --> C2H4 + C2H5
+						 3CH2 + C3H7 --> C3H6 + CH3
+						 CH3 + C3H6 --> C3H5 + CH4
+						 C2H3 + C2H6 --> C2H4 + C2H5
+						 C2H5 + C2H4 --> C2H6 + C2H3
+						 C3H5 + CH4 --> C3H6 + CH3
+						 H + C4H8 --> C4H9 
+
+58.0165  :  CO2 + N2D --> CO + NO 
+
+58.0195  :  N2O + N2D --> N2 + NO 
+
+58.0367  :  O3P + CH2CO --> CO2 + 3CH2
+						 O3P + CH2CO --> H2CO + CO
+						 O3P + CH2CO --> HCO + CO + H 
+
+58.0599  :  CH3OH + CN --> CH3O + HCN
+						 CH3CHO + N2D --> HNCO + CH3 
+
+58.0777  :  CS + N2D --> S3P + CN 
+
+58.08  :  O3P + C3H6 --> HCO + C2H5
+						 O3P + C3H6 --> CH3CO + CH3
+						 O3P + C3H6 --> SOOTO + H
+						 O3P + C3H6 --> SOOTO + H2
+						 CH3CO + CH3 --> C2H6 + CO
+						 CH3CO + CH3 --> CH2CO + CH4
+						 CH3CO + CH3 --> CH3COCH3 
+
+58.0979  :  H2S + 1C2 --> SH + C2H
+						 CS + 1CH2 --> HCCS + H
+						 CS + 3CH2 --> HCCS + H
+						 HCCS + H --> H2CCS
+						 S3P + C2H2 --> C2H2S 
+
+58.1032  :  N2D + C3H8 --> CH2NH + C2H5 
+
+58.1234  :  H + C4H9 --> C4H8 + H2
+						 1CH2 + C3H8 --> C2H5 + C2H5
+						 CH3 + C3H7 --> C3H6 + CH4
+						 C2H5 + C2H5 --> C2H6 + C2H4
+						 CH3 + C3H7 --> C4H10
+						 C2H5 + C2H5 --> C4H10 
+
+59.0446  :  O3P + CH3CO --> CO2 + CH3
+						 O3P + CH3CO --> CH2CO + OH
+						 OH + CH2CO --> CH3O + CO
+						 OH + CH2CO --> CH3 + CO2
+						 OH + CH2CO --> H2CO + HCO
+						 OH + CH2CO --> HC2O + H2O 
+
+59.0856  :  HCS + N2D --> CS + NH
+						 HCS + N2D --> NCS + H
+						 HCS + N2D --> S3P + HCN
+						 HCS + N4S --> CS + NH
+						 HCS + N4S --> NCS + H
+						 HCS + N4S --> S3P + HCN
+						 CS + NH --> S3P + HNC
+						 NCS + H --> S3P + HNC 
+
+59.1058  :  H2S + C2H --> SH + C2H2
+						 C2H2S + H --> SH + C2H2
+						 CS + CH3 --> H2CCS + H
+						 S3P + C2H3 --> SH + C2H2
+						 S3P + C2H3 --> H2CCS + H 
+
+59.1313  :  CH3 + C3H8 --> C3H7 + CH4
+						 C3H7 + CH4 --> C3H8 + CH3 
+
+60.0704  :  CS + O3P --> S3P + CO 
+
+60.0734  :  S1D + N2 --> S3P + N2
+						 NS + N2D --> S3P + N2
+						 NS + N4S --> S3P + N2 
+
+60.0936  :  H2S + CN --> SH + HCN
+						 NS + 3CH2 --> HNCS + H
+						 CS + NH2 --> HNCS + H 
+
+60.1138  :  SH + C2H3 --> H2S + C2H2
+						 CH3CS + H --> HCS + CH3
+						 CH3CS + H --> H2CCS + H2
+						 HCS + CH3 --> CS + CH4
+						 S3P + C2H4 --> C2H4S 
+
+61.0629  :  C2H + C3 --> C5 + H 
+
+61.0783  :  OCS + H --> SH + CO
+						 CS + OH --> OCS + H
+						 CS + OH --> SH + CO 
+
+61.0813  :  N2S + H --> SH + N2
+						 NS + NH --> N2S + H
+						 NS + NH --> SH + N2 
+
+61.1015  :  NS + CH3 --> SOOTS 
+
+61.1217  :  C2H4S + H --> SH + C2H4
+						 CH3CHS + H --> CH3CS + H2 
+
+62.0507  :  C3N + C --> CN + C3 
+
+62.0709  :  C + C4H2 --> C5H + H 
+
+62.0744  :  N2H3 + N2H3 --> N2H4 + N2 + H2 
+
+63.0586  :  N4S + C4H --> C4N + H
+						 N4S + C4H --> CN + lC3H
+						 N4S + C4H --> HC3N + C
+						 HC3N + C --> C4N + H 
+
+63.0788  :  CH + C4H2 --> C5H2 + H
+						 C2H + cC3H2 --> C5H2 + H
+						 C2H + tC3H2 --> C5H2 + H
+						 C2H + lC3H2 --> C5H2 + H 
+
+64.0464  :  C2N2 + C --> C3 + N2 
+
+64.0666  :  N2D + C4H2 --> HCN + cC3H
+						 N2D + C4H2 --> HCN + lC3H
+						 N2D + C4H2 --> HC4N + H
+						 CN + cC3H2 --> HC4N + H
+						 CN + lC3H2 --> HC4N + H
+						 CN + tC3H2 --> HC4N + H
+						 C2N + C2H2 --> HC4N + H
+						 HC3N + CH --> HC4N + H
+						 HC4N + H --> CH2C3N 
+
+64.0868  :  C + C4H4 --> C5H3 + H
+						 1CH2 + C4H2 --> C5H3 + H
+						 CH3 + C4H --> C5H3 + H 
+
+65.0543  :  N2D + HC3N --> N2 + cC3H
+						 N2D + HC3N --> N2 + lC3H
+						 N2D + HC3N --> C2N + HCN
+						 C2N2 + CH --> C2N + HCN 
+
+65.0745  :  N4S + C4H3 --> CH2C3N + H
+						 N4S + C4H3 --> NH + C4H2
+						 C3N + CH3 --> CH2C3N + H
+						 C2H3CN + C --> CH2C3N + H
+						 CH2C3N + H --> HC4N + H2
+						 CH2C3N + H --> CH3C3N 
+
+65.0947  :  CH + C4H4 --> C5H4 + H
+						 3CH2 + C4H3 --> C4H2 + CH3
+						 C2H + CH3C2H --> C5H4 + H
+						 C2H + CH2CCH2 --> C5H4 + H
+						 C2H3 + cC3H2 --> C5H4 + H
+						 lC3H + C2H4 --> C5H4 + H
+						 C3H3 + C2H2 --> C5H5
+						 C4H + CH4 --> C4H2 + CH3 
+
+66.0421  :  N2D + C2N2 --> C2N + N2 
+
+66.0593  :  O3P + C4H2 --> CO + tC3H2 
+
+66.0825  :  N2D + C4H4 --> SOOTN
+						 CN + CH3C2H --> HC3N + CH3
+						 CN + CH3C2H --> CH3C3N + H
+						 CN + CH2CCH2 --> HC3N + CH3
+						 CN + CH2CCH2 --> CH3C3N + H
+						 C2N + C2H4 --> CH3C3N + H
+						 CH3CN + C2H --> CH2CN + C2H2
+						 cCH2NCH + C2H --> C2H2 + CH2CN
+						 cCH2NCH + C2H --> C3H3 + HCN
+						 cCH2NCH + C2H --> CH3 + HC3N
+						 C3N + CH4 --> HC3N + CH3
+						 C2H3CN + CH --> HC3N + CH3
+						 CH3C3N + H --> H4C4N 
+
+66.1026  :  C + C4H6 --> C5H5 + H
+						 CH3 + C4H3 --> C4H2 + CH4
+						 C2H + C3H5 --> CH2CCH2 + C2H2
+						 CH3 + C4H3 --> C5H6 
+
+67.0702  :  N2D + C2H3CN --> HNCCHCN + H
+						 N2D + C2H3CN --> N2 + C3H3
+						 CN + CH3CN --> C2N2 + CH3
+						 CN + CH3CN --> CH2CN + HCN
+						 CN + cCH2NCH --> HCN + CH2CN 
+
+67.0904  :  CH2CN + C2H3 --> CH3CN + C2H2
+						 CH2CN + C2H3 --> CHCN + C2H4
+						 H2C3N + CH3 --> HC3N + CH4
+						 C2H5CN + C --> H4C4N + H
+						 H4C4N + H --> CH3C3N + H2
+						 CH2CN + C2H3 --> SOOTN 
+
+67.1106  :  CH + C4H6 --> C5H6 + H
+						 CH + C4H6 --> C4H4 + CH3
+						 CH3 + C4H4 --> C4H3 + CH4
+						 C2H + C3H6 --> C4H4 + CH3
+						 C2H3 + CH3C2H --> C5H6 + H
+						 C2H3 + CH2CCH2 --> C5H6 + H
+						 C3H3 + C2H4 --> C5H6 + H
+						 C4H3 + CH4 --> C4H4 + CH3
+						 C3H5 + C2H2 --> C5H7 
+
+68.0752  :  CH3CO + C2H --> CH2CO + C2H2 
+
+68.0983  :  N2D + C4H6 --> C4H4NH + H
+						 CN + C3H6 --> C3H5CN + H
+						 CN + C3H6 --> C2H3CN + CH3
+						 CH3CN + C2H3 --> C2H3CN + CH3
+						 C2H5CN + CH --> CH2CN + C2H4
+						 C2H5CN + CH --> C2H3CN + CH3
+						 C3H5CN + H --> C3H6CN 
+
+68.1185  :  C + C4H8 --> C5H7 + H
+						 CH3 + C4H5 --> C4H4 + CH4
+						 1C2 + C3H8 --> C3H3 + C2H5
+						 C2H + C3H7 --> C2H5 + C3H3
+						 C2H + C3H7 --> C2H2 + C3H6
+						 C2H3 + C3H5 --> C3H6 + C2H2
+						 C2H3 + C3H5 --> C2H4 + CH3C2H
+						 C2H3 + C3H5 --> C5H7 + H
+						 C2H3 + C3H5 --> C2H4 + CH2CCH2 
+
+69.0427  :  HNCO + CN --> NCO + HCN 
+
+69.0861  :  N2D + C2H5CN --> CH2NH + CH2CN
+						 N2D + C2H5CN --> C3H5 + N2 
+
+69.1009  :  CS + C2H --> C3S + H
+						 C3S + H --> HC3S 
+
+69.1063  :  CH2CN + C2H5 --> CH3CN + C2H4
+						 CH2CN + C2H5 --> SOOTN
+						 C2H4CN + CH3 --> C2H3CN + CH4
+						 C3H6CN + H --> C3H5CN + H2
+						 C2H4CN + CH3 --> C3H7CN 
+
+69.1265  :  CH + C4H8 --> C5H8 + H
+						 CH + C4H8 --> C4H6 + CH3
+						 C2H + C3H8 --> C3H7 + C2H2
+						 C2H3 + C3H6 --> C3H5 + C2H4
+						 C2H3 + C3H6 --> C4H6 + CH3
+						 C2H3 + C3H6 --> C5H8 + H
+						 C3H3 + C2H6 --> CH3C2H + C2H5
+						 C3H3 + C2H6 --> CH2CCH2 + C2H5
+						 C3H5 + C2H4 --> C5H8 + H
+						 C3H7 + C2H2 --> C2H4 + C3H5
+						 tC4H5 + CH4 --> C4H6 + CH3 
+
+70.1089  :  HC3S + H --> C3S + H2
+						 HC3S + H --> CS + C2H2
+						 C2S + 3CH2 --> HC3S + H 
+
+70.1142  :  N2D + C4H8 --> C4H6NH + H
+						 CN + C3H8 --> HCN + C3H7 
+
+70.1344  :  C2H3 + C3H7 --> C3H6 + C2H4
+						 C2H3 + C3H7 --> C3H8 + C2H2
+						 C2H5 + C3H5 --> CH2CCH2 + C2H6
+						 C2H5 + C3H5 --> C3H6 + C2H4
+						 C2H3 + C3H7 --> C5H10
+						 C2H5 + C3H5 --> C5H10 
+
+71.0966  :  HCCS + N4S --> CS + HCN 
+
+71.1168  :  CS + C2H3 --> H2C3S + H
+						 C2S + CH3 --> H2C3S + H
+						 C2S + CH3 --> CS + C2H3
+						 HCCS + 3CH2 --> H2C3S + H 
+
+71.1222  :  N4S + C4H9 --> H2CN + C3H7
+						 N4S + C4H9 --> NH + C4H8 
+
+71.1423  :  CH + C4H10 --> C5H10 + H
+						 CH + C4H10 --> C4H8 + CH3
+						 C2H3 + C3H8 --> C3H7 + C2H4
+						 C2H5 + C3H6 --> C3H5 + C2H6
+						 C3H5 + C2H6 --> C3H6 + C2H5 
+
+72.0814  :  OCS + C --> CS + CO 
+
+72.1248  :  HCCS + CH3 --> CS + C2H4 
+
+72.1301  :  N2D + C4H10 --> CH2NH + C3H7 
+
+72.1503  :  C2H5 + C3H7 --> C3H8 + C2H4
+						 C2H5 + C3H7 --> C3H6 + C2H6
+						 C2H5 + C3H7 --> C5H12 
+
+73.0893  :  OCS + CH --> HCS + CO 
+
+73.0923  :  N2S + CH --> HCS + N2
+						 N2S + CH --> NS + HCN 
+
+73.1582  :  C2H5 + C3H8 --> C3H7 + C2H6
+						 C3H7 + C2H6 --> C3H8 + C2H5 
+
+74.0801  :  N2S + N2D --> NS + N2 
+
+74.0819  :  C2H + C4H --> C6H + H
+						 C4 + C2H2 --> C6H + H
+						 H + C6H --> C6H2 
+
+75.0898  :  C2H + C4H2 --> C6H2 + H
+						 C4H + C2H2 --> C6H2 + H
+						 C6H + H2 --> C6H2 + H
+						 H + C6H2 --> C6H3 
+
+76.0574  :  N4S + C4N --> C3N + CN 
+
+76.0776  :  CN + C4H2 --> HC5N + H
+						 HCN + C4H --> HC5N + H
+						 C3N + C2H2 --> HC5N + H
+						 HC3N + C2H --> HC5N + H
+						 C5N + H2 --> HC5N + H
+						 HC5N + H --> H2C5N 
+
+76.0978  :  H + C6H3 --> C6H2 + H2
+						 C2H + C4H3 --> C4H2 + C2H2
+						 C2H + C4H3 --> C6H3 + H
+						 C2H3 + C4H --> C4H2 + C2H2
+						 C2H3 + C4H --> C6H3 + H
+						 C4 + C2H4 --> C4H2 + C2H2
+						 C4 + C2H4 --> C6H3 + H 
+
+77.0653  :  N4S + HC4N --> C4N2 + H
+						 N4S + HC4N --> C3N + HCN
+						 CN + HC3N --> C4N2 + H
+						 HCN + C3N --> C4N2 + H
+						 HNC + C3N --> C4N2 + H
+						 C2N2 + C2H --> HC3N + CN
+						 C4N2 + H --> HC4N2 
+
+77.0855  :  C4N + CH3 --> H2C5N + H
+						 H2C5N + H --> HC5N + H2 
+
+77.1057  :  C2H + C4H4 --> C6H4 + H
+						 C2H3 + C4H2 --> C6H4 + H
+						 C4H + C2H4 --> C6H4 + H
+						 H + C6H4 --> C6H5
+						 C4H3 + C2H2 --> C6H5
+						 C4H3 + C2H2 --> C6H4 + H
+						 C4H4 + C2H --> C6H4 + H 
+
+77.1389  :  CS + SH --> CS2 + H 
+
+78.0733  :  N4S + CH2C3N --> HC3N + HCN
+						 CHCN + CHCN --> C4N2 + H2
+						 CHCN + CHCN --> HC4N2 + H
+						 HC4N2 + H --> C4N2 + H2
+						 HC4N2 + H --> HC3N + HNC 
+
+78.0935  :  CN + C4H4 --> C4H3CN + H
+						 C3N + C2H4 --> C2H3C3N + H
+						 HC3N + C2H3 --> C2H3C3N + H
+						 C2H3CN + C2H --> C4H3CN + H
+						 HC4N + CH3 --> C4H3CN + H
+						 C4H3CN + H --> C4H4CN 
+
+78.1136  :  C2H3 + C4H3 --> C4H4 + C2H2
+						 C2H3 + C4H3 --> C4H2 + C2H4
+						 C2H3 + C4H3 --> C6H5 + H
+						 C2H5 + C4H --> C2H4 + C4H2
+						 C2H5 + C4H --> C5H3 + CH3
+						 H + C6H5 --> C6H6
+						 C3H3 + C3H3 --> C6H6
+						 C3H3 + C3H3 --> C6H5 + H
+						 C6H5 + H --> C4H2 + C2H2 + H2 
+
+79.0812  :  N2D + CH3C3N --> SOOTN
+						 CN + C2H3CN --> C4N2H2 + H 
+
+79.1014  :  H2C3N + C2H3 --> HC3N + C2H4
+						 H2C3N + C2H3 --> C2H3CN + C2H2
+						 H2C3N + C2H3 --> SOOTN
+						 CH2C3N + CH3 --> HC4N + CH4
+						 C4H4CN + H --> C4H3CN + H2
+						 CH2C3N + CH3 --> C2H5C3N 
+
+79.1216  :  H + C6H6 --> C6H5 + H2
+						 C2H + C4H6 --> C6H6 + H
+						 C3H3 + CH3C2H --> C6H6 + H
+						 C3H3 + CH2CCH2 --> C6H6 + H
+						 C4H + C2H6 --> C4H2 + C2H5
+						 iC4H5 + C2H2 --> C6H6 + H
+						 C6H5 + H2 --> C6H6 + H
+						 H + C6H6 --> C6H7
+						 C3H4 + C3H3 --> C6H6 + H
+						 C4H5 + C2H2 --> C6H6 + H
+						 C6H6 + H --> C6H5 + H2 
+
+80.1093  :  CN + C4H6 --> SOOTN
+						 C3N + C2H6 --> HC3N + C2H5
+						 C2H5CN + C2H --> C2H4CN + C2H2
+						 C2H5CN + C2H --> HC3N + C2H5
+						 C2H5C3N + H --> SOOTN 
+
+80.1295  :  C2H3 + C4H5 --> C2H2 + C4H6
+						 C2H3 + C4H5 --> C2H4 + C4H4
+						 C2H3 + C4H5 --> C6H7 + H
+						 C2H5 + C4H3 --> C4H4 + C2H4
+						 C2H5 + C4H3 --> C4H2 + C2H6
+						 C2H5 + C4H3 --> C6H8
+						 C3H3 + C3H5 --> C6H8
+						 C3H5 + C3H3 --> C6H6 + H + H
+						 C4H5 + C2H3 --> C6H6 + H2 
+
+81.0971  :  CN + C2H5CN --> C2H4CN + HCN 
+
+81.1173  :  H2C3N + C2H5 --> C2H3CN + C2H4
+						 H2C3N + C2H5 --> SOOTN
+						 C2H4CN + C2H3 --> C2H3CN + C2H4
+						 C2H4CN + C2H3 --> C2H5CN + C2H2
+						 C2H4CN + C2H3 --> SOOTN
+						 H4C4N + CH3 --> CH3C3N + CH4
+						 H4C4N + CH3 --> C4H7CN 
+
+81.1375  :  C2H + C4H8 --> C6H8 + H
+						 C3H3 + C3H6 --> C6H8 + H
+						 C3H5 + CH3C2H --> C6H9
+						 C3H5 + CH2CCH2 --> C6H9
+						 C4H6 + C2H3 --> C6H6 + H2 + H 
+
+82.0997  :  C3S + N2D --> C2S + CN
+						 C3S + N2D --> CS + C2N 
+
+82.1199  :  C3S + 3CH2 --> CS + lC3H2 
+
+82.1252  :  CN + C4H8 --> C2H3CN + C2H5
+						 C2H5CN + C2H3 --> C2H3CN + C2H5 
+
+82.1454  :  1C2 + C4H10 --> C3H3 + C3H7
+						 C3H5 + C3H5 --> C3H6 + CH2CCH2
+						 C3H5 + C3H5 --> C6H10 
+
+83.1332  :  CH2CN + C3H7 --> SOOTN
+						 C2H4CN + C2H5 --> C2H5CN + C2H4
+						 C2H4CN + C2H5 --> SOOTN
+						 C3H6CN + CH3 --> SOOTN
+						 C3H6CN + CH3 --> C3H5CN + CH4 
+
+83.1533  :  C2H + C4H10 --> C4H9 + C2H2
+						 C3H3 + C3H8 --> CH3C2H + C3H7
+						 C3H3 + C3H8 --> CH2CCH2 + C3H7
+						 C3H5 + C3H6 --> C6H10 + H 
+
+84.0924  :  OCS + 1C2 --> C2S + CO 
+
+84.1411  :  CN + C4H10 --> HCN + C4H9 
+
+84.1613  :  C3H5 + C3H7 --> C3H6 + C3H6
+						 C3H5 + C3H7 --> CH2CCH2 + C3H8
+						 C3H5 + C3H7 --> C6H12 
+
+85.1003  :  OCS + C2H --> HCCS + CO 
+
+85.1692  :  C3H5 + C3H8 --> C3H6 + C3H7
+						 C3H7 + C3H6 --> C3H8 + C3H5 
+
+86.0881  :  OCS + CN --> NCS + CO 
+
+86.1772  :  C3H7 + C3H7 --> C3H8 + C3H6
+						 C3H7 + C3H7 --> C6H14 
+
+88.0684  :  C4N2 + C --> C5 + N2 
+
+88.1088  :  C + C6H4 --> C7H3 + H 
+
+88.142  :  CS2 + C --> CS + CS 
+
+89.0763  :  N2D + HC5N --> N2 + C5H
+						 N2D + HC5N --> C4N + HCN
+						 C4N2 + CH --> C4N + HCN 
+
+89.1167  :  C4H + CH3C2H --> C6H2 + CH3
+						 C4H + CH2CCH2 --> C7H4 + H
+						 C6H + CH4 --> C6H2 + CH3 
+
+89.1499  :  CS2 + CH --> HCS + CS 
+
+90.0641  :  N2D + C4N2 --> C4N + N2 
+
+90.1045  :  N2D + C6H4 --> C5H3CN + H
+						 CH3C3N + C2H --> HC5N + CH3
+						 C5N + CH4 --> HC5N + CH3 
+
+90.1246  :  C + C6H6 --> C7H5 + H
+						 C3H5 + C4H --> CH2CCH2 + C4H2 
+
+91.0922  :  CH3C3N + CN --> C4N2 + CH3
+						 C4H3CN + N2D --> SOOTN 
+
+91.1326  :  CH + C6H6 --> C7H6 + H
+						 C4H + C3H6 --> C4H3 + CH3C2H
+						 C4H + C3H6 --> C6H6 + CH
+						 C4H + C3H6 --> C7H6 + H
+						 C3H5 + C4H2 --> C7H7 
+
+92.1203  :  CH3C3N + C2H3 --> C2H3C3N + CH3 
+
+92.1334  :  NS + NS --> N2S + S3P 
+
+92.1405  :  CH3 + C6H5 --> SOOTC
+						 C3H5 + C4H3 --> C4H4 + CH2CCH2
+						 C3H5 + C4H3 --> C4H2 + C3H6
+						 C3H7 + C4H --> C2H5 + C5H3
+						 C3H7 + C4H --> C4H2 + C3H6
+						 C7H7 + H --> C7H6 + H2 
+
+93.1051  :  C6H4 + OH --> C6H3 + H2O 
+
+93.1081  :  C2H5C3N + N2D --> SOOTN 
+
+93.1229  :  C3S + C2H --> SOOTS 
+
+93.1283  :  C4H4CN + CH3 --> C4H3CN + CH4
+						 C4H4CN + CH3 --> C3H7C3N 
+
+93.1485  :  C4H + C3H8 --> C4H2 + C3H7
+						 C6H6 + CH3 --> C6H5 + CH4
+						 C7H8 + H --> C6H6 + CH3
+						 C6H5 + CH4 --> C6H6 + CH3
+						 C7H8 + H --> C7H7 + H2
+						 C5H6 + C2H3 --> C6H6 + CH3 
+
+94.113  :  C6H6 + O3P --> C6H5O + H
+						 C6H6 + O3P --> C6H5 + OH 
+
+94.1362  :  C3H7CN + C2H --> C3H6CN + C2H2
+						 C3H7C3N + H --> SOOTN 
+
+94.1564  :  C3H7 + C4H3 --> C4H4 + C3H6
+						 C3H7 + C4H3 --> C4H2 + C3H8
+						 C3H7 + C4H3 --> C7H10 
+
+95.121  :  C6H6 + OH --> C6H5 + H2O
+						 C6H6 + OH --> C6H6O + H 
+
+95.1388  :  C3S + C2H3 --> H2C5S + H 
+
+95.1442  :  H2C3N + C3H7 --> SOOTN 
+
+96.1521  :  C3H7CN + C2H3 --> C2H3CN + C3H7 
+
+97.16  :  C2H4CN + C3H7 --> SOOTN 
+
+98.1039  :  C4H + C4H --> C8H + H 
+
+99.1118  :  C2H + C6H2 --> C8H2 + H
+						 C4H + C4H2 --> C8H2 + H
+						 C6H + C2H2 --> C8H2 + H 
+
+100.0996  :  C5N + C2H2 --> HC7N + H
+						 HC5N + C2H --> HC7N + H 
+
+100.1198  :  1C2 + C6H4 --> C8H3 + H
+						 C4H + C4H3 --> C4H2 + C4H2
+						 C4H + C4H3 --> C8H3 + H 
+
+100.153  :  CS2 + 1C2 --> C2S + CS 
+
+101.0873  :  CN + HC5N --> C6N2 + H
+						 C3N + HC3N --> C6N2 + H
+						 C5N + HCN --> C6N2 + H
+						 C4N2 + C2H --> HC5N + CN 
+
+101.1277  :  C2H + C6H4 --> C8H4 + H 
+
+101.1609  :  CS2 + C2H --> HCCS + CS 
+
+102.1155  :  C5N + C2H4 --> C2H3C5N + H 
+
+102.1356  :  1C2 + C6H6 --> C8H5 + H
+						 3C2 + C6H6 --> C8H5 + H
+						 C4H3 + C4H3 --> C4H4 + C4H2
+						 C4H3 + C4H3 --> C6H5C2H 
+
+103.1436  :  C2H + C6H6 --> C6H5C2H + H
+						 C6H + C2H6 --> C6H2 + C2H5
+						 C6H5 + C2H2 --> C8H7
+						 C6H5 + C2H2 --> C8H6 + H
+						 C2H + C6H6 --> C8H6 + H
+						 C8H6 + H --> C8H5 + H2 
+
+104.1313  :  CN + C6H6 --> C6H5CN + H
+						 C5N + C2H6 --> HC5N + C2H5 
+
+104.1515  :  C6H5 + C2H3 --> C8H7 + H
+						 C6H5 + C2H3 --> C8H7 + H
+						 C8H7 + H --> C8H6 + H2
+						 C8H7 + H --> C8H6 + H2 
+
+105.1595  :  C6H6 + C2H3 --> C8H8 + H
+						 C7H7 + 1CH2 --> C8H8 + H
+						 C8H8 + H --> C8H7 + H2
+						 C8H8 + H --> C8H7 + H2
+						 C4H4 + C4H5 --> C8H8 + H 
+
+106.124  :  C6H5 + HCO --> C6H6 + CO 
+
+106.1674  :  C7H8 + 1CH2 --> C8H8 + H2 
+
+107.132  :  C6H5 + CH2O --> C6H6 + HCO
+						 C7H7 + O3P --> C6H5 + CH2O 
+
+107.135  :  C3H7C3N + N2D --> SOOTN 
+
+107.1753  :  C7H8 + CH3 --> C7H7 + CH4
+						 C6H5 + C2H6 --> C8H10 + H
+						 C8H10 + H --> C8H9 + H2
+						 C8H10 + H --> C6H6 + C2H5
+						 C8H10 + H --> C8H8 + H2 + H
+						 C7H8 + CH3 --> C7H7 + CH4 
+
+108.1399  :  C7H8 + O3P --> C7H7 + OH
+						 C7H8 + O3P --> C7H7 + OH 
+
+109.1045  :  C6H5 + O2 --> C6H5O + O3P
+						 C6H5 + O2 --> C6H4O2 + H 
+
+109.1479  :  C7H8 + OH --> C7H7 + H2O
+						 C7H8 + OH --> C7H7 + H2O 
+
+110.1124  :  C6H6 + O2 --> C6H5 + HO2
+						 C6H5 + HO2 --> C6H5O + OH 
+
+111.1204  :  C6H6 + HO2 --> C6H5 + H2O2 
+
+116.1625  :  C6H5 + C3H3 --> C9H7 + H 
+
+117.1705  :  C6H6 + C3H3 --> C6H5 + C3H4
+						 C6H6 + C3H3 --> C9H8 + H
+						 C6H5 + C3H4 --> C6H6 + C3H3
+						 C6H5 + C3H4 --> C9H8 + H
+						 C7H7 + C2H2 --> C9H8 + H 
+
+118.135  :  C8H6 + O3P --> HCCO + C6H5 
+
+119.143  :  C8H6 + OH --> C8H5 + H2O
+						 C8H6 + OH --> C6H5 + CH2CO
+						 C8H6 + OH --> C6H5O + C2H2 
+
+119.1863  :  C7H8 + C2H3 --> C7H7 + C2H4 
+
+120.1509  :  C8H7 + OH --> C8H6 + H2O
+						 C8H7 + OH --> C8H6 + H2O
+						 C8H8 + O3P --> C2H3 + C6H5O 
+
+121.1589  :  C7H8 + HCO --> C7H7 + CH2O
+						 C8H8 + OH --> C8H7 + H2O
+						 C8H8 + OH --> C8H7 + H2O
+						 C8H8 + OH --> C6H5O + C2H4
+						 C8H9 + O3P --> C7H7 + CH2O 
+
+121.2022  :  C8H10 + CH3 --> C8H9 + CH4 
+
+122.1668  :  C8H10 + O3P --> C8H9 + OH 
+
+123.1338  :  C2H + C8H2 --> SOOTC
+						 C4H + C6H2 --> SOOTC
+						 C6H + C4H2 --> SOOTC 
+
+123.1747  :  C7H8 + CH3O --> C7H7 + CH3OH
+						 C8H10 + OH --> C8H9 + H2O 
+
+124.1393  :  C7H8 + O2 --> C7H7 + HO2 
+
+125.1473  :  C7H8 + HO2 --> C7H7 + H2O2 
+
+129.1815  :  C6H5 + C4H4 --> C10H8 + H
+						 C6H5 + C4H4 --> C8H8 + C2H
+						 C8H6 + C2H3 --> C10H8 + H 
+
+131.1973  :  C5H5 + C5H6 --> C6H6 + C4H5
+						 C7H7 + C3H4 --> C7H8 + C3H3
+						 C6H5 + C4H6 --> C8H8 + C2H3 
+
+139.1741  :  C8H10 + HO2 --> C8H9 + H2O2 
+
+143.2083  :  C6H5 + C5H6 --> C5H5 + C6H6 
+
+147.1558  :  C4H + C8H2 --> SOOTC
+						 C6H + C6H2 --> SOOTC 
+
+154.2114  :  C6H5 + C6H5 --> C12H9 + H
+						 C6H5 + C6H5 --> C12H8 + H2 
+
+155.2193  :  C6H6 + C6H5 --> C12H10 + H 
+
+157.2352  :  C7H7 + C5H6 --> C7H8 + C5H5 
+
+169.2462  :  C6H5 + C7H8 --> C7H7 + C6H6 
+
+171.1778  :  C6H + C8H2 --> SOOTC 
+
+179.2413  :  C6H5 + C8H6 --> C14H10 + H
+						 C6H5 + C8H6 --> C14H10 + H 
+

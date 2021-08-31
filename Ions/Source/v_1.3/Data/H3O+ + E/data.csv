@@ -1,0 +1,16 @@
+H3O+ + E			
+
+CHECKED	PP
+			
+ALPHA	Logn	7.6e-7	1.2
+REF_ALPHA	Neau2000		
+			
+BETA	Norm	0.83	0.1
+REF_BETA	Neau2000		
+
+REF_BR	Jensen2000			
+BR	Dirg		
+H2O + H	0.25/0.01			
+OH + H2	0.14/0.01		
+OH + H + H	0.60/0.02			
+O3P + H2 + H	0.013/0.005

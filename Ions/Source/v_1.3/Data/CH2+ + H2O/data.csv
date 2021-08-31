@@ -1,0 +1,10 @@
+CH2+ + H2O									
+
+CHECKED	PP
+									
+ALPHA	Logn	0.2050E-08	1.6						
+REF_ALPHA	McEwan2007							
+
+REF_BR	McEwan2007									
+BR									
+CH2OH+ + H									

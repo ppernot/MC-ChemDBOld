@@ -1,0 +1,11 @@
+H3+ + CH2CHCN								
+									
+CHECKED	PP	
+															
+ALPHA	Logn	9.1e-9	1.2						
+REF_ALPHA	Anicich2003
+
+REF_BR	Anicich2003								
+BR	Dirg									
+CH2CHCNH+ + H2	0.9/0.05				
+HCNH+ + H2 + C2H2	0.1/0.05									

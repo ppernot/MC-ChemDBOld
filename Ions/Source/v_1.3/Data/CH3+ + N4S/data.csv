@@ -1,0 +1,11 @@
+CH3+ + N4S									
+
+CHECKED	PP
+									
+ALPHA	Logn	0.6700E-10	1.2						
+REF_ALPHA	McEwan2007							
+
+REF_BR	McEwan2007						
+BR	Diri								
+HCN+ + H2	1/1								
+HCNH+ + H	1								

@@ -1,0 +1,15 @@
+H3+ + HCN									
+									
+CHECKED	PP	
+
+TYPE ionpol1								
+									
+ALPHA	Logn	2.25e-9	1.5						
+REF_ALPHA	KIDA
+
+BETA	Delta	6.61
+REF_BETA	KIDA
+					
+REF_BR	Anicich2003	KIDA						
+BR									
+HCNH+ + H2									

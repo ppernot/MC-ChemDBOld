@@ -1,0 +1,13 @@
+CH3+ + CH3OH
+
+CHECKED	PP
+
+REF_ALPHA	Anicich1993							
+ALPHA	Logn	2.3E-9	1.3						
+
+REF_BR Anicich1993
+BR	Diri	Dirg						
+CH2OH+ + CH4		0.91/0.05
+CH3OH+ + CH3		0.01/0.01
+CH3OH2+ + 1CH2	1/1	0.08/0.05
+CH3OH2+ + 3CH2	1 		

@@ -1,0 +1,14 @@
+O+ + NO								
+
+REF_ALPHA	Vuitton2019							
+ALPHA	Logn	4.1e-9	1.2
+RQ	Includes 1/T0^BETA
+
+REF_BETA	Vuitton2019							
+BETA	Delta	1.37	
+
+REF_GAMMA	Vuitton2019							
+GAMMA	Delta	12.1
+						
+BR									
+NO+ + O3P									

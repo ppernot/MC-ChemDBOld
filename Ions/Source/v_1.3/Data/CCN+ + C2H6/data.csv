@@ -1,0 +1,16 @@
+CCN+ + C2H6			
+			
+CHECKED	PP		
+REF_ALPHA	McEwan2007		
+REF_BR	McEwan2007		
+			
+ALPHA	Logn	0.1200E-08	1.2
+
+RQ	Check product CHCNH+ ???
+			
+BR	Dirg		
+C2H3+ + CH3CN	0.10/0.10		
+C2H5+ + CHCN	0.25/0.08		
+cC3H3+ + H2 + HCN	0.30/0.10		
+C3H5+ + HCN	0.10/0.10		
+CHCNH+ + C2H4	0.25/0.08		

@@ -3,13 +3,21 @@
 # 3/ Generate PDF doc of database
 
 version   = '1.0'
-rootDir   = '/home/pernot/Bureau/MC-ChemDB/'	
+rootDir   = '/home/pernot/Bureau/Titan-APSIS/MC-ChemDB/'
 sourceDir = paste0(rootDir,'Ions/Source/v_',version,'/')
 tmpDir    = paste0(rootDir,'Ions/Tmp/v_',version,'/')
 publicDir = paste0(rootDir,'Ions/Public/v_',version,'/')
 
-library(stringr)
-library(xtable)
+setwd(sourceDir)
+
+# Load libraries #####
+libs =c('stringr','xtable')
+for (lib in libs ) {
+  if(!require(lib,character.only = TRUE))
+    install.packages(lib,dependencies=TRUE)
+  library(lib,character.only = TRUE)
+}
+
 source('./massCalc.R')
 
 # Parameters
@@ -21,11 +29,16 @@ listReacs = list.dirs(full.names=FALSE, recursive=FALSE)
 listReacs = gsub("./","",listReacs)
 
 # Reorder by increasing mass of (1) ion & (2) other reactants
-tabSpecies  = t(data.frame(sapply(listReacs, 
-                                  function(x) strsplit(x,' + ',fixed=TRUE))))
+tabSpecies  = t(data.frame(sapply(listReacs,
+                                  function(x)
+                                    strsplit(x, ' + ', fixed = TRUE))))
 mass=matrix(0,ncol=ncol(tabSpecies),nrow=nrow(tabSpecies))
-for (i in 1:ncol(tabSpecies)) 
-  mass[,i]=as.numeric(unlist(sapply(tabSpecies[,i],getMassList)))
+for (i in 1:ncol(tabSpecies))
+  mass[, i] = as.numeric(unlist(sapply(
+    tabSpecies[, i],
+    FUN = function(x)
+      getMassList(x, excludeList = dummySpecies)
+  )))
 tabSpecies = tabSpecies[order(mass[,1],mass[,2],na.last=FALSE),]
 listReacs = apply(tabSpecies,1,function(x) paste0(x,collapse=' + '))
 

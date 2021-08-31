@@ -14,11 +14,12 @@ dummySpecies = c(
   'Products',
   'SOOTC',
   'SOOTC+',
-  'C4H2X',
+  # 'C4H2X',
   'HC3NX',
   'HC5NX',
   'SOOTS',
-  'SOOTN'
+  'SOOTN',
+  'SOOTO'
 )
 filterFormula <- function (sp) {
   # Normalize chemical formula for mass estimation

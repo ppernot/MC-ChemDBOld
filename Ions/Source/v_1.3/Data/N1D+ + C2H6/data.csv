@@ -1,0 +1,13 @@
+N1D+ + C2H6									
+
+CHECKED	PP
+REF_ALPHA	Dutuit2013
+REF_BR	Dutuit2013
+									
+ALPHA	Logn	1.6e-9	2						
+														
+BR	Diri								
+C2H5+ + NH	1/1								
+C2H4+ + NH2	1								
+C2H3+ + NH3	1								
+HCNH+ + CH4	1								

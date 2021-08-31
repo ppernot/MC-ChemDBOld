@@ -1,0 +1,11 @@
+CH+ + N4S									
+
+CHECKED	PP									
+											
+ALPHA	Logn	0.1900E-09	1.5000E+00						
+REF_ALPHA	Anicich2003							
+
+REF_BR	Anicich2003								
+BR	Dirg								
+CN+ + H	0.9900E+00/0.2970E+00								
+H+ + CN	0.1000E-01/0.1000E-01								

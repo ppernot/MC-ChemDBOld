@@ -1,0 +1,12 @@
+N2+ + CH4									
+
+CHECKED	PP
+REF_ALPHA	Dutuit2013
+REF_BR	Dutuit2013
+									
+ALPHA	Logn	1.18e-9	1.2						
+															
+BR	Dirg								
+CH3+ + H + N2	0.86/0.09								
+CH2+ + H2 + N2	0.09/0.09								
+N2H+ + CH3	0.05/0.05								

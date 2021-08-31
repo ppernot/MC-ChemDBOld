@@ -1,0 +1,11 @@
+O2+ + CH3OH								
+
+CHECKED	PP
+
+REF_ALPHA	Anicich1993							
+ALPHA	Logn	1.0e-9	1.5						
+
+REF_BR	Anicich1993
+BR	Dirg							
+CH2OH+ + HO2	0.50/0.10									
+CH3OH+ + O2	0.50/0.10									

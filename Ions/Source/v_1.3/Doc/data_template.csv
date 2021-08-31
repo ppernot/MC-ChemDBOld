@@ -1,0 +1,12 @@
+C3H2+ + E				
+				
+ALPHA	Logu	5e-7	3e-6	
+BETA	Unif	0.5	1.5	
+				
+BR	Dior	Diri	Diri	Dirg
+C3 + H + H	1	1/1		0.875/0.02
+C3 + H2	2			
+C3H + H		1		
+C2H2 + C			1/1	0.125/0.02
+C2 + 1CH2			1	
+C2 + 3CH2			1	

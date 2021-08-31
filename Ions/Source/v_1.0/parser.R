@@ -1,16 +1,22 @@
 version   = '1.0'
-rootDir   = '/home/pernot/Bureau/MC-ChemDB/'
+rootDir   = '/home/pernot/Bureau/Titan-APSIS/MC-ChemDB/'
 sourceDir = paste0(rootDir,'Ions/Source/v_',version,'/')
 tmpDir    = paste0(rootDir,'Ions/Tmp/v_',version,'/')
 publicDir = paste0(rootDir,'Ions/Public/v_',version,'/')
 docDir    = paste0(sourceDir,'Doc/')
 targetDir = tmpDir
 
+setwd(sourceDir)
+
 # Load libraries #####
-library(stringr)
-library(xtable)
-library(bibtex)
-library(ape)
+libs =c('stringr','xtable','bibtex','ape','CHNOSZ')
+for (lib in libs ) {
+  if(!require(lib,character.only = TRUE))
+    install.packages(lib,dependencies=TRUE)
+  library(lib,character.only = TRUE)
+}
+
+# Stoechiometry functions
 source('./massCalc.R')
 
 # Misc functions #####
@@ -398,10 +404,10 @@ writeSamples   = TRUE  # Output samples to disk (slow) or not (nominal sample is
 tagged         = FALSE # Print tagged strings for debug
 checkFragments = FALSE # Partial run of script to check mass of fragments (no sampling)
 
-dataDir = paste0(sourceDir,'Data/')
-setwd(dataDir)
+dataDir = paste0(sourceDir,'Data/'); setwd(dataDir)
 listReacs = list.dirs(full.names=FALSE, recursive=FALSE)
-listReacs = gsub("./","",listReacs); cleanTmp=TRUE
+listReacs = gsub("./","",listReacs)
+cleanTmp  = TRUE
 
 # listReacs=c('H+ + E') # ; cleanTmp=FALSE ################################
 
@@ -421,7 +427,7 @@ for (reac in listReacs) {
   
   reactants = getSpecies(reac,maxReacts)
   allSpecies = c(allSpecies,reactants)
-  massReactants = getMassList(reactants)
+  massReactants = getMassList(reactants, excludeList = dummySpecies)
   
   # Get data for this reaction #
   X = as.matrix(read.csv(paste0(reac,'/data.csv'),
@@ -470,8 +476,8 @@ for (reac in listReacs) {
     prods=getSpecies(tags[ip],maxProds)
     allProds = c(allProds,prods)
     allSpecies = c(allSpecies,prods)
-    massFrags = getMassList(prods)
-    if(!is.na(massFrags)) {
+    massFrags = getMassList(prods, excludeList = dummySpecies)
+    if(!is.na(massReactants) & !is.na(massFrags)) {
       if(abs(massFrags-massReactants) > 0.01) {
         setwd("..")
         stop(paste0('Pb mass of fragments: ',tags[ip]))
@@ -548,63 +554,63 @@ for (reac in listReacs) {
     }
     
     # Build probabilistic tree string for sampler #
-    stringBR=oneDist(nc,d,tags,tagged)
-    while(grepl("LINK/",stringBR) ) {
-      poc=regmatches(stringBR,gregexpr('LINK/[0-9]+/',stringBR))
-      po=sapply(poc[[1]],
-                function(x) as.numeric(
-                  sub('LINK','',gsub('/','',x)) ))
+    stringBR = oneDist(nc, d, tags, tagged)
+    while (grepl("LINK/", stringBR)) {
+      poc = regmatches(stringBR, gregexpr('LINK/[0-9]+/', stringBR))
+      po = sapply(poc[[1]],
+                  function(x)
+                    as.numeric(sub('LINK', '', gsub('/', '', x))))
       for (ip in 1:length(po)) {
-        str = oneDist(po[ip],d,tags,tagged)
-        stringBR = sub(poc[[1]][ip],str,stringBR)
-      } 
+        str = oneDist(po[ip], d, tags, tagged)
+        stringBR = sub(poc[[1]][ip], str, stringBR)
+      }
     }    
     # Generate BR sample #
     sampleBR = nds(sampleSize,stringBR)  
 
     # Build Newick string for tree plotting #####
-    newickBR=oneNewick(nc,d,tags)
-    while(grepl("LINK/",newickBR) ) {
-      poc=regmatches(newickBR,gregexpr('LINK/[0-9]+/',newickBR))
-      po=sapply(poc[[1]],
-                function(x) as.numeric(
-                  sub('LINK','',gsub('/','',x)) ))
+    newickBR = oneNewick(nc, d, tags)
+    while (grepl("LINK/", newickBR)) {
+      poc = regmatches(newickBR, gregexpr('LINK/[0-9]+/', newickBR))
+      po = sapply(poc[[1]],
+                  function(x)
+                    as.numeric(sub('LINK', '', gsub('/', '', x))))
       for (ip in 1:length(po)) {
-        str = oneNewick(po[ip],d,tags)
-        newickBR = sub(poc[[1]][ip],str,newickBR)
-      } 
-    }  
-    newickBR = paste0(newickBR,";")
-    mytree <- read.tree(text=newickBR)
+        str = oneNewick(po[ip], d, tags)
+        newickBR = sub(poc[[1]][ip], str, newickBR)
+      }
+    }
+    newickBR = paste0(newickBR, ";")
+    mytree <- read.tree(text = newickBR)
     
     # Build edge tags for tree annotation #
-    edgeTags=oneEdgeTag(nc,d,tags)
-    while(grepl("LINK/",edgeTags) ) {
-      poc=regmatches(edgeTags,gregexpr('LINK/[0-9]+/',edgeTags))
-      po=sapply(poc[[1]],
-                function(x) as.numeric(
-                  sub('LINK','',gsub('/','',x)) ))
+    edgeTags = oneEdgeTag(nc, d, tags)
+    while (grepl("LINK/", edgeTags)) {
+      poc = regmatches(edgeTags, gregexpr('LINK/[0-9]+/', edgeTags))
+      po = sapply(poc[[1]],
+                  function(x)
+                    as.numeric(sub('LINK', '', gsub('/', '', x))))
       for (ip in 1:length(po)) {
-        str = oneEdgeTag(po[ip],d,tags)
-        edgeTags = sub(poc[[1]][ip],str,edgeTags)
-      } 
+        str = oneEdgeTag(po[ip], d, tags)
+        edgeTags = sub(poc[[1]][ip], str, edgeTags)
+      }
     }
-    edgeTags=unlist(strsplit(edgeTags,','))
+    edgeTags = unlist(strsplit(edgeTags, ','))
     
     # Build node tags for tree annotation #
-    nodeTags=oneNodeTag(nc,d,tags)
-    while(grepl("LINK/",nodeTags) ) {
-      poc=regmatches(nodeTags,gregexpr('LINK/[0-9]+/',nodeTags))
-      po=sapply(poc[[1]],
-                function(x) as.numeric(
-                  sub('LINK','',gsub('/','',x)) ))
+    nodeTags = oneNodeTag(nc, d, tags)
+    while (grepl("LINK/", nodeTags)) {
+      poc = regmatches(nodeTags, gregexpr('LINK/[0-9]+/', nodeTags))
+      po = sapply(poc[[1]],
+                  function(x)
+                    as.numeric(sub('LINK', '', gsub('/', '', x))))
       for (ip in 1:length(po)) {
-        str = oneNodeTag(po[ip],d,tags)
-        nodeTags = sub(poc[[1]][ip],str,nodeTags)
-      } 
+        str = oneNodeTag(po[ip], d, tags)
+        nodeTags = sub(poc[[1]][ip], str, nodeTags)
+      }
     }
-    nodeTags=unlist(strsplit(nodeTags,','))
-    nodeTags=nodeTags[nodeTags!='NA']
+    nodeTags = unlist(strsplit(nodeTags, ','))
+    nodeTags = nodeTags[nodeTags != 'NA']
     
   } else {
     # Single pathway with BR=1
@@ -615,20 +621,20 @@ for (reac in listReacs) {
   # Generate output for kinetics code #
   
   # Nominal/mean/median values from samples
-  meanPars = rep(NA,ncol(sampleRateParams))
-  names(meanPars)=colnames(sampleRateParams)
-  sigPars = rep(NA,ncol(sampleRateParams))
-  names(sigPars)=colnames(sampleRateParams)
+  meanPars = rep(NA, ncol(sampleRateParams))
+  names(meanPars) = colnames(sampleRateParams)
+  sigPars = rep(NA, ncol(sampleRateParams))
+  names(sigPars) = colnames(sampleRateParams)
   for (kwd in rateParKwdList) {
-    sample = sampleRateParams[,kwd]
+    sample = sampleRateParams[, kwd]
     meanPars[kwd] = exp(mean(log(sample)))
     sigPars[kwd]  = exp(sd(log(sample)))
   }
   rm(sample)
-    
+  
   meanBR    = colMeans(sampleBR)
-  meanBR    = meanBR/sum(meanBR) 
-  sigBR     = apply(sampleBR,2,sd)
+  meanBR    = meanBR / sum(meanBR)
+  sigBR     = apply(sampleBR, 2, sd)
   
   #Generate kinetic databases
   samplesDir=paste0(targetDir,'Reactions/',reac)
@@ -637,7 +643,8 @@ for (reac in listReacs) {
   if(!file.exists(samplesDir)) dir.create(samplesDir)
   
   # Nominal run
-  writeSample(0, samplesDir, reac, tags, meanPars, meanBR, reacType, maxReacts, maxProds)     
+  writeSample(0, samplesDir, reac, tags, meanPars, meanBR, 
+              reacType, maxReacts, maxProds)     
   # Random runs
   if(writeSamples)
     for (i in 1:sampleSize) writeSample(i, samplesDir, reac, tags, 

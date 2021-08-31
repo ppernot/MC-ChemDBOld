@@ -1,0 +1,11 @@
+C3H+ + H2O									
+
+CHECKED	PP
+REF_ALPHA	McEwan2007							
+REF_BR	McEwan2007
+									
+ALPHA	Logn	9e-10	1.2						
+									
+BR	Dirg								
+C2H3+ + CO	0.50/0.05								
+HCO+ + C2H2	0.50/0.05

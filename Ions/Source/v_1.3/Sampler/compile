@@ -1,0 +1,3 @@
+#ifort nested.f90 ranlib.a -o nested.x
+gfortran -fbacktrace  Rnested.f90 ranlib.a -o ../Rnested.x
+

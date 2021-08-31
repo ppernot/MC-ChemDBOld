@@ -1,0 +1,12 @@
+C4N+ + H2O			
+			
+CHECKED	PP		
+REF_ALPHA	Anicich2003		
+REF_BR	Anicich2003		
+			
+ALPHA	Logn	1.5e-9	1.3
+			
+BR	Dirg		
+HC3NH+ + CO	0.50/0.05		
+HCO+ + HC3N	0.40/0.13		
+C4H2NO+ + HV	0.10/0.10		
